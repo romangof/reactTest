@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 // import Section from './Section';
+import Top from './Navbar';
 import Ss1 from './Home/Section1';
 import Ss2 from './Home/Section2';
 import Ss3 from './Home/Section3';
@@ -9,6 +10,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <Top />
+        
         <Ss1 />
 
         <Ss2 />
