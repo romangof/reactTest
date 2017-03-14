@@ -1,7 +1,7 @@
 import React from 'react';
 import Img from '../assets/fondo-01.png'
 // import bUtils from 'react-bootstrap/lib/utils/bootstrapUtils'
-import {Row, Col, Button} from 'react-bootstrap';
+import {Col, Button} from 'react-bootstrap';
 
 // var Row = require('react-bootstrap').Row;
 // var Col = require('react-bootstrap').Col;

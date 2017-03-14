@@ -1,57 +1,19 @@
 import React, { Component } from 'react';
+import ReactRouter, {Router, Route, IndexRoute, hashHistory, browserHistory} from 'react-router';
 // import Section from './Section';
-import Top from './Navbar';
-import Ss1 from './Home/Section1';
-import Ss2 from './Home/Section2';
-import Ss3 from './Home/Section3';
+// import Top from './Navbar';
+// import Ss1 from './home/Section1';
+// import Ss2 from './home/Section2';
+// import Ss3 from './home/Section3';
+import Home from './home/home';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Top />
-        
-        <Ss1 />
-
-        <Ss2 />
-
-        <Ss3 />
-        
-        
-        <section className="container-fluid">
-          asd
-        </section>
-
-
-        {/*<Section id="ss1"/>
-        <Section id="ss2"/>*/}
-
-
-
-        <well>Section landing</well>
-        <div>Section 1</div>
-        <div>Section 2</div>
-        <div>Section 3</div>
-        <div>asd4</div>
-        <div>asd4</div>
-        <div>asd4</div>
-        <div>asd4</div>
-        <div>asd4</div>
-        <div>asd4</div>
-        <div>asd4</div>
-        <div>asd4</div>
-        <div>asd4</div>
-        <div>asd4</div>
-        <div>asd4</div>
-        <div>asd4</div>
-        <div>asd4</div>
-        <div>asd4</div>
-        <div>asd4</div>
-        <div>asd4</div>
-        <div>asd4</div>
-        <div>asd4</div>
-      </div>
+      <Router history={browserHistory}>
+          <Route path='/' component={Home} />
+      </Router>
     );
   }
 }
