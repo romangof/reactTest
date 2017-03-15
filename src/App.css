@@ -3,20 +3,22 @@
   /*background-color: rgb(55, 150, 140);*/
 }
 
-/*section {
-  height: 100vh;
-  padding-bottom:50px; 
-  min-height:calc(100% - 1px);
-}*/
-
 .ss1 {
   padding-top: 10%;
 }
 
 .v-center {
-    padding-top:10%;
+    padding: 20% 0%;
     height: 100vh;
     color: white;
     /*font-size:70px;*/
 }
 
+.thumbnail {
+  /*height: 345px;*/
+  border: 0px;
+}
+/*
+.thumbnail>img {
+  height: 193px;
+}*/

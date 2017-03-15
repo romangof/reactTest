@@ -11,7 +11,8 @@ const tittleStyle = {
 }
 
 const colStyle = {
-    padding: "4% 4%",
+    padding: "4%",
+    // height: '70px',
 }
 
 const imgStyle = {
@@ -22,7 +23,7 @@ const imgStyle = {
 
 export default function Ss2() {
     return (
-        <section className="container-fluid" style={{height: "90vh"}}>
+        <section className="container-fluid" style={{height: "90vh", paddingTop: '3%'}}>
             {/*<Row>*/}
                 <Col sm={12} style={tittleStyle}>
                     <h4><b>LÍNEAS DE NEGOCIO</b></h4>

@@ -6,12 +6,13 @@
   background-repeat: no-repeat;
   background-position: center center;
   border-color: transparent;
-  z-index: 2;
+  /*z-index: 2;*/
+  position: absolute;
+  /*padding: 3% 10%;*/
 }
 
 .navbar-brand>img {
-  padding-left: 25%;
-  height: 120%;
+  height: 100%;
   /*width: max-content;*/
   /*height: max-content;*/
   /*padding: 7px 14px;*/
