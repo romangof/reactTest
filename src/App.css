@@ -18,3 +18,42 @@
 .thumbnail>img {
   height: 193px;
 }*/
+
+
+
+/* --- NavBar Header --- */
+
+.navbar {
+  background-color: RGBA(0,0,0,0);
+  /*background: url("./assets/header.png");*/
+  /*opacity: 0.8;*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-color: transparent;
+  /*z-index: 2;*/
+  position: absolute;
+  /*padding: 3% 10%;*/
+}
+
+.navbar-brand>img {
+  height: 100%;
+  /*width: max-content;*/
+  /*height: max-content;*/
+  /*padding: 7px 14px;*/
+}
+
+.navbar-nav>li>a {
+  color: white !important;
+}
+
+.navbar-default .navbar-nav>.active>a {
+  text-decoration: underline;
+  -moz-text-decoration-color: rgb(230, 133, 40) !important;
+  text-decoration-color: rgb(230, 133, 40) !important;
+  background-color: RGBA(0,0,0,0) !important;
+  /*border-bottom: solid 1px;*/
+}
+
+
+

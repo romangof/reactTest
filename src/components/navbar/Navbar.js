@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import logo from '../../assets/logo_header.png';
 import {Navbar, Nav, NavItem, MenuItem, NavDropdown} from 'react-bootstrap';
 import { IndexLinkContainer, LinkContainer } from 'react-router-bootstrap';
-import './Navbar.css';
 
 // var Navbar = require('react-bootstrap').Navbar;
 // var Nav = require('react-bootstrap').Nav;
@@ -14,6 +13,7 @@ export default class Top extends Component {
     render() {
         return (
             <Navbar collapseOnSelect fixedTop>
+                
                 <Navbar.Header>
                     <Navbar.Brand>
                         <a href="/">
@@ -22,6 +22,7 @@ export default class Top extends Component {
                     </Navbar.Brand>
                     <Navbar.Toggle/>
                 </Navbar.Header>
+
                 <Navbar.Collapse>
                     <Nav pullRight>
                         <IndexLinkContainer to="/">
@@ -44,6 +45,7 @@ export default class Top extends Component {
                         </LinkContainer>
                     </Nav>
                 </Navbar.Collapse>
+
             </Navbar>
         );
     }
