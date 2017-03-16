@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import logo from '../../assets/logo_header.png';
 import {Navbar, Nav, NavItem, MenuItem, NavDropdown} from 'react-bootstrap';
+import { IndexLinkContainer, LinkContainer } from 'react-router-bootstrap';
 import './Navbar.css';
 
 // var Navbar = require('react-bootstrap').Navbar;
@@ -15,7 +16,7 @@ export default class Top extends Component {
             <Navbar collapseOnSelect fixedTop>
                 <Navbar.Header>
                     <Navbar.Brand>
-                        <a href="#">
+                        <a href="/">
                             <img src={logo} alt="Aceleracion Labs."/>
                         </a>
                     </Navbar.Brand>
@@ -23,16 +24,24 @@ export default class Top extends Component {
                 </Navbar.Header>
                 <Navbar.Collapse>
                     <Nav pullRight>
-                        <NavItem eventKey={1} href="#">INICIO</NavItem>
-                        <NavItem eventKey={2} href="#">SOMOS</NavItem>
+                        <IndexLinkContainer to="/">
+                            <NavItem>INICIO</NavItem>
+                        </IndexLinkContainer>
+                        <LinkContainer to="/who">
+                            <NavItem>SOMOS</NavItem>
+                        </LinkContainer>
                         <NavDropdown eventKey={3} title="TE AYUDAMOS" id="basic-nav-dropdown">
                             <MenuItem eventKey={3.1}>COMUNICACIONES Y MARKETING DIGITAL</MenuItem>
                             <MenuItem eventKey={3.2}>DISEÑO E IDENTIDAD CORPORATIVA</MenuItem>
                             <MenuItem eventKey={3.3}>SOLUCIONES TI</MenuItem>
                             <MenuItem eventKey={3.4}>MODELOS DE NEGOCIOS</MenuItem>
                         </NavDropdown>
-                        <NavItem eventKey={4} href="#">BLOG</NavItem>
-                        <NavItem eventKey={5} href="#">CONTACTO</NavItem>
+                        <LinkContainer to="/">
+                            <NavItem>BLOG</NavItem>
+                        </LinkContainer>
+                        <LinkContainer to="/">
+                            <NavItem>CONTACTO</NavItem>
+                        </LinkContainer>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

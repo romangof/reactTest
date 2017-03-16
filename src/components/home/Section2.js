@@ -7,11 +7,11 @@ import {Row, Col, Thumbnail} from 'react-bootstrap';
 
 const tittleStyle = {
     color: 'green',
-    paddingTop: '3%',
+    padding: '3% 0%',
 }
 
 const colStyle = {
-    padding: "4%",
+    padding: "0% 4%",
     // height: '70px',
 }
 

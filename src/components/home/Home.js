@@ -5,7 +5,7 @@ import Ss3 from './Section3';
 import Ss4 from './Section4';
 import Ss5 from './Section5';
 
-class Home extends Component {
+export default class Home extends Component {
   render() {
     return (
       <div className="Home">
@@ -19,35 +19,14 @@ class Home extends Component {
 
         <Ss5 />
                 
-        <section className="container-fluid">
+        {/*<section className="container-fluid">
           asd
         </section>
 
         <well>Section landing</well>
-        <div>Section 1</div>
-        <div>Section 2</div>
-        <div>Section 3</div>
         <div>asd4</div>
-        <div>asd4</div>
-        <div>asd4</div>
-        <div>asd4</div>
-        <div>asd4</div>
-        <div>asd4</div>
-        <div>asd4</div>
-        <div>asd4</div>
-        <div>asd4</div>
-        <div>asd4</div>
-        <div>asd4</div>
-        <div>asd4</div>
-        <div>asd4</div>
-        <div>asd4</div>
-        <div>asd4</div>
-        <div>asd4</div>
-        <div>asd4</div>
-        <div>asd4</div>
+        <div>asd4</div>*/}
       </div>
     );
   }
 }
-
-export default Home;

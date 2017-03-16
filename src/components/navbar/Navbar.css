@@ -21,3 +21,9 @@
 .navbar-nav>li>a {
   color: white !important;
 }
+
+.navbar-default .navbar-nav>.active>a {
+  text-decoration: underline;
+  -moz-text-decoration-color: rgb(230, 133, 40);
+  background-color: RGBA(0,0,0,0) !important;
+}
