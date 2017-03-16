@@ -23,7 +23,7 @@ const imgStyle = {
 
 export default function Ss2() {
     return (
-        <section className="container-fluid" style={{height: "90vh", paddingTop: '3%'}}>
+        <section className="container-fluid" style={{minHeight: "90vh", paddingTop: '3%'}}>
             {/*<Row>*/}
                 <Col sm={12} style={tittleStyle}>
                     <h4><b>LÍNEAS DE NEGOCIO</b></h4>

@@ -11,7 +11,7 @@ import {Col, Button} from 'react-bootstrap';
 // bottom: 0 }
 
 const sectionStyle = {
-    height: "100vh",
+    minHeight: "100vh",
     backgroundImage: `url(${Img})`,
     backgroundSize: "cover",
     // backgroundSize: '100% 100%',
@@ -36,7 +36,7 @@ export default function Ss1() {
                     </h4>
                 </Col>
 
-                <Col sm={12} style={{position: 'absolute', bottom:'20%'}}>
+                <Col xs={12} sm={12} style={{position: 'absolute', bottom:'20%'}}>
                     <Button bsStyle="warning" bsSize="large" block>DESAFÍANOS!</Button>
                 </Col>
             </Col>
