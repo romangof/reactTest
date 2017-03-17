@@ -16,7 +16,7 @@ export default function Section2 ()  {
                 <h2>Convertirnos en tu brazo armado</h2>
                 <h2>Desafiar los anticuados modelos de negocio</h2>
                 <h2>Mejorar o transformar tu empresa</h2>
-                <h2>Mejorar o transformar tu empresa</h2>
+                <h2>Construir capacidad de innovación</h2>
                 <h2>Diseñar las empresas del futuro</h2>
             </div>
         </section>

@@ -31,12 +31,14 @@ export default class Top extends Component {
                         <LinkContainer to="/who">
                             <NavItem>SOMOS</NavItem>
                         </LinkContainer>
-                        <NavDropdown eventKey={3} title="TE AYUDAMOS" id="basic-nav-dropdown">
-                            <MenuItem eventKey={3.1}>COMUNICACIONES Y MARKETING DIGITAL</MenuItem>
-                            <MenuItem eventKey={3.2}>DISEÑO E IDENTIDAD CORPORATIVA</MenuItem>
-                            <MenuItem eventKey={3.3}>SOLUCIONES TI</MenuItem>
-                            <MenuItem eventKey={3.4}>MODELOS DE NEGOCIOS</MenuItem>
-                        </NavDropdown>
+                        <LinkContainer to='/how'>
+                            <NavDropdown eventKey={3} title="TE AYUDAMOS" id="basic-nav-dropdown">
+                                <MenuItem eventKey={3.1}>COMUNICACIONES Y MARKETING DIGITAL</MenuItem>
+                                <MenuItem eventKey={3.2}>DISEÑO E IDENTIDAD CORPORATIVA</MenuItem>
+                                <MenuItem eventKey={3.3}>SOLUCIONES TI</MenuItem>
+                                <MenuItem eventKey={3.4}>MODELOS DE NEGOCIOS</MenuItem>
+                            </NavDropdown>
+                        </LinkContainer>
                         <LinkContainer to="/">
                             <NavItem>BLOG</NavItem>
                         </LinkContainer>
