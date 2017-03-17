@@ -21,6 +21,8 @@ const imgStyle = {
     padding: '3% 4%',
 }
 
+// TRY react-bootstrap IMAGE component instead of Thumbnail
+
 export default function Ss2() {
     return (
         <section className="container-fluid" style={{minHeight: "90vh", paddingTop: '3%'}}>

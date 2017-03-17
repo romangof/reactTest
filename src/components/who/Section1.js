@@ -1,8 +1,30 @@
 import React from 'react';
 import Img from '../../assets/maquina.png';
+import { Col, Image } from 'react-bootstrap';
 
-export const Section1 = (props) =>  {
+var sectionStyles = {
+    minHeight: '95vh',
+    // backgroundColor: 'gray',
+    padding: '10% 4%',
+    textAlign: 'left',
+}
+
+export default function Section1 () {
     return (
-        <div>123123123</div>
+        <section style={sectionStyles}>
+            <Col sm={5} smOffset={1}>
+                <h3 style={{color: 'green'}}><b>SOMOS</b></h3>
+                <br/>
+                <p>Un grupo de empresas que trabajan en conjunto para ofrecer soluciones disruptivas de negocios a través de diseño, estrategias digitales e innovación tecnológica.</p>
+                <br/>
+                <p>Nos especializamos en comunicación estratégica, marketing digital, diseño gráfico, identidad corporativa, desarrollo de software, aplicaciones móviles y sitios web.</p>
+                <br/>
+                <p>Brindamos una oferta de valor integral que responde a las necesidades específicas de nuestros clientes con formas innovadoras de hacer negocios desde la perspectiva del software, diseño y comunicación.</p>
+            </Col>
+            <Col sm={5} style={{paddingLeft: '5%'}} >
+                <Image src={Img} responsive ></Image>
+                {/*<img src={Img} alt=""/>*/}
+            </Col>
+        </section>
     );
 };
