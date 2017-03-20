@@ -10,10 +10,10 @@
     /*font-size:70px;*/
 }
 
-.thumbnail {
-  /*height: 345px;*/
+/*.thumbnail {
+  height: 345px;
   border: 0px;
-}
+}*/
 /*
 .thumbnail>img {
   height: 193px;
@@ -59,3 +59,45 @@
 
 
 
+/* --- How circle --- */
+
+#circle {
+    position:relative;
+    /*border:3px solid blue;*/
+    /*height:300px;*/
+    /*width:100%;*/
+    /*padding:0;*/
+    /*margin-top: 70px;*/
+
+    margin: 20% 15%;
+    min-height: 130vh;
+    border-radius: 50%;
+    border: 10px dashed rgb(244,244,244);
+    padding: 3%;
+}
+#circle>div {
+    position:absolute;
+    border:2px solid;
+    margin:0;
+    padding:5px;
+}
+#circle>div:nth-child(1) {
+    border-color:green;
+    top:15%;
+    left:15%;    
+}
+#circle>div:nth-child(2) {
+    border-color:red;
+    top:15%;
+    right:15%;
+}
+#circle>div:nth-child(3) {
+    border-color:yellow;
+    bottom:15%;
+    left:15%;
+}
+#circle>div:nth-child(4) {
+    border-color:black;
+    bottom:15%;
+    right:15%;
+}

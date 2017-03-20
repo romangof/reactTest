@@ -8,14 +8,24 @@ const sectionStyle = {
     // backgroundColor: 'rgb(247, 246, 246)',
 }
 
+const textStyle = {
+    fontFamily: 'sans-serif',
+    fontWeight: 'lighter',
+    color: 'orange',
+    textAlign: 'left',
+    paddingLeft: '10%',
+    fontSize: '80px',
+    lineHeight: '72px',
+}
+
 export default function Section3 ()  {
     return (
         <section style={sectionStyle}>
-            <Col xs={12} sm={5} smOffset={1} style={{color: 'orange', textAlign: 'left', paddingLeft: '10%', fontSize: '80px', lineHeight: '72px'}}>
+            <Col xs={12} sm={5} smOffset={1} style={textStyle}>
                 <div>WE</div>
                 <div>GET</div>
                 <div>SHIT</div>
-                <div><b>DONE</b></div>
+                <b>DONE</b>
             </Col>
             <Col xs={12} sm={5} style={{padding: '5% 8%'}} >
                 <div>
