@@ -18,28 +18,25 @@ const textStyle = {
     lineHeight: '72px',
 }
 
-export default function Section3 ()  {
-    return (
-        <section style={sectionStyle}>
-            <Col xs={12} sm={5} smOffset={1} style={textStyle}>
-                <div>WE</div>
-                <div>GET</div>
-                <div>SHIT</div>
-                <b>DONE</b>
-            </Col>
-            <Col xs={12} sm={5} style={{padding: '5% 8%'}} >
-                <div>
-                    <p>Estamos unidos por un apetito insaciable de ideas e innovación, la pasión que sentimos por nuestro trabajo y las ganas de enfrentar nuevos desafíos.</p>
+export default () =>
+<section style={sectionStyle}>
+    <Col xs={12} sm={5} smOffset={1} style={textStyle}>
+        <div>WE</div>
+        <div>GET</div>
+        <div>SHIT</div>
+        <b>DONE</b>
+    </Col>
+    <Col xs={12} sm={5} style={{padding: '5% 8%'}} >
+        <div>
+            <p>Estamos unidos por un apetito insaciable de ideas e innovación, la pasión que sentimos por nuestro trabajo y las ganas de enfrentar nuevos desafíos.</p>
 
-                    <br/>
+            <br/>
 
-                    <p>Averigua todo lo que podemos hacer por ti</p>
+            <p>Averigua todo lo que podemos hacer por ti</p>
 
-                    <br/>
+            <br/>
 
-                    <button>CONTÁCTANOS</button>
-                </div>
-            </Col>
-        </section>
-    );
-};
+            <button>CONTÁCTANOS</button>
+        </div>
+    </Col>
+</section>

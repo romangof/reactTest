@@ -8,20 +8,15 @@ var sectionStyle = {
     paddingTop: '5vh'
 }
 
-const Ss4 = (props) => {
-    return (
-        <section style={sectionStyle}>
-            <h3>NEWSLETTER</h3>
-            <div>
-                ¿Quieres que te ayudemos? <br/>
-                Suscríbete a nuestro newsletter y podrías recibir un diagnóstico gratis.
-            </div>
-            <div>
-                <input type="text" placeholder="Email" />
-                <Button>LO QUIERO</Button>
-            </div>
-        </section>
-    );
-}
-
-export default Ss4;
+export default () => 
+<section style={sectionStyle}>
+    <h3>NEWSLETTER</h3>
+    <div>
+        ¿Quieres que te ayudemos? <br/>
+        Suscríbete a nuestro newsletter y podrías recibir un diagnóstico gratis.
+    </div>
+    <div>
+        <input type="text" placeholder="Email" />
+        <Button>LO QUIERO</Button>
+    </div>
+</section>

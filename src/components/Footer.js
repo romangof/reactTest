@@ -1,27 +1,19 @@
 import React from 'react';
-// import bgImg from '../../assets/header.png';
-import {Col} from 'react-bootstrap';
 
 var sectionStyle = {
-    height: '20vh',
-    textAlign: 'center',
-    color: 'white',
-    backgroundColor: 'rgb(56, 152, 138)',
+  height: '20vh',
+  textAlign: 'center',
+  color: 'white',
+  backgroundColor: 'rgb(56, 152, 138)',
+  // position: 'absolute', width: '100%', bottom: '0',
 }
 
-const Footer = (params) =>  {
-    return (
-        <section style={sectionStyle}>
-            <Col sm={12}>
-                <br/>
-                <br/>
-                <br/>
-                FOOTER-FOOTER-FOOTER-FOOTER-FOOTER-FOOTER-FOOTER
-                asd
-                asdas
-            </Col>
-        </section>
-    );
-};
-
-export default Footer;
+export default() => 
+<section style={sectionStyle}>
+  <br/>
+  asd
+  <br/>
+  FOOTER-FOOTER-FOOTER-FOOTER-FOOTER-FOOTER-FOOTER
+  <br/>
+  asdas
+</section>
