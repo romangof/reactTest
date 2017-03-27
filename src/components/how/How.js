@@ -34,10 +34,10 @@ export default () =>
 
   {/*<Col xs={12} sm={4} style={widgetStyle} >*/}
   <div>
-    Asd {/*<Thumbnail src={require('../../assets/estrategia.png')} responsive >
+   <Thumbnail src={require('../../assets/estrategia.png')} responsive >
     <h1>asd</h1>
     <p>123123123123123</p>
-    </Thumbnail>*/}
+    </Thumbnail>
   </div>
   {/*</Col>*/}
 

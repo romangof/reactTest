@@ -1,6 +1,6 @@
-import React, {Component} from 'react';
+import React from 'react';
 import logo from '../assets/logo_header.png';
-import {Navbar, Nav, NavItem, MenuItem, NavDropdown} from 'react-bootstrap';
+import { Navbar, Nav, NavItem, MenuItem, NavDropdown } from 'react-bootstrap';
 import { IndexLinkContainer, LinkContainer } from 'react-router-bootstrap';
 
 
@@ -43,7 +43,7 @@ export default () =>
       <LinkContainer to="/">
         <NavItem>BLOG</NavItem>
       </LinkContainer>
-      <LinkContainer to="/">
+      <LinkContainer to="/contact">
         <NavItem>CONTACTO</NavItem>
       </LinkContainer>
     </Nav>

@@ -9,17 +9,14 @@ export default () =>
     height: '100%',
     }}>
     <Col xs={12} sm={4} smOffset={1} style={{padding: '5%'}}>
-      <Image src={require( '../../assets/comunicaciones.png' )} responsive/>
+      <Image src={require( '../../assets/modelos.png' )} responsive/>
     </Col>
     <Col xs={11} sm={4} smOffset={1} style={{padding: '5%'}}>
       <h4 style={{color: 'green'}}>Title</h4>
       <br/>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor deserunt sequi, alias officia voluptatum aliquam corrupti necessitatibus velit ratione veniam, soluta fugit reprehenderit, numquam sed excepturi quia ipsa totam saepe?
-      </p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor deserunt sequi, alias officia voluptatum aliquam corrupti necessitatibus velit ratione veniam, soluta fugit reprehenderit, numquam sed excepturi quia ipsa totam saepe?</p>
       <br/>
-      <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati incidunt ipsam magnam, suscipit praesentium sint soluta reprehenderit eos.
-      </p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati incidunt ipsam magnam, suscipit praesentium sint soluta reprehenderit eos.</p>
       <br/>
       <button>conversemos</button>
     </Col>
@@ -35,15 +32,9 @@ export default () =>
     <Col xs={12} sm={6} smOffset={3} >
       <h3 style={{color: 'purple'}}>TITLE</h3>
       <br/>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident tenetur quia voluptatem in nisi quos, quisquam eveniet corporis recusandae repudiandae ullam nulla, molestias non laudantium iste quod aliquid reprehenderit neque.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident tenetur quia voluptatem in nisi quos, quisquam eveniet corporis recusandae repudiandae ullam nulla, molestias non laudantium iste quod aliquid reprehenderit neque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident tenetur quia voluptatem in nisi quos, quisquam eveniet corporis recusandae repudiandae ullam nulla, molestias non laudantium iste quod aliquid reprehenderit neque.</p>
       <br/>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident tenetur quia voluptatem in nisi quos, quisquam eveniet corporis recusandae repudiandae ullam nulla, molestias non laudantium iste quod aliquid reprehenderit neque.</p>
-      <br/>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident tenetur quia voluptatem in nisi quos, quisquam eveniet corporis recusandae repudiandae ullam nulla, molestias non laudantium iste quod aliquid reprehenderit neque.</p>
-      <br/>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident tenetur quia voluptatem in nisi quos, quisquam eveniet corporis recusandae repudiandae ullam nulla, molestias non laudantium iste quod aliquid reprehenderit neque.</p>
-      <br/>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident tenetur quia voluptatem in nisi quos, quisquam eveniet corporis recusandae repudiandae ullam nulla, molestias non laudantium iste quod aliquid reprehenderit neque.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident tenetur quia voluptatem in nisi quos, quisquam eveniet corporis recusandae repudiandae ullam nulla, molestias non laudantium iste quod aliquid reprehenderit neque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident tenetur quia voluptatem in nisi quos, quisquam eveniet corporis recusandae repudiandae ullam nulla, molestias non laudantium iste quod aliquid reprehenderit neque.</p>
     </Col>
   </section>
 
@@ -92,7 +83,7 @@ export default () =>
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
-    }} >
+    }}>
 
     asd
     <br/> 

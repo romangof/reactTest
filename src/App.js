@@ -6,9 +6,10 @@ import Who from './components/who/Who';
 import How from './components/how/How';
 import MainHow from './components/how/MainHow';
 import Comms from './components/how/Communications';
-import Design from './components/how/Communications';
-import TI from './components/how/Communications';
-import Business from './components/how/Communications';
+import Design from './components/how/Design';
+import TI from './components/how/Ti';
+import Business from './components/how/Bussiness';
+import Contact from './components/Contact';
 import './App.css';
 
 export default () => 
@@ -24,6 +25,6 @@ export default () =>
       <Route path='/how/business' component={Business}/>
     </Route>
     {/*<Route path='/blog' component={Blog} />*/}
-    {/*<Route path='/contact' component={Contact} />*/}
+    <Route path='/contact' component={Contact} />
   </Route>
 </Router>;
