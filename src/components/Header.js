@@ -3,9 +3,8 @@ import logo from '../assets/logo_header.png';
 import { Navbar, Nav, NavItem, MenuItem, NavDropdown } from 'react-bootstrap';
 import { IndexLinkContainer, LinkContainer } from 'react-router-bootstrap';
 
-
-export default () => 
-<Navbar collapseOnSelect staticTop>
+export default (props) => 
+<Navbar collapseOnSelect fixedTop className={(props.location !== '/') ? 'navbarElse' : 'navbarIndex'}>
 
   <Navbar.Header>
     <Navbar.Brand>
@@ -40,9 +39,9 @@ export default () =>
           </LinkContainer>
         </NavDropdown>
       </LinkContainer>
-      <LinkContainer to="/">
+      {/*<LinkContainer to="/">*/}
         <NavItem>BLOG</NavItem>
-      </LinkContainer>
+      {/*</LinkContainer>*/}
       <LinkContainer to="/contact">
         <NavItem>CONTACTO</NavItem>
       </LinkContainer>

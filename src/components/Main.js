@@ -4,7 +4,7 @@ import Footer from './Footer';
 
 export default (props) => 
 <div>
-  <Header />
+  <Header location={props.location.pathname}/>
   {props.children}
   <Footer />
 </div>;

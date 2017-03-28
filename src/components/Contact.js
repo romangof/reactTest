@@ -18,7 +18,7 @@ export default( ) =>
     }}>
       <Image src={require( '../assets/ti.png' )} responsive/>
     </Col>
-    <Col xs={11} sm={5} smOffset={1} style={{
+    <Col xs={12} sm={5} smOffset={1} style={{
       padding: '5%'
     }}>
       <h4 style={{

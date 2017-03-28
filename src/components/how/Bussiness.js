@@ -8,7 +8,7 @@ export default () =>
     overflow: 'hidden', 
     height: '100%',
     }}>
-    <Col xs={12} sm={4} smOffset={1} style={{padding: '5%'}}>
+    <Col xs={6} xsOffset={3} sm={4} smOffset={1} style={{padding: '5%'}}>
       <Image src={require( '../../assets/modelos.png' )} responsive/>
     </Col>
     <Col xs={11} sm={4} smOffset={1} style={{padding: '5%'}}>
