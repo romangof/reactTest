@@ -9,7 +9,7 @@ export default () =>
       <h3 className={'titleHow'}>
         te ayudamos
       </h3>
-      <p className={'descriptionHow'}>
+      <p className={'maindescriptionHow'}>
         Transformamos digitalmente a las empresas desde adentro hacia afuera a través de la reinvención del modelo de negocio, la imagen, la experiencia y el uso de las nuevas tecnologías.
       </p>
     </Col>
@@ -23,7 +23,7 @@ export default () =>
             <Image className={'imgHow'} src={require("../../assets/bussinesHow.png")} />
             <div className="descriptionHow">
               <h3>desarrollamos negocios</h3>
-              <h4>Para encontrar oportunidades de èxito</h4>
+              <h4>Para encontrar oportunidades de éxito</h4>
             </div>
           </div>
         </Col>

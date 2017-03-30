@@ -109,13 +109,13 @@
 	padding-left: 15px;
 	margin-right: auto;
 	margin-left: auto;
+  margin-bottom: 100px;
   background-image: url(./assets/circulo.png);
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
-  max-width: 70%;
+  max-width: 80%;
 }
-
 
 
 .container_circulo-fluid {
@@ -138,6 +138,7 @@
 .descriptionHow {
   height: 150px;
   width: 80%;
+  min-width: 200px;
 }
 
 .imgHow {
@@ -160,11 +161,12 @@
   text-transform: uppercase;
 }
 
-.descriptionHow {
+.maindescriptionHow {
   padding-right: 15px;
   padding-left: 15px;
-  max-width:60%;
+  max-width:80%;
   text-align: left; 
+  margin-bottom: 10%;
 }
 
 @media (max-width: 768px) {
@@ -175,8 +177,9 @@
   .imgHow {
     padding-right: 65%;
   }
-  .descriptionHow {
+  .maindescriptionHow {
     margin-bottom:20%;
+    max-width: 100%;
   }
 }
 @media (min-width: 768px) {
