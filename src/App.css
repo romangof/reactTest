@@ -2,13 +2,6 @@
   text-align: center;
 }
 
-/*.v-center {
-    padding: 20% 0%;
-    height: 100vh;
-    color: white;
-    font-size:70px;
-}*/
-
 .thumbnail {
   height: 100%;
   border: 1px solid black;
@@ -103,4 +96,97 @@
     border-color:black;
     bottom:5%;
     right:5%;
+}
+
+
+
+
+
+
+/*   KAREN CSS   */
+.container_circulo {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+  background-image: url(./assets/circulo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  max-width: 70%;
+}
+
+
+
+.container_circulo-fluid {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.itemHow {
+  padding: 5% 20%;
+  /*padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;*/
+  /*max-width: 250px;*/
+  /*max-height: 350px;*/
+}
+
+.descriptionHow {
+  height: 150px;
+  width: 80%;
+}
+
+.imgHow {
+  max-width: 300px;
+  /*max-height: 250px;*/
+  /*padding: 0px 10%;*/
+  padding-right: 20%;
+} 
+
+.titleHow {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 40px;
+  text-align: left;
+  color: #00A69C ;
+  text-transform: uppercase;
+}
+
+.descriptionHow {
+  padding-right: 15px;
+  padding-left: 15px;
+  max-width:60%;
+  text-align: left; 
+}
+
+@media (max-width: 768px) {
+	.container_circulo {
+		width: 750px;
+    background-image: none;
+	}
+  .imgHow {
+    padding-right: 65%;
+  }
+  .descriptionHow {
+    margin-bottom:20%;
+  }
+}
+@media (min-width: 768px) {
+	.colHow {
+    height: 4%;
+  }
+}
+
+@media (max-width: 768px) {
+	h4 {
+		padding-bottom: 30px;
+	}
 }

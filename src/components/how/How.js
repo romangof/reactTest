@@ -1,49 +1,64 @@
 import React from 'react';
-import { Col, Image, Thumbnail } from 'react-bootstrap';
-import Img from '../../assets/desarrollamos.png'
-
-const circleStyle = {
-  margin: '20% 15%',
-  minHeight: '130vh',
-  borderRadius: '50%',
-  border: '10px dashed rgb(244,244,244)',
-  padding: '3%'
-}
-
-const widgetStyle = {
-  // padding: '5% 12%',
-  height: '300px',
-  textAlign: 'center'
-}
+import { Row, Col, Image, Thumbnail } from 'react-bootstrap';
 
 export default () => 
-<div id="circle">
+<div>
 
-  <Col xs={12} sm={4} style={widgetStyle}>
-    <Image src={require( '../../assets/desarrollamos.png' )} style={{height: '100%'}} responsive/>
-    <b>Titulo</b>
-    <p>descripcion</p>
-  </Col>
-
-  {/*<Col xs={12} sm={4} style={widgetStyle} >*/}
-  <div style={widgetStyle}>
-    <Image src={require( '../../assets/creamos.png' )} style={{height: '100%'}} responsive/>
-    title text
+  <div style={{paddingLeft: '15%'}} >
+    <Col xs={12} md={8}>
+      <h3 className={'titleHow'}>
+        te ayudamos
+      </h3>
+      <p className={'descriptionHow'}>
+        Transformamos digitalmente a las empresas desde adentro hacia afuera a través de la reinvención del modelo de negocio, la imagen, la experiencia y el uso de las nuevas tecnologías.
+      </p>
+    </Col>
   </div>
-  {/*</Col>*/}
 
-  {/*<Col xs={12} sm={4} style={widgetStyle} >*/}
-  <div>
-   <Thumbnail src={require('../../assets/estrategia.png')} responsive >
-    <h1>asd</h1>
-    <p>123123123123123</p>
-    </Thumbnail>
+  <div className="container_circulo">
+    <Row>
+    {/*<div style={{width: '100%', height: '100vh'}}>*/}
+        <Col sm={6} md={6} className={'colHow'}>
+          <div className={'itemHow'}>
+            <Image className={'imgHow'} src={require("../../assets/bussinesHow.png")} />
+            <div className="descriptionHow">
+              <h3>desarrollamos negocios</h3>
+              <h4>Para encontrar oportunidades de èxito</h4>
+            </div>
+          </div>
+        </Col>
+        
+        <Col sm={6} md={6} className={'colHow'}>
+          <div className={'itemHow'}>
+            <Image className={'imgHow'} src={require("../../assets/createHow.png")} />
+            <div className="descriptionHow">
+              <h3>creamos tu imagen</h3>
+              <h4>Para aumentar la capacidad de innovación y competitividad</h4>
+            </div>
+          </div>
+        </Col>
+        
+        <Col sm={6} md={6} className={'colHow'}>
+          <div className={'itemHow'}>
+            <Image className={'imgHow'} src={require("../../assets/designHow.png")} />
+            <div className="descriptionHow">
+              <h3>diseñamos una estrategia</h3>
+              <h4>Para posicionar tu marca y generar conversiones</h4>
+            </div>
+          </div>
+        </Col>
+        
+        <Col sm={6} md={6} className={'colHow'}>
+          <div className={'itemHow'}>
+            <Image className={'imgHow'} src={require("../../assets/tiHow.png")} />
+            <div className="descriptionHow">
+              <h3>usamos tecnología</h3>
+              <h4>Para responder a los desafíos dinámicos del mercado</h4>
+            </div>
+          </div>
+        </Col>      
+    {/*</div>*/}
+    </Row>
   </div>
-  {/*</Col>*/}
 
-  {/*<Col xs={12} sm={4} style={widgetStyle} >*/}
-  <div>
-    asd {/*<Thumbnail src={require('../../assets/tecnologia.png')} responsive ></Thumbnail>*/}
-  </div>
-  {/*</Col>*/}
 </div>
