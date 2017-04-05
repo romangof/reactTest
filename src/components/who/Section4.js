@@ -3,14 +3,17 @@ import {Col} from 'react-bootstrap';
 
 var sectionStyle = {
     height: '50vh',
-    color: 'rgb(242, 160, 50)',
+    textAlign: 'center',
+    backgroundColor: 'rgb(247, 246, 246)',
     padding: '5% 0%',
 }
 
+// this should be the same as section 5 in home with 
+// logos and text and styles brought from bkEnd
+
 export default () =>  
 <section style={sectionStyle}>
-    <h4 style={{color: 'orange'}} >CONFÍAN EN NOSOTROS</h4>
-    {/*loopThis*/}
+    <h4 style={{color: 'green'}} >NUESTRAS EMPRESAS</h4>
     <div style={{paddingTop: '5%', color: 'gray'}}>
         <Col xs={6} sm={2} smOffset={1}>Logo Img 1</Col>
         <Col xs={6} sm={2}>Logo Img 2</Col>

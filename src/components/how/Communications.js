@@ -12,16 +12,14 @@ export default () =>
       <Image src={require( '../../assets/comunicaciones.png' )} responsive/>
     </Col>
     <Col xs={11} sm={4} smOffset={1} style={{padding: '5%'}}>
-      <h4 style={{color: 'green'}}>Title</h4>
+      <h4 style={{color: 'green'}}>COMUNICACIONES Y MARKETING DIGITAL</h4>
       <br/>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor deserunt sequi, alias officia voluptatum aliquam corrupti necessitatibus velit ratione veniam, soluta fugit reprehenderit, numquam sed excepturi quia ipsa totam saepe?
-      </p>
+      <p>Desarrollamos planes de comunicación estratégica y marketing digital para aumentar la visibilidad
+de la marca y mejorar su reputación online.</p>
       <br/>
-      <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati incidunt ipsam magnam, suscipit praesentium sint soluta reprehenderit eos.
-      </p>
+      <p>Entendemos cómo diseñar estrategias que se transformen en ventas</p>
       <br/>
-      <button>conversemos</button>
+      <button>CONVERSEMOS</button>
     </Col>
   </section>
 
@@ -33,17 +31,16 @@ export default () =>
     backgroundColor: 'rgb(247, 246, 246)'}} >
 
     <Col xs={12} sm={6} smOffset={3} >
-      <h3 style={{color: 'purple'}}>TITLE</h3>
+      <h3 style={{color: 'purple'}}>LO QUE SABEMOS</h3>
       <br/>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident tenetur quia voluptatem in nisi quos, quisquam eveniet corporis recusandae repudiandae ullam nulla, molestias non laudantium iste quod aliquid reprehenderit neque.</p>
+      <p>El proceso de gestión de la comunicación corporativa e institucional incluye como pilar fundamental el marketing digital, desde el posicionamiento y reconocimiento de marca, la atracción, interacción y conexión, hasta la generación de leads y el cierre de ventas.</p>
       <br/>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident tenetur quia voluptatem in nisi quos, quisquam eveniet corporis recusandae repudiandae ullam nulla, molestias non laudantium iste quod aliquid reprehenderit neque.</p>
+      <p>Comprenden los fundamentos del marketing tradicional y engloban una serie de estrategias digitales y comunicacionales de acuerdo a los objetivos específicos que suceden a lo largo del tiempo. Este proceso va desde el plan de comunicaciones estratégicas hasta la construcción de relaciones o engagement con el consumidor.</p>
       <br/>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident tenetur quia voluptatem in nisi quos, quisquam eveniet corporis recusandae repudiandae ullam nulla, molestias non laudantium iste quod aliquid reprehenderit neque.</p>
+      <p>Estas relaciones se desarrollan en unas etapas bien definidas dentro de un plan de marketing digital y, en consecuencia, de comunicación.</p>
       <br/>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident tenetur quia voluptatem in nisi quos, quisquam eveniet corporis recusandae repudiandae ullam nulla, molestias non laudantium iste quod aliquid reprehenderit neque.</p>
+      <p>Al considerar el marketing digital y las comunicaciones es necesario diseñar estrategias personalizadas a partir de los objetivos de negocio, para lograr la mayor eficiencia en la obtención de resultados y conversiones a través de las distintas herramientas online y offline.</p>
       <br/>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident tenetur quia voluptatem in nisi quos, quisquam eveniet corporis recusandae repudiandae ullam nulla, molestias non laudantium iste quod aliquid reprehenderit neque.</p>
     </Col>
   </section>
 
@@ -53,12 +50,12 @@ export default () =>
     padding: '5% 0%',
     textAlign: 'left'}} >
     <Col xs={12} sm={9} smOffset={3}>
-      <h3 style={{color: 'green', paddingBottom: '5%'}}>TITLE</h3>
+      <h3 style={{color: 'green', paddingBottom: '5%'}}>¿CÓMO TE AYUDAMOS?</h3>
     </Col>
     <br/>
     <br/>
     <Col xs={12} sm={3} smOffset={3}>
-      <b>subtitle</b>
+      <b>Comunicaciones estratégicas</b>
       <ul>
         <li>Campañas offline</li>
         <br/>
@@ -70,15 +67,14 @@ export default () =>
       </ul>
     </Col>
     <Col xs={12} sm={3}>
-      <b>subtitle</b>
+      <b>Marketing digital</b>
       <ul>
-        <li>asdasd</li>
-        <li>asdasd</li>
-        <li>asdasd</li>
-        <li>asdasd</li>
-        <li>asdasd</li>
-        <li>asdasd</li>
-        <li>asdasd</li>
+        <li>Campañas digitales SEM</li>
+        <li>Posicionamiento web SEO</li>
+        <li>Redes sociales</li>
+        <li>Marketing de contenidos</li>
+        <li>Branding online</li>
+        <li>Email marketing</li>
       </ul>
     </Col>
   </section>
@@ -94,9 +90,8 @@ export default () =>
     alignItems: 'center',
     }} >
 
-    asd
-    <br/> 
-    asdasd
-    <button>asdasd</button>
+    <h3>Si tienes un desafío comercial específico,</h3>
+    <h3><b>nos encantaría ayudarte.</b></h3>
+    <button>CONTÁCTANOS</button>
   </section>
 </div>;

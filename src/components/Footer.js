@@ -11,9 +11,11 @@ var sectionStyle = {
 export default() => 
 <section style={sectionStyle}>
   <br/>
-  asd
+  FaceBookLogo  TwitterLogo  LinkedinLogo
   <br/>
-  FOOTER-FOOTER-FOOTER-FOOTER-FOOTER-FOOTER-FOOTER
+  <b>ACELERACIÓN LABS</b>
   <br/>
-  asdas
+  <span>Magnere 1540, of. 901, Providencia, Santiago</span>
+  <br/>
+  <span>hola@aceleracion.cl</span>
 </section>

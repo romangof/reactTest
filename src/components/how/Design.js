@@ -12,13 +12,13 @@ export default () =>
       <Image src={require( '../../assets/diseno.png' )} responsive/>
     </Col>
     <Col xs={11} sm={4} smOffset={1} style={{padding: '5%'}}>
-      <h4 style={{color: 'green'}}>Title</h4>
+      <h4 style={{color: 'green'}}>DISEÑO E IDENTIDAD CORPORATIVA</h4>
       <br/>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor deserunt sequi, alias officia voluptatum aliquam corrupti necessitatibus velit ratione veniam, soluta fugit reprehenderit, numquam sed excepturi quia ipsa totam saepe?</p>
+      <p>Creamos marcas más allá de la concepción gráfica. Desarrollamos su identidad corporativa a través de diseño estratégico y cohesivo.</p>
       <br/>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati incidunt ipsam magnam, suscipit praesentium sint soluta reprehenderit eos.</p>
+      <p>Entendemos cómo crear, construir y diseñar proyectos exitosos</p>
       <br/>
-      <button>conversemos</button>
+      <button>CONVERSEMOS</button>
     </Col>
   </section>
 
@@ -30,11 +30,11 @@ export default () =>
     backgroundColor: 'rgb(247, 246, 246)'}} >
 
     <Col xs={12} sm={6} smOffset={3} >
-      <h3 style={{color: 'purple'}}>TITLE</h3>
+      <h3 style={{color: 'purple'}}> <b>LO QUE SABEMOS</b> </h3>
       <br/>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident tenetur quia voluptatem in nisi quos, quisquam eveniet corporis recusandae repudiandae ullam nulla, molestias non laudantium iste quod aliquid reprehenderit neque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident tenetur quia voluptatem in nisi quos, quisquam eveniet corporis recusandae repudiandae ullam nulla, molestias non laudantium iste quod aliquid reprehenderit neque.</p>
+      <p>En un creciente y saturado mundo empresarial, el diseño estratégico ayuda a las organizaciones a competir por su participación en el mercado. La aplicación de los principios de diseño orientados al futuro con el fin de aumentar la capacidad de innovación y competitividad de una empresa, permiten tomar decisiones de diseño en base a los hechos y no a la estética o intuición.</p>
       <br/>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident tenetur quia voluptatem in nisi quos, quisquam eveniet corporis recusandae repudiandae ullam nulla, molestias non laudantium iste quod aliquid reprehenderit neque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident tenetur quia voluptatem in nisi quos, quisquam eveniet corporis recusandae repudiandae ullam nulla, molestias non laudantium iste quod aliquid reprehenderit neque.</p>
+      <p>El análisis del contexto de la industria y el consumidor, las tendencias y todas las variables del mercado, son los cimientos para lograr una forma efectiva de conectar innovación, gestión y diseño, más allá de la concepción gráfica. A menudo pretende fortalecer el branding, el desarrollo de productos, la identidad corporativa y agregar valor en la entrega de experiencias, productos y servicios. Por todo esto creemos que un diseño debe ser efectivo tanto en cómo se ve y en cómo funciona: looks, feels, works.</p>
     </Col>
   </section>
 
@@ -44,32 +44,34 @@ export default () =>
     padding: '5% 0%',
     textAlign: 'left'}} >
     <Col xs={12} sm={9} smOffset={3}>
-      <h3 style={{color: 'green', paddingBottom: '5%'}}>TITLE</h3>
+      <h3 style={{color: 'green', paddingBottom: '5%'}}>¿CÓMO TE AYUDAMOS?</h3>
     </Col>
     <br/>
     <br/>
-    <Col xs={12} sm={3} smOffset={3}>
-      <b>subtitle</b>
+    <Col xs={12} sm={3} smOffset={2}>
+      <b>Diseño de identidad corporativa</b>
       <ul>
-        <li>Campañas offline</li>
-        <br/>
-        <li>Comunicación corporativa</li>
-        <br/>
-        <li>Marketing directo</li>
-        <li>Estrategias comunicacionales</li>
-        <li>Branding</li>
+        <li>Creación de logos</li>
+        <li>Papelería corporativa</li>
+        <li>Manuales de identidad corporativa</li>
+        <li>Diseño de mailing</li>
       </ul>
     </Col>
     <Col xs={12} sm={3}>
-      <b>subtitle</b>
+      <b>Diseño gráfico</b>
       <ul>
-        <li>asdasd</li>
-        <li>asdasd</li>
-        <li>asdasd</li>
-        <li>asdasd</li>
-        <li>asdasd</li>
-        <li>asdasd</li>
-        <li>asdasd</li>
+        <li>Diseño para redes sociales</li>
+        <li>Diseño publicitario</li>
+        <li>Diseño editorial</li>
+      </ul>
+    </Col>
+    <Col xs={12} sm={3}>
+      <b>Diseño digital</b>
+      <ul>
+        <li>Diseño UX</li>
+        <li>Sitios web</li>
+        <li>Aplicaciones móviles</li>
+        <li>Aplicaciones web</li>
       </ul>
     </Col>
   </section>
