@@ -1,0 +1,97 @@
+[
+  {
+    "site": "comunicaciones",
+    "section1": {
+      "imgURL": "comunicaciones",
+      "title": "COMUNICACIONES Y MARKETING DIGITAL",
+      "texts": ["Desarrollamos planes de comunicación estratégica y marketing digital para aumentar la visibilidad de la marca y mejorar su reputación online.", "Entendemos cómo diseñar estrategias que se transformen en ventas"],
+      "buttonText": "CONVERSEMOS"
+    },
+    "section2": {
+      "title": "LO QUE SABEMOS",
+      "texts": ["El proceso de gestión de la comunicación corporativa e institucional incluye como pilar fundamental el marketing digital, desde el posicionamiento y reconocimiento de marca, la atracción, interacción y conexión, hasta la generación de leads y el cierre de ventas.", "Comprenden los fundamentos del marketing tradicional y engloban una serie de estrategias digitales y comunicacionales de acuerdo a los objetivos específicos que suceden a lo largo del tiempo. Este proceso va desde el plan de comunicaciones estratégicas hasta la construcción de relaciones o engagement con el consumidor.", "Estas relaciones se desarrollan en unas etapas bien definidas dentro de un plan de marketing digital y, en consecuencia, de comunicación.", "Al considerar el marketing digital y las comunicaciones es necesario diseñar estrategias personalizadas a partir de los objetivos de negocio, para lograr la mayor eficiencia en la obtención de resultados y conversiones a través de las distintas herramientas online y offline."]
+    },
+    "section3": {
+      "title": "¿CÓMO TE AYUDAMOS?",
+      "texts": [
+        {
+          "subtitle": "Comunicaciones estratégicas",
+          "topics": ["Campañas offline", "Comunicación corporativa", "Marketing directo", "Estrategias comunicacionales", "Branding"]
+        },
+        {
+          "subtitle": "Marketing digital",
+          "topics": ["Campañas digitales SEM", "Posicionamiento web SEO • Redes sociales", "Marketing de contenidos", "Branding online", "Email marketing"]
+        }
+      ]
+    }
+  },
+
+  {
+    "site": "",
+    "section1": {
+      "imgURL": "",
+      "title": "",
+      "texts": [],
+      "buttonText": "CONVERSEMOS"
+    },
+    "section2": {
+      "title": "",
+      "texts": []
+    },
+    "section3": {
+      "title": "",
+      "texts": [
+        {
+          "subtitle": "",
+          "topics": []
+        }
+      ]
+    }
+  },
+  
+  {
+    "site": "",
+    "section1": {
+      "imgURL": "",
+      "title": "",
+      "texts": [],
+      "buttonText": "CONVERSEMOS"
+    },
+    "section2": {
+      "title": "",
+      "texts": []
+    },
+    "section3": {
+      "title": "",
+      "texts": [
+        {
+          "subtitle": "",
+          "topics": []
+        }
+      ]
+    }
+  },
+
+  {
+    "site": "",
+    "section1": {
+      "imgURL": "",
+      "title": "",
+      "texts": [],
+      "buttonText": "CONVERSEMOS"
+    },
+    "section2": {
+      "title": "",
+      "texts": []
+    },
+    "section3": {
+      "title": "",
+      "texts": [
+        {
+          "subtitle": "",
+          "topics": []
+        }
+      ]
+    }
+  }
+]
