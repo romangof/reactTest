@@ -231,7 +231,20 @@
     width: 45px;
     height: 60px;
     background-repeat: no-repeat;
-    background-size: 39px 43px;
+    background-size: 45px 60px;
+    padding-top: 70px;
+    padding-left: 41px;
+    color: #000;
+  }
+
+  .btn-down:hover {
+    background: url('./assets/down.png');
+    border: 0px;
+    width: 45px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: 45px 60px;
+    padding-top: 70px;
     padding-left: 41px;
     color: #000;
   }
