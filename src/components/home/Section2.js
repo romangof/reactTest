@@ -36,12 +36,8 @@ export default () =>
                     <h4>Comunicaciones y Marketing Digital</h4>
                     <p>Aumenta la visibilidad de tu marca, mejora su reputación online y consigue más conversiones.</p>
                 </Thumbnail>
-                {/*<div>
-                    <img style={imgStyle} src={Img1} alt=""/>
-                </div>*/}
+              
             </Row>
-            {/*<Row><h4><b>Comunicaciones y Marketing Digital</b></h4></Row>
-            <Row><h4>Aumenta la visibilidad de tu marca, mejora su reputación online y consigue más conversiones className=""></conversiones></h4></Row>*/}
         </Col>
 
         <Col xs={12} sm={3} style={colStyle}>
@@ -50,32 +46,28 @@ export default () =>
                     <h4>Diseño e Identidad Corportativa</h4>
                     <p>Aumenta la capacidad de innovación y competitividad de tu empresa mediante diseño estratégico.</p>
                 </Thumbnail>
-                {/*<div>
-                    <img style={imgStyle} src={Img2} alt=""/>
-                </div>*/}
             </Row>
-            {/*<Row><h4><b>Diseño e Identidad Corportativa</b></h4></Row>
-            <Row><h4>Aumenta la capacidad de innovación y competitividad de tu empresa mediante diseño estratégico.</h4></Row>*/}
+           
         </Col>
 
         <Col xs={12} sm={3} style={colStyle}>
             <Row>
-                <div>
-                    <img style={imgStyle} src={Img3} alt=""/>
-                </div>
+                <Thumbnail src={Img3}>
+                    <h4>Soluciones TI</h4>
+                    <p>Responde a los desafíos dinámicos del mercado con el uso de nuevas tecnologías.</p>
+                </Thumbnail>
             </Row>
-            <Row><h4><b>Soluciones TI</b></h4></Row>
-            <Row><h4>Responde a los desafíos dinámicos del mercado con el uso de nuevas tecnologías.</h4></Row>
+           
         </Col>
 
         <Col xs={12} sm={3} style={colStyle}>
             <Row>
-                <div>
-                    <img style={imgStyle} src={Img4} alt=""/>
-                </div>
+              <Thumbnail src={Img4}>
+                    <h4>Modelos de Negocios</h4>
+                    <p>Descubre nuevas oportunidades de éxito para tu empresa.</p>
+                </Thumbnail>
             </Row>
-            <Row><h4><b>Modelos de Negocios</b></h4></Row>
-            <Row><h4>Descubre nuevas oportunidades de éxito para tu empresa.</h4></Row>
+           
         </Col>
     </Row>
 

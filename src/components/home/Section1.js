@@ -1,5 +1,6 @@
 import React from 'react';
 import Img from '../../assets/fondo-01.png'
+import Img2 from '../../assets/down.png'
 import { Button } from 'react-bootstrap';
 
 const sectionStyle = {
@@ -24,13 +25,17 @@ const buttonStyle = {
 
 export default () =>
 <section className="container-fluid" style={sectionStyle}>
-    <h3>
+    <h1>
         <b>SOMOS UNA TRANSFORMADORA DIGITAL</b>
-    </h3>
+    </h1>
 
-    <h4>
+    <h4 className="subtitle">
         que ofrece soluciones disruptivas a las medianas y grandes empresas a través de diseño, estrategias digitales e innovación tecnológica, para desafiar los anticuados modelos de negocio y diseñar las empresas del futuro.
     </h4>
 
     <Button bsStyle="warning" bsSize="large" style={buttonStyle} block>¡DESAFÍANOS!</Button>
+
+    <Button className="btn-down" block></Button>
+
+
 </section>
