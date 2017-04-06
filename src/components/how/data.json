@@ -27,69 +27,93 @@
   },
 
   {
-    "site": "",
+    "site": "diseño",
     "section1": {
-      "imgURL": "",
-      "title": "",
-      "texts": [],
+      "imgURL": "diseno",
+      "title": "DISEÑO E IDENTIDAD CORPORATIVA",
+      "texts": ["Creamos marcas más allá de la concepción gráfica. Desarrollamos su identidad corporativa a través de diseño estratégico y cohesivo.", "Entendemos cómo crear, construir y diseñar proyectos exitosos"],
       "buttonText": "CONVERSEMOS"
     },
     "section2": {
-      "title": "",
-      "texts": []
+      "title": "LO QUE SABEMOS",
+      "texts": ["En un creciente y saturado mundo empresarial, el diseño estratégico ayuda a las organizaciones a competir por su participación en el mercado. La aplicación de los principios de diseño orientados al futuro con el fin de aumentar la capacidad de innovación y competitividad de una empresa, permiten tomar decisiones de diseño en base a los hechos y no a la estética o intuición.", "El análisis del contexto de la industria y el consumidor, las tendencias y todas las variables del mercado, son los cimientos para lograr una forma efectiva de conectar innovación, gestión y diseño, más allá de la concepción gráfica. A menudo pretende fortalecer el branding, el desarrollo de productos, la identidad corporativa y agregar valor en la entrega de experiencias, productos y servicios. Por todo esto creemos que un diseño debe ser efectivo tanto en cómo se ve y en cómo funciona: looks, feels, works."]
     },
     "section3": {
-      "title": "",
+      "title": "¿CÓMO TE AYUDAMOS?",
       "texts": [
         {
-          "subtitle": "",
-          "topics": []
+          "subtitle": "Diseño de identidad corporativa",
+          "topics": ["Creación de logos", "Papelería corporativa", "Manuales de identidad corporativa • Diseño de mailing"]
+        },
+        {
+          "subtitle": "Diseño gráfico",
+          "topics": ["Diseño para redes sociales ", "Diseño publicitario", "Diseño editorial"]
+        },
+        {
+          "subtitle": "Diseño digital",
+          "topics": ["Diseño UX", "Sitios web", "Aplicaciones móviles ", "Aplicaciones web"]
         }
       ]
     }
   },
   
   {
-    "site": "",
+    "site": "ti",
     "section1": {
-      "imgURL": "",
-      "title": "",
-      "texts": [],
+      "imgURL": "ti",
+      "title": "SOLUCIONES TI",
+      "texts": ["Entregamos soluciones TI reales y modernas a través de servicios innovadores de desarrollo de software, sitios web y aplicaciones móviles.", "Entendemos cómo desarrollar soluciones tecnológicas para el crecimiento de las empresas"],
       "buttonText": "CONVERSEMOS"
     },
     "section2": {
-      "title": "",
-      "texts": []
+      "title": "LO QUE SABEMOS",
+      "texts": ["En plena era de la información, el desempeño, competitividad y crecimiento de las empresas dependen de su relación con las nuevas tecnologías. Los avances tecnológicos como el internet y la comunicación móvil han influido en las relaciones sociales y en el sistema económico de las organizaciones. Por esto, optimizar el uso de las tecnologías de información es una forma de responder a los desafíos dinámicos del negocio en la actualidad.", "La Tecnología de Información (TI) es un concepto que comprende todo lo relacionado con informática y telecomunicaciones, desde el almacenamiento, procesamiento y protección, hasta la transmisión de la información. Sin embargo, la complejidad de estas tecnologías puede ser abrumadora. Por esto ayudamos a nuestros clientes a entender sus opciones, asesorarlos tecnológicamente y ofrecerles las mejores soluciones TI alineadas sus necesidades desde una perspectiva estratégica y operativa."]
     },
     "section3": {
-      "title": "",
+      "title": "¿CÓMO TE AYUDAMOS?",
       "texts": [
         {
-          "subtitle": "",
-          "topics": []
+          "subtitle": "Aplicaciones móviles",
+          "topics": ["Desarrollo Android", "Desarrollo iOS"]
+        },
+        {
+          "subtitle": "Aplicaciones web",
+          "topics": ["Ruby on Rails", "Asp.net"]
+        },
+        {
+          "subtitle": "Desarrollo y mantenimiento sobre Plataforma SharePoint",
+          "topics": ["Sharepoint 2010 - 2013", "Sharepoint Office 365"]
+        },
+        {
+          "subtitle": "Sitios web y landing pages",
+          "topics": ["Angular JS", "CSS", "JavaScript", "JQuery", "JSom"]
         }
       ]
     }
   },
 
   {
-    "site": "",
+    "site": "business",
     "section1": {
-      "imgURL": "",
-      "title": "",
-      "texts": [],
+      "imgURL": "modelos",
+      "title": "MODELOS DE NEGOCIO",
+      "texts": ["Creamos nuevos modelos de negocio para dejar atrás los antiguos estándares comerciales y diseñar las empresas del futuro.", "Entendemos cómo transformar empresas a través de nuevos modelos de negocio"],
       "buttonText": "CONVERSEMOS"
     },
     "section2": {
-      "title": "",
-      "texts": []
+      "title": "LO QUE SABEMOS",
+      "texts": ["Los modelos de negocio tradicionales han quedado en el pasado. También han tenido que adaptarse a un nuevo entorno inspirado por las nuevas tecnologías, hábitos de consumo, nuevos procesos productivos y la competitividad de un mercado cada vez mayor. Las nuevas oportunidades de éxito de las empresas están orientadas a la innovación y la atención al cliente, y los nuevos modelos de negocio implican aportar valor a los clientes a través de acciones no convencionales.", "Ante este nuevo escenario, las empresas se han visto obligadas a replantear o cuestionar sus antiguos modelos comerciales para diseñar nuevos modelos de negocios como formas alternativas de captar nuevos clientes. Los esfuerzos y cada uno de los niveles de la organización estarán destinados a mejorar su metodologìa para este último fin."]
     },
     "section3": {
-      "title": "",
+      "title": "¿CÓMO TE AYUDAMOS?",
       "texts": [
         {
-          "subtitle": "",
-          "topics": []
+          "subtitle": "Modelos de negocio B2B",
+          "topics": ["Modelos de negocio orientados a las empresas."]
+        },
+        {
+          "subtitle": "Modelos de negocio B2C",
+          "topics": ["Modelos de negocio orientados a clientes."]
         }
       ]
     }

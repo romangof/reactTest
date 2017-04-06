@@ -2,7 +2,7 @@ import React from 'react';
 import { Col, Image } from 'react-bootstrap';
 
 var data = require('./data.json');
-var i = 0;
+var i = 3;
 
 export default (props) => 
 <div>
@@ -58,10 +58,10 @@ export default (props) =>
     <br/>
     <br/>
 
-    <Col sm={3} />
+    <Col sm={ (data[i]['section3']['texts'].length >= 3) ? 2 : 3 } />
 
     {data[i]['section3']['texts'].map((text, index) => 
-      <Col xs={12} sm={3} key={index} >
+      <Col xs={12} sm={ (data[i]['section3']['texts'].length > 3) ? 2 : 3 } key={index} >
         <b>{text['subtitle']}</b>
         <ul>
           {text.topics.map((topic, jdex) => 
