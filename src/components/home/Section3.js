@@ -11,7 +11,7 @@ const titleStyle = {
 }
 
 const sectionStyle = {
-  height: "70vh",
+  height: "75vh",
   backgroundImage: `url(${ Img })`,
   backgroundSize: "cover",
   // backgroundSize: '100% 100%',
@@ -21,10 +21,13 @@ const sectionStyle = {
 }
 
 const carouselStyle = {
-  height: "70vh",
+  height: "60vh",
   width: "100%",
-  padding: '10% 25%',
-  color: 'white'
+  padding: '5% 25%',
+  color: 'white',
+  fontFamily : "Raleway",
+               fontSize: "15px",
+               color: "#FFF",
 }
 
 var Ss3 = React.createClass({
@@ -43,9 +46,9 @@ var Ss3 = React.createClass({
     var testimonials = [
       {
         id: 1,
-        name: 'Francisco Díaz',
+        name: 'Francisco Díaz',
         position: 'Subgerente de Marketing, Enaex',
-        comment: 'Nos han ayudado a darle un foco distinto a nuestra marca y también a hacer más eficiente los procesos de desarrollo de gestión de imagen, siempre con una actitud y disponibilidad inmediata. Estamos muy contentos por los resultados obtenidos gracias al compromiso fuerte que tienen por prestar un servicio de excelencia',
+        comment: 'Nos han ayudado a darle un foco distinto a nuestra marca y también a hacer más eficiente los procesos de desarrollo de gestión de imagen, siempre con una actitud y disponibilidad inmediata. Estamos muy contentos por los resultados obtenidos gracias al compromiso fuerte que tienen por prestar un servicio de excelencia',
         link: ''
       }, {
         id: 2,
@@ -81,7 +84,7 @@ var Ss3 = React.createClass({
                 <Carousel.Caption>
                   {/*<h3>First slide label</h3>
                   <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>*/}
-                  <button>VER CASO DE ÉXITO</button>
+                  <button className="homebutton1">VER CASO DE ÉXITO</button>
                 </Carousel.Caption>
               </Carousel.Item>
             )}

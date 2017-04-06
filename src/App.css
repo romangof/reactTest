@@ -254,3 +254,90 @@
     max-width: 600px;
     color:#332530;
 }
+
+.hometitle4 {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 50;
+    font-family: "Raleway-regular", sans-serif;
+    margin: 0 auto;
+    max-width: 600px;
+    color:#FAAF40;
+}
+
+.homebutton1 {
+    font-size: 12px;
+    line-height: 30px;
+    font-weight: 60;
+    font-family: "Raleway-regular", sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+    max-width: 600px;
+    color:#FFF;
+    background-color: #A51976;
+    border: none;
+    letter-spacing: -0.01em;
+}
+
+.homebutton2 {
+    font-size: 12px;
+    line-height: 30px;
+    font-weight: 60;
+    font-family: "Raleway-regular", sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+    max-width: 600px;
+    color:#FFF;
+    background-color: #00A69C;
+    border: none;
+    letter-spacing: -0.01em;
+}
+
+.homeinput {
+    font-size: 12px;
+    line-height: 30px;
+    font-weight: 60;
+    font-family: "Raleway-regular", sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 5%;
+    max-width: 600px;
+    color:#333;
+    background-color: #FFF;
+    border: none;
+    letter-spacing: -0.01em;
+}
+
+/*   Social media footer buttons   */
+
+.facebookbutton {
+    background-image: url(./assets/facebook.png);
+    background-repeat: no-repeat;
+    -webkit-backface-visibility: hidden;
+    width: 9vw;
+    height: 8vh;
+}
+
+.twitterbutton {
+    background-image: url(./assets/twitter.png);
+    background-repeat: no-repeat;
+    -webkit-backface-visibility: hidden;
+    width: 9vw;
+    height: 8vh;
+}
+
+.linkedinbutton {
+    background-image: url(./assets/linkedin.png);
+    background-repeat: no-repeat;
+    -webkit-backface-visibility: hidden;
+    width: 9vw;
+    height: 8vh;
+}
+
+button {
+  background: none;
+  border: none;
+  box-shadow: none;
+}
