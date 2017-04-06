@@ -1,23 +1,28 @@
 import React from 'react';
 
+
 var sectionStyle = {
-  height: '20vh',
+  height: '30vh',
   textAlign: 'center',
   color: 'white',
   backgroundColor: 'rgb(56, 152, 138)',
-  // position: 'absolute', width: '100%', bottom: '0',
+  fontFamily : "Raleway-regular",
+               fontSize: "15px",
 }
 
+
+
+
 export default() => 
-<section style={sectionStyle}>
+<section style={sectionStyle} >
   <br/>
                     <button class="btn btn-link" className="facebookbutton"></button>
                     <button class="btn btn-link" className="twitterbutton"></button>
                     <button class="btn btn-link" className="linkedinbutton"></button>
   <br/>
-  <b>ACELERACIÓN LABS</b>
+  <b>ACELERACIÓN LABS</b>
   <br/>
   <span>Magnere 1540, of. 901, Providencia, Santiago</span>
   <br/>
-  <span>hola@aceleracion.cl</span>
+  <a href="mailto:hola@aceleracion.cl">hola@aceleracion.cl</a>
 </section>

@@ -336,8 +336,20 @@
     height: 8vh;
 }
 
+/*end*/
+
+
 button {
   background: none;
   border: none;
   box-shadow: none;
+}
+
+.descriptionHome {
+  font-family: "Raleway-regular", sans-serif;
+  max-width:80%;
+  text-align: center; 
+  color: #FFF;
+  margin-bottom: 10%;
+  line-height: 5vh;
 }

@@ -17,7 +17,7 @@ export default () =>
 <section style={sectionStyle}>
 <Col sm={12} style={titleStyle}>
         <h4 className="hometitle3"><b>NEWSLETTER</b></h4>
-    </Col>    <div>
+    </Col>    <div className="descriptionHome">
         ¿Quieres que te ayudemos? <br/>
         Suscríbete a nuestro newsletter y podrías recibir un diagnóstico gratis.
     </div>
