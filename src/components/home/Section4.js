@@ -2,7 +2,7 @@ import React from 'react';
 import {div, Button, Col} from 'react-bootstrap';
 
 var sectionStyle = {
-    height: '40vh',
+    height: '55vh',
     // width: '100%',
     backgroundColor: 'rgb(242, 160, 49)',
     paddingTop: '5vh'

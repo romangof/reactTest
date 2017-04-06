@@ -347,9 +347,8 @@ button {
 
 .descriptionHome {
   font-family: "Raleway-regular", sans-serif;
-  max-width:80%;
   text-align: center; 
   color: #FFF;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
   line-height: 5vh;
 }

@@ -13,9 +13,11 @@ import {Col, Thumbnail} from 'react-bootstrap';
 
 
 var sectionStyle = {
-    height: '70vh',
+    height: '100%',
     color: 'rgb(242, 160, 50)',
     padding: '5% 0%',
+    overflow: 'hidden', 
+
 }
 
 const titleStyle = {
@@ -24,7 +26,7 @@ const titleStyle = {
 }
 
 export default () =>  
-<section style={sectionStyle}>
+<section style={sectionStyle} >
 <Col sm={12} style={titleStyle}>
         <h4 className="hometitle4"><b>CONFÍAN EN NOSOTROS</b></h4>
     </Col>     <div style={{paddingTop: '5%', color: 'gray'}}>
