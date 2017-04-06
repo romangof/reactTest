@@ -22,7 +22,7 @@ export default () =>
         Suscríbete a nuestro newsletter y podrías recibir un diagnóstico gratis.
     </div>
     <div>
-        <input type="text" placeholder="Email" />
-        <Button>LO QUIERO</Button>
+        <input className="homeinput" type="text" placeholder="Email" />
+        <button className="homebutton2">LO QUIERO</button>
     </div>
 </section>

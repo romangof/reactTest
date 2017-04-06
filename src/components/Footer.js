@@ -11,7 +11,9 @@ var sectionStyle = {
 export default() => 
 <section style={sectionStyle}>
   <br/>
-  FaceBookLogo  TwitterLogo  LinkedinLogo
+                    <button class="btn btn-link" className="facebookbutton"></button>
+                    <button class="btn btn-link" className="twitterbutton"></button>
+                    <button class="btn btn-link" className="linkedinbutton"></button>
   <br/>
   <b>ACELERACIÓN LABS</b>
   <br/>

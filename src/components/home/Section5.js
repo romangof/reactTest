@@ -13,15 +13,21 @@ import {Col, Thumbnail} from 'react-bootstrap';
 
 
 var sectionStyle = {
-    height: '80vh',
+    height: '70vh',
     color: 'rgb(242, 160, 50)',
     padding: '5% 0%',
 }
 
+const titleStyle = {
+    color: 'green',
+    padding: '3% 0%',
+}
+
 export default () =>  
 <section style={sectionStyle}>
-    <h3 style={{color: 'orange'}} >CONFÍAN EN NOSOTROS</h3>
-    <div style={{paddingTop: '5%', color: 'gray'}}>
+<Col sm={12} style={titleStyle}>
+        <h4 className="hometitle4"><b>CONFÍAN EN NOSOTROS</b></h4>
+    </Col>     <div style={{paddingTop: '5%', color: 'gray'}}>
         <Col xs={6} sm={2} smOffset={1}><Thumbnail src={Img1} alt="10x10"></Thumbnail></Col>
         <Col xs={6} sm={2}><Thumbnail src={Img2} alt="10x10"></Thumbnail></Col>
         <Col xs={6} sm={2}><Thumbnail src={Img3} alt="10x10"></Thumbnail></Col>
