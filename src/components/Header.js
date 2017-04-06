@@ -25,16 +25,16 @@ export default (props) =>
       </LinkContainer>
       <LinkContainer to='/how'>
         <NavDropdown title="TE AYUDAMOS" id="basic-nav-dropdown">
-          <LinkContainer to='/how/comms'>
+          <LinkContainer to='/how/comunicaciones'>
             <MenuItem>COMUNICACIONES Y MARKETING DIGITAL</MenuItem>
           </LinkContainer>
-          <LinkContainer to='/how/design'>
+          <LinkContainer to='/how/diseño'>
             <MenuItem>DISEÑO E IDENTIDAD CORPORATIVA</MenuItem>
           </LinkContainer>
           <LinkContainer to='/how/ti'>
             <MenuItem>SOLUCIONES TI</MenuItem>
           </LinkContainer>
-          <LinkContainer to='/how/business'>
+          <LinkContainer to='/how/negocios'>
             <MenuItem>MODELOS DE NEGOCIOS</MenuItem>
           </LinkContainer>
         </NavDropdown>
