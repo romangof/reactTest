@@ -5,7 +5,7 @@ import Img3 from '../../assets/ti.png'
 import Img4 from '../../assets/modelos.png'
 import {Row, Col, Thumbnail} from 'react-bootstrap';
 
-const tittleStyle = {
+const titleStyle = {
     color: 'green',
     padding: '3% 0%',
 }
@@ -26,8 +26,8 @@ const imgStyle = {
 export default () =>
 <section className="container-fluid" style={{minHeight: "90vh", paddingTop: '3%'}}>
 
-    <Col sm={12} style={tittleStyle}>
-        <h4><b>LÍNEAS DE NEGOCIO</b></h4>
+    <Col sm={12} style={titleStyle}>
+        <h4 className="hometitle1"><b>LÍNEAS DE NEGOCIO</b></h4>
     </Col>
     <Row>
         <Col xs={12} sm={3} style={colStyle}>

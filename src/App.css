@@ -225,26 +225,32 @@
   font-size: 24px;
 }
 
-.btn-down {
-    background: url('./assets/down.png');
-    border: 0px;
-    width: 45px;
-    height: 60px;
-    background-repeat: no-repeat;
-    background-size: 45px 60px;
-    padding-top: 70px;
-    padding-left: 41px;
-    color: #000;
-  }
+.hometitle1 {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 50;
+    font-family: "Raleway-regular", sans-serif;
+    margin: 0 auto;
+    max-width: 600px;
+    color:#38988A;
+}
 
-  .btn-down:hover {
-    background: url('./assets/down.png');
-    border: 0px;
-    width: 45px;
-    height: 60px;
-    background-repeat: no-repeat;
-    background-size: 45px 60px;
-    padding-top: 70px;
-    padding-left: 41px;
-    color: #000;
-  }
+.hometitle2 {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 50;
+    font-family: "Raleway-regular", sans-serif;
+    margin: 0 auto;
+    max-width: 600px;
+    color:#FFFFFF;
+}
+
+.hometitle3 {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 50;
+    font-family: "Raleway-regular", sans-serif;
+    margin: 0 auto;
+    max-width: 600px;
+    color:#332530;
+}

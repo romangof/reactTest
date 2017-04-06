@@ -1,5 +1,5 @@
 import React from 'react';
-import {div, Button} from 'react-bootstrap';
+import {div, Button, Col} from 'react-bootstrap';
 
 var sectionStyle = {
     height: '40vh',
@@ -8,10 +8,16 @@ var sectionStyle = {
     paddingTop: '5vh'
 }
 
+const titleStyle = {
+    color: 'green',
+    padding: '3% 0%',
+}
+
 export default () => 
 <section style={sectionStyle}>
-    <h3>NEWSLETTER</h3>
-    <div>
+<Col sm={12} style={titleStyle}>
+        <h4 className="hometitle3"><b>NEWSLETTER</b></h4>
+    </Col>    <div>
         ¿Quieres que te ayudemos? <br/>
         Suscríbete a nuestro newsletter y podrías recibir un diagnóstico gratis.
     </div>
