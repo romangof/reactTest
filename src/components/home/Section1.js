@@ -1,7 +1,7 @@
 import React from 'react';
 import Img from '../../assets/fondo-01.png'
 import Img2 from '../../assets/down.png'
-import { Button } from 'react-bootstrap';
+import { Button, Thumbnail } from 'react-bootstrap';
 
 const sectionStyle = {
     minHeight: "100vh",
@@ -35,7 +35,7 @@ export default () =>
 
     <Button bsStyle="warning" bsSize="large" style={buttonStyle} block>¡DESAFÍANOS!</Button>
 
-    <Button className="btn-down" block></Button>
+      <Thumbnail src={Img2} alt="150x150"></Thumbnail>
 
 
 </section>

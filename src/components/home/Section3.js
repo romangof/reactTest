@@ -1,9 +1,14 @@
 import React from 'react';
 import Img from '../../assets/fondo2-01.png'
-import { Carousel } from 'react-bootstrap';
+import { Carousel, Col } from 'react-bootstrap';
 
 // Make a component of each Carousel.Item
 // And iterate over it once received from bkEnd
+
+const titleStyle = {
+    color: 'green',
+    padding: '3% 0%',
+}
 
 const sectionStyle = {
   height: "70vh",
@@ -59,10 +64,9 @@ var Ss3 = React.createClass({
 
     return (
       <section className="container-fluid" style={sectionStyle}>
-        <h4 style={{color: 'yellow',
-        position: 'absolute',
-        paddingLeft: '45%'}}>Testimonios</h4>
-        <div>
+    <Col sm={12} style={titleStyle}>
+        <h4 className="hometitle2"><b>TESTIMONIOS</b></h4>
+    </Col>        <div>
           <Carousel activeIndex={this.state.index} direction={this.state.direction} onSelect={this.handleSelect}>
 
             {testimonials.map((element) => 
