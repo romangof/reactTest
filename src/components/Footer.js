@@ -16,9 +16,9 @@ var sectionStyle = {
 export default() => 
 <section style={sectionStyle} >
   <br/>
-                    <button class="btn btn-link" className="facebookbutton"></button>
-                    <button class="btn btn-link" className="twitterbutton"></button>
-                    <button class="btn btn-link" className="linkedinbutton"></button>
+  <button className={`btn btn-link facebookbutton`}></button>
+  <button className={`btn btn-link twitterbutton`}></button>
+  <button className={`btn btn-link linkedinbutton`}></button>
   <br/>
   <b>ACELERACIÓN LABS</b>
   <br/>

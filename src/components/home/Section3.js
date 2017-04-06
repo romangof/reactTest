@@ -24,10 +24,10 @@ const carouselStyle = {
   height: "60vh",
   width: "100%",
   padding: '5% 25%',
-  color: 'white',
+  // color: 'white',
   fontFamily : "Raleway",
-               fontSize: "15px",
-               color: "#FFF",
+  fontSize: "15px",
+  color: "#FFF",
 }
 
 var Ss3 = React.createClass({
