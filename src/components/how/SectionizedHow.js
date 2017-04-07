@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Image } from 'react-bootstrap';
+import { Col, Image, Button } from 'react-bootstrap';
 
 var data = require('./data.json');
 
@@ -33,7 +33,7 @@ export default (props) => {
             <br/>
           </div>
         )}
-        <button>{obj['section1']['buttonText']}</button>
+        <Button>{obj['section1']['buttonText']}</Button>
       </Col>
     </section>
 
