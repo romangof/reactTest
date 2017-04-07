@@ -1,21 +1,24 @@
 import React from 'react';
-import { Col } from 'react-bootstrap';
+import { Col, Button, buttonStyle } from 'react-bootstrap';
 
 const sectionStyle = {
     minHeight: '70vh',
     padding: '5% 0%',
     textAlign: 'center',
+    fontFamily : "Raleway",
+
     // backgroundColor: 'rgb(247, 246, 246)',
 }
 
 const textStyle = {
-    fontFamily: 'sans-serif',
     fontWeight: 'lighter',
     color: 'orange',
     textAlign: 'left',
     paddingLeft: '10%',
     fontSize: '80px',
     lineHeight: '72px',
+    fontFamily : "Raleway-regular",
+
 }
 
 export default () =>
@@ -36,7 +39,7 @@ export default () =>
 
             <br/>
 
-            <button>CONTÁCTANOS</button>
+    <Button bsStyle="warning" bsSize="large" style={buttonStyle} block >¡CONTÁCTANOS!</Button>
         </div>
     </Col>
 </section>

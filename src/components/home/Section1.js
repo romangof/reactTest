@@ -38,7 +38,7 @@ export default () =>
         que ofrece soluciones disruptivas a las medianas y grandes empresas a través de diseño, estrategias digitales e innovación tecnológica, para desafiar los anticuados modelos de negocio y diseñar las empresas del futuro.
     </h4>
 
-    <Button bsStyle="warning" bsSize="large" style={buttonStyle} block>¡DESAFÍANOS!</Button>
+    <Button bsStyle="warning" bsSize="large" style={buttonStyle} block >¡DESAFÍANOS!</Button>
 
       <Thumbnail src={Img2} alt="150x150"></Thumbnail>
 
