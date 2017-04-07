@@ -71,6 +71,9 @@
 
 .navbar-nav>li>a {
   color: white !important;
+  font-family: "Raleway-regular", sans-serif;
+  font-size: 14px;
+
 }
 
 .navbar-nav>.active>a {
@@ -78,7 +81,7 @@
   -moz-text-decoration-color: rgb(230, 133, 40) !important;
   text-decoration-color: rgb(230, 133, 40) !important;*/
   background-color: RGBA(0,0,0,0) !important;
-  border-bottom: 3px solid darkorange;
+  border-bottom: 1px solid darkorange;
   padding-bottom: 2px; 
 }
 
@@ -189,6 +192,20 @@
   text-transform: uppercase;
 }
 
+.titleitemHow {
+  font-family: "Raleway", sans-serif;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 40px;
+  text-align: left;
+  color: #871D5F ;
+  text-transform: uppercase;
+}
+
 .maindescriptionHow {
   font-family: "Raleway-regular", sans-serif;
   padding-right: 15px;
@@ -267,6 +284,26 @@
     color:#FAAF40;
 }
 
+.businesstitle {
+    font-size: 16px;
+    line-height: 4vh;
+    font-weight: 100;
+    font-family: "Raleway", sans-serif;
+    margin: 0 auto;
+    max-width: 600px;
+    color:#871D5F;
+}
+
+.businessdescription {
+    font-size: 15px;
+    line-height: 4vh;
+    font-weight: 50;
+    font-family: "Raleway-regular", sans-serif;
+    margin: 0 auto;
+    max-width: 600px;
+    color:#231F20;
+}
+
 .homebutton1 {
     font-size: 12px;
     line-height: 30px;
@@ -287,8 +324,8 @@
     line-height: 30px;
     font-weight: 60;
     font-family: "Raleway-regular", sans-serif;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 3vw;
+    padding-right: 3vw;
     margin: 0 auto;
     max-width: 600px;
     color:#FFF;
@@ -302,10 +339,11 @@
     line-height: 30px;
     font-weight: 60;
     font-family: "Raleway-regular", sans-serif;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: 0 5%;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    margin: 0 1vw;
     max-width: 600px;
+    min-width: 40vw;
     color:#333;
     background-color: #FFF;
     border: none;
@@ -353,4 +391,57 @@ button {
   color: #FFF;
   margin-bottom: 5%;
   line-height: 5vh;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-family: "Raleway-regular", sans-serif;
+}
+
+/* Dropdown Main Menu */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-family: "Raleway-regular", sans-serif;
+    letter-spacing: -0.05em;
+    color: #FFF;
+    border: none;
+
+}
+
+.dropdown-content {
+    font-family: "Raleway-regular", sans-serif;
+    position: relative;
+    display: none;
+    background-color: #00A69C;
+    min-width: 20vw;
+    padding: 3px 2px;
+    z-index: 0;
+    color: #FFF;
+    letter-spacing: -0.05em;
+    border: none !important;
+    outline: 0px;
+    
+}
+
+.dropdown-content a {
+    font-family: "Raleway-regular", sans-serif;
+    position: relative;
+    display: none;
+    background-color: #00A69C;
+    min-width: 20vw;
+    padding: 2px 2px;
+    z-index: 0;
+    color: #FFF;
+    letter-spacing: -0.05em;
+    border: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }

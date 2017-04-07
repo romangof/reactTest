@@ -7,12 +7,14 @@ var sectionStyles = {
     // backgroundColor: 'gray',
     padding: '10% 4%',
     textAlign: 'left',
+    fontFamily : "Raleway-regular",
+
 }
 
 export default () =>
 <section style={sectionStyles}>
     <Col sm={5} smOffset={1}>
-        <h3 style={{color: 'green'}}><b>SOMOS</b></h3>
+        <h3 style={{color: '#00A69C'}}><b>SOMOS</b></h3>
         <br/>
         <p>Un grupo de empresas que trabajan en conjunto para ofrecer soluciones disruptivas de negocios a través de diseño, estrategias digitales e innovación tecnológica.</p>
         <br/>

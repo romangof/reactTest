@@ -8,6 +8,7 @@ import { Carousel, Col } from 'react-bootstrap';
 const titleStyle = {
     color: 'green',
     padding: '3% 0%',
+    
 }
 
 const sectionStyle = {
@@ -17,17 +18,20 @@ const sectionStyle = {
   // backgroundSize: '100% 100%',
   backgroundRepeat: "no-repeat",
   backgroundPosition: "center center",
-  padding: 0
+  padding: 0,
+  overflow: 'hidden', 
+
 }
 
 const carouselStyle = {
-  height: "60vh",
+  height: "55vh",
   width: "100%",
-  padding: '5% 25%',
+  padding: '1vh 25%',
   // color: 'white',
-  fontFamily : "Raleway",
-  fontSize: "15px",
+  fontFamily : "Raleway-regular",
+  fontSize: "14px",
   color: "#FFF",
+  
 }
 
 var Ss3 = React.createClass({
@@ -48,7 +52,7 @@ var Ss3 = React.createClass({
         id: 1,
         name: 'Francisco Díaz',
         position: 'Subgerente de Marketing, Enaex',
-        comment: 'Nos han ayudado a darle un foco distinto a nuestra marca y también a hacer más eficiente los procesos de desarrollo de gestión de imagen, siempre con una actitud y disponibilidad inmediata. Estamos muy contentos por los resultados obtenidos gracias al compromiso fuerte que tienen por prestar un servicio de excelencia',
+        comment: '"Nos han ayudado a darle un foco distinto a nuestra marca y también a hacer más eficiente los procesos de desarrollo de gestión de imagen, siempre con una actitud y disponibilidad inmediata. Estamos muy contentos por los resultados obtenidos gracias al compromiso fuerte que tienen por prestar un servicio de excelencia".',
         link: ''
       }, {
         id: 2,
