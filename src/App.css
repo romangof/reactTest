@@ -411,7 +411,6 @@ h6{
     letter-spacing: -0.05em;
     color: #FFF;
     border: none;
-
 }
 
 .dropdown-content {
@@ -422,11 +421,9 @@ h6{
     min-width: 20vw;
     padding: 3px 2px;
     z-index: 0;
-    color: #FFF;
     letter-spacing: -0.05em;
     border: none !important;
     outline: 0px;
-    
 }
 
 .dropdown-content a {
@@ -437,7 +434,6 @@ h6{
     min-width: 20vw;
     padding: 2px 2px;
     z-index: 0;
-    color: #FFF;
     letter-spacing: -0.05em;
     border: none;
 }
