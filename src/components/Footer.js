@@ -1,4 +1,5 @@
 import React from 'react';
+import { Col, Row } from 'react-bootstrap';
 
 
 var sectionStyle = {
@@ -7,18 +8,34 @@ var sectionStyle = {
   color: 'white',
   backgroundColor: 'rgb(56, 152, 138)',
   fontFamily : "Raleway-regular",
-               fontSize: "15px",
+               fontSize: "14px",
 }
 
+const socialmedia = {
+    width: '15vw',
+    textAlign: 'center',
+    margin: '0 43vw',
+
+
+
+}
 
 
 
 export default() => 
 <section style={sectionStyle} >
   <br/>
-  <button className={`btn btn-link facebookbutton`}></button>
-  <button className={`btn btn-link twitterbutton`}></button>
-  <button className={`btn btn-link linkedinbutton`}></button>
+
+  <Row style={socialmedia}>
+<Col sm={4} md={4}>
+<button className={`btn btn-link facebookbutton`}></button></Col>
+ <Col sm={4} md={4}>
+ <button className={`btn btn-link twitterbutton`}></button></Col>
+ <Col sm={4} md={4}>
+ <button className={`btn btn-link linkedinbutton`}></button></Col>
+ </Row>
+
+
   <br/>
   <b>ACELERACIÓN LABS</b>
   <br/>

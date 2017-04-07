@@ -11,7 +11,7 @@ const sectionStyle = {
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center center",
     color: 'white',
-    padding: '10% 20%',
+    padding: '20% 20%',
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'space-around',
@@ -20,8 +20,13 @@ const sectionStyle = {
 
 const buttonStyle = {
     width: '70%',
+    margin: '5% auto',
     borderRadius: '0',
+    fontFamily : "Raleway-regular",
+
 }
+
+
 
 export default () =>
 <section className="container-fluid" style={sectionStyle}>
