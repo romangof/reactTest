@@ -5,10 +5,6 @@ import Img3 from '../../assets/ti.png'
 import Img4 from '../../assets/modelos.png'
 import {Row, Col, Thumbnail} from 'react-bootstrap';
 
-const titleStyle = {
-    color: 'green',
-    padding: '3% 0%',
-}
 
 const colStyle = {
     padding: "0% 4%",

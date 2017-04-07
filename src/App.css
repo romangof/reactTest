@@ -192,6 +192,20 @@
   text-transform: uppercase;
 }
 
+.titleitemHow {
+  font-family: "Raleway", sans-serif;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 40px;
+  text-align: left;
+  color: #871D5F ;
+  text-transform: uppercase;
+}
+
 .maindescriptionHow {
   font-family: "Raleway-regular", sans-serif;
   padding-right: 15px;
@@ -378,6 +392,56 @@ button {
   margin-bottom: 5%;
   line-height: 5vh;
 }
-p{
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
   font-family: "Raleway-regular", sans-serif;
+}
+
+/* Dropdown Main Menu */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-family: "Raleway-regular", sans-serif;
+    letter-spacing: -0.05em;
+    color: #FFF;
+    border: none;
+
+}
+
+.dropdown-content {
+    font-family: "Raleway-regular", sans-serif;
+    position: relative;
+    display: none;
+    background-color: #00A69C;
+    min-width: 20vw;
+    padding: 3px 2px;
+    z-index: 0;
+    color: #FFF;
+    letter-spacing: -0.05em;
+    border: none !important;
+    outline: 0px;
+    
+}
+
+.dropdown-content a {
+    font-family: "Raleway-regular", sans-serif;
+    position: relative;
+    display: none;
+    background-color: #00A69C;
+    min-width: 20vw;
+    padding: 2px 2px;
+    z-index: 0;
+    color: #FFF;
+    letter-spacing: -0.05em;
+    border: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }

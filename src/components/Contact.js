@@ -49,10 +49,11 @@ export default class Contact extends React.Component {
         <section className={'sectionsHow'} style={{
           textAlign: 'left',
           overflow: 'hidden',
-          height: '100%'
+          height: '100%',
+          fontFamily : "Raleway-regular",
         }}>
           <Col xs={6} xsOffset={3} sm={4} smOffset={1} style={{padding: '5%'}}>
-            <Image src={require( '../assets/ti.png' )} responsive/>
+            <Image src={require( '../assets/contact.png' )} responsive/>
             {this.state.data.name}
           </Col>
           <Col xs={12} sm={5} smOffset={1} style={{padding: '5%'}}>
@@ -88,7 +89,7 @@ export default class Contact extends React.Component {
               </FormGroup>
 
               <Button className={'contactBtn'} 
-                style={{color: 'white', backgroundColor: 'purple', borderRadius: 0}} 
+                style={{color: 'white', backgroundColor: '#871D5F', borderRadius: 0, padding:'10px auto'}} 
                 bsSize="large" 
                 onClick={this.post}>Enviar</Button>
             </form>
