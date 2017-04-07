@@ -20,9 +20,7 @@ export default (props) => {
       textAlign: 'left',
       overflow: 'hidden', 
       height: '100%',
-      fontFamily : "Raleway-regular",
-
-      }} >
+      fontFamily : "Raleway-regular" }} >
 
       <Col xs={6} xsOffset={3} sm={4} smOffset={1} style={{padding: '5%'}}>
         <Image src={require( `../../assets/${obj['section1']['imgURL']}.png` )} responsive/>
@@ -45,8 +43,7 @@ export default (props) => {
       height: '100%',
       padding: '5% 0%',
       textAlign: 'left',
-      backgroundColor: 'rgb(247, 246, 246)'
-}} >
+      backgroundColor: 'rgb(247, 246, 246)'}} >
 
       <Col xs={12} sm={6} smOffset={3} >
         <h3 style={{color: '#871D5F'}}>{obj['section2']['title']}</h3>
