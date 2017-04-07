@@ -176,6 +176,7 @@
 } 
 
 .titleHow {
+  font-family: "Raleway-regular", sans-serif;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -189,6 +190,7 @@
 }
 
 .maindescriptionHow {
+  font-family: "Raleway-regular", sans-serif;
   padding-right: 15px;
   padding-left: 15px;
   max-width:80%;

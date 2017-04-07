@@ -12,6 +12,10 @@ const titleStyle = {
 
 const colStyle = {
     padding: "0% 4%",
+    fontFamily : "Raleway",
+               fontSize: "15px",
+               color: "#FFF",
+    
     // height: '70px',
 }
 
