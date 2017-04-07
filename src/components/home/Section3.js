@@ -67,9 +67,10 @@ var Ss3 = React.createClass({
 
     return (
       <section className="container-fluid" style={sectionStyle}>
-    <Col sm={12} style={titleStyle}>
-        <h4 className="hometitle2"><b>TESTIMONIOS</b></h4>
-    </Col>        <div>
+        <Col sm={12} style={titleStyle}>
+          <h4 className="hometitle2"><b>TESTIMONIOS</b></h4>
+        </Col>        
+        <div>
           <Carousel activeIndex={this.state.index} direction={this.state.direction} onSelect={this.handleSelect}>
 
             {testimonials.map((element) => 
@@ -88,19 +89,6 @@ var Ss3 = React.createClass({
                 </Carousel.Caption>
               </Carousel.Item>
             )}
-
-            {/*<Carousel.Item>
-              <Carousel.Caption>
-                <h3>Second slide label</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-              <Carousel.Caption>
-                <h3>Third slide label</h3>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-              </Carousel.Caption>
-            </Carousel.Item>*/}
 
           </Carousel>
         </div>

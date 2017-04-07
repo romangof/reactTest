@@ -17,7 +17,6 @@ var sectionStyle = {
     color: 'rgb(242, 160, 50)',
     padding: '5% 0%',
     overflow: 'hidden', 
-
 }
 
 const titleStyle = {
@@ -27,19 +26,19 @@ const titleStyle = {
 
 export default () =>  
 <section style={sectionStyle} >
-<Col sm={12} style={titleStyle}>
-        <h4 className="hometitle4"><b>CONFÍAN EN NOSOTROS</b></h4>
-    </Col>     <div style={{paddingTop: '5%', color: 'gray'}}>
-        <Col xs={6} sm={2} smOffset={1}><Thumbnail src={Img1} alt="10x10"></Thumbnail></Col>
-        <Col xs={6} sm={2}><Thumbnail src={Img2} alt="10x10"></Thumbnail></Col>
-        <Col xs={6} sm={2}><Thumbnail src={Img3} alt="10x10"></Thumbnail></Col>
-        <Col xs={6} sm={2}><Thumbnail src={Img4} alt="10x10"></Thumbnail></Col>
-        <Col xs={6} sm={2}><Thumbnail src={Img5} alt="10x10"></Thumbnail></Col>
-        <Col xs={6} sm={2} smOffset={1}><Thumbnail src={Img6} alt="10x10"></Thumbnail></Col>
-        <Col xs={6} sm={2}><Thumbnail src={Img7} alt="10x10"></Thumbnail></Col>
-        <Col xs={6} sm={2}><Thumbnail src={Img8} alt="10x10"></Thumbnail></Col>
-        <Col xs={6} sm={2}><Thumbnail src={Img9} alt="10x10"></Thumbnail></Col>
-        <Col xs={6} sm={2}><Thumbnail src={Img10} alt="10x10"></Thumbnail></Col>
-
-    </div>
+  <Col sm={12} style={titleStyle}>
+    <h4 className="hometitle4"><b>CONFÍAN EN NOSOTROS</b></h4>
+  </Col>     
+  <div style={{paddingTop: '5%', color: 'gray'}}>
+    <Col xs={6} sm={2} smOffset={1}><Thumbnail src={Img1} alt="10x10"></Thumbnail></Col>
+    <Col xs={6} sm={2}><Thumbnail src={Img2} alt="10x10"></Thumbnail></Col>
+    <Col xs={6} sm={2}><Thumbnail src={Img3} alt="10x10"></Thumbnail></Col>
+    <Col xs={6} sm={2}><Thumbnail src={Img4} alt="10x10"></Thumbnail></Col>
+    <Col xs={6} sm={2}><Thumbnail src={Img5} alt="10x10"></Thumbnail></Col>
+    <Col xs={6} sm={2} smOffset={1}><Thumbnail src={Img6} alt="10x10"></Thumbnail></Col>
+    <Col xs={6} sm={2}><Thumbnail src={Img7} alt="10x10"></Thumbnail></Col>
+    <Col xs={6} sm={2}><Thumbnail src={Img8} alt="10x10"></Thumbnail></Col>
+    <Col xs={6} sm={2}><Thumbnail src={Img9} alt="10x10"></Thumbnail></Col>
+    <Col xs={6} sm={2}><Thumbnail src={Img10} alt="10x10"></Thumbnail></Col>
+  </div>
 </section>

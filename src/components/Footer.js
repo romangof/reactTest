@@ -1,24 +1,20 @@
 import React from 'react';
 
-
 var sectionStyle = {
   height: '30vh',
   textAlign: 'center',
   color: 'white',
   backgroundColor: 'rgb(56, 152, 138)',
   fontFamily : "Raleway-regular",
-               fontSize: "15px",
+  fontSize: "15px",
 }
 
-
-
-
-export default() => 
+export default () => 
 <section style={sectionStyle} >
   <br/>
-  <button className={`btn btn-link facebookbutton`}></button>
-  <button className={`btn btn-link twitterbutton`}></button>
-  <button className={`btn btn-link linkedinbutton`}></button>
+  <button className={`btn btn-link facebookbutton`} />
+  <button className={`btn btn-link twitterbutton`} />
+  <button className={`btn btn-link linkedinbutton`} />
   <br/>
   <b>ACELERACIÓN LABS</b>
   <br/>

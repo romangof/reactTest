@@ -9,15 +9,6 @@ export default class Contact extends React.Component {
     this.handleChange = this.handleChange.bind(this);
     this.post = this.post.bind(this);
   }
-  
-  // const asd = {
-  //   name: '',
-  //   company: '',
-  //   email: '',
-  //   phone: '',
-  //   comment: ''
-  // }
-
 
   handleChange(e) {
     var data = this.state.data;
@@ -25,8 +16,7 @@ export default class Contact extends React.Component {
     this.setState({data: data});
 
     // console.log(prevState);
-
-    console.log(this.state.data);
+    // console.log(this.state.data);
   }
 
 
