@@ -15,11 +15,9 @@ export default class Contact extends React.Component {
     data[e.target.name] = e.target.value;
     this.setState({data: data});
 
-
     // console.log(prevState);
     // console.log(this.state.data);
   }
-
 
   post () {
     console.log(this.state.data);
@@ -41,8 +39,7 @@ export default class Contact extends React.Component {
           textAlign: 'left',
           overflow: 'hidden',
           height: '100%',
-          fontFamily : "Raleway-regular",
-        }}>
+          fontFamily : "Raleway-regular"}}>
           <Col xs={6} xsOffset={3} sm={4} smOffset={1} style={{padding: '5%'}}>
             <Image src={require( '../assets/contact.png' )} responsive/>
             {this.state.data.name}
@@ -80,7 +77,7 @@ export default class Contact extends React.Component {
               </FormGroup>
 
               <Button 
-                style={{color: 'white', backgroundColor: '#871D5F', borderRadius: 0,  padding: '2vh 4vh 2vh 4vh', }} 
+                style={{color: 'white', backgroundColor: '#871D5F', borderRadius: 0,  padding: '2vh 4vh 2vh 4vh'}} 
                 bsSize="large" 
                 onClick={this.post}>Enviar</Button>
             </form>

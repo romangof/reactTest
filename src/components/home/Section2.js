@@ -3,14 +3,15 @@ import Img1 from '../../assets/comunicaciones.png'
 import Img2 from '../../assets/diseno.png'
 import Img3 from '../../assets/ti.png'
 import Img4 from '../../assets/modelos.png'
-import {Row, Col, Thumbnail, Button} from 'react-bootstrap';
+import {Row, Col, Thumbnail, Button, Image} from 'react-bootstrap';
 
 
 const colStyle = {
-    padding: "0% 4%",
-    fontFamily : "Raleway",
-    fontSize: "15px",
-    color: "#FFF"
+  height: '65vh',
+  padding: "0% 4%",
+  fontFamily : "Raleway",
+  fontSize: "15px",
+  color: "#FFF"
 }
 
 const buttonStyle = {
@@ -18,7 +19,7 @@ const buttonStyle = {
   minWidth: '150px',
   margin: '5% auto',
   borderRadius: '0',
-  fontFamily : "Raleway-regular",
+  fontFamily : "Raleway-regular"
 }
 
 // TRY react-bootstrap IMAGE component instead of Thumbnail
@@ -33,22 +34,21 @@ export default () =>
   <Row>
     <Col xs={12} sm={3} style={colStyle}>
       <Row>
-        <Thumbnail src={Img1}>
-          <h4 className="businesstitle">Comunicaciones y Marketing Digital</h4>
-          <p className="businessdescription">Aumenta la visibilidad de tu marca, mejora su reputación online y consigue más conversiones.</p>
-          <Button bsStyle="warning" bsSize="medium" style={buttonStyle} block>Más Información</Button>
-
-        </Thumbnail>        
+        <Image src={Img1} responsive />
+        <h4 className="businesstitle">Comunicaciones y Marketing Digital</h4>
+        <p className="businessdescription">Aumenta la visibilidad de tu marca, mejora su reputación online y consigue más conversiones.</p>
+        <Button bsStyle="warning" style={buttonStyle} block>Más Información</Button>
+        {/*</Thumbnail>*/}
       </Row>
     </Col>
 
     <Col xs={12} sm={3} style={colStyle}>
       <Row>
-        <Thumbnail src={Img2}>
-          <h4 className="businesstitle">Diseño e Identidad Corportativa</h4>
-          <p className="businessdescription">Aumenta la capacidad de innovación y competitividad de tu empresa mediante diseño estratégico.</p>
-          <Button bsStyle="warning" bsSize="medium" style={buttonStyle} block>Más Información</Button>
-        </Thumbnail>
+        <Image src={Img2} responsive/>
+        <h4 className="businesstitle">Diseño e Identidad Corportativa</h4>
+        <p className="businessdescription">Aumenta la capacidad de innovación y competitividad de tu empresa mediante diseño estratégico.</p>
+        <Button bsStyle="warning" style={buttonStyle} block>Más Información</Button>
+        {/*</Thumbnail>*/}
       </Row>
     </Col>
 
@@ -57,7 +57,7 @@ export default () =>
         <Thumbnail src={Img3}>
          <h4 className="businesstitle">Soluciones TI</h4>
          <p className="businessdescription">Responde a los desafíos dinámicos del mercado con el uso de nuevas tecnologías.</p>
-         <br /><Button bsStyle="warning" bsSize="medium" style={buttonStyle} block>Más Información</Button>
+         <br /><Button bsStyle="warning" style={buttonStyle} block>Más Información</Button>
         </Thumbnail>
       </Row>
     </Col>
@@ -67,7 +67,7 @@ export default () =>
         <Thumbnail src={Img4}>
           <h4 className="businesstitle">Modelos de Negocios</h4>
           <p className="businessdescription">Descubre nuevas oportunidades de éxito para tu empresa.</p>
-          <br /><br /><Button bsStyle="warning" bsSize="medium" style={buttonStyle} block>Más Información</Button>
+          <br /><br /><Button bsStyle="warning" style={buttonStyle} block>Más Información</Button>
        </Thumbnail>
       </Row>
     </Col>

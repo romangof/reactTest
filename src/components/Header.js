@@ -41,7 +41,7 @@ export default (props) =>
         </NavDropdown>
       </LinkContainer>
       {/*<LinkContainer to="/">*/}
-        <NavItem>BLOG</NavItem>
+        {/*<NavItem>BLOG</NavItem>*/}
       {/*</LinkContainer>*/}
       <LinkContainer to="/contact">
         <NavItem>CONTACTO</NavItem>

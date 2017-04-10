@@ -8,11 +8,11 @@ import Img5 from '../../assets/thedatamonitor.png'
 import Img6 from '../../assets/mintelect.png'
 
 var sectionStyle = {
-    height: '65vh',
-    textAlign: 'center',
-    backgroundColor: 'rgb(247, 246, 246)',
-    padding: '5% 0%',
-    overflow: 'hidden', 
+  height: '65vh',
+  textAlign: 'center',
+  backgroundColor: 'rgb(247, 246, 246)',
+  padding: '5% 0%',
+  overflow: 'hidden', 
 }
 
 // this should be the same as section 5 in home with 
@@ -20,13 +20,13 @@ var sectionStyle = {
 
 export default () =>  
 <section style={sectionStyle}>
-    <h4 style={{color: '#00A69C'}} >NUESTRAS EMPRESAS</h4>
-    <div style={{padding: '5%', color: 'gray'}}>
-        <Col xs={6} sm={4}><Thumbnail src={Img1} alt="10x10"></Thumbnail></Col>
-        <Col xs={6} sm={4}><Thumbnail src={Img2} alt="10x10"></Thumbnail></Col>
-        <Col xs={6} sm={4}><Thumbnail src={Img3} alt="10x10"></Thumbnail></Col>
-        <Col xs={6} sm={4}><Thumbnail src={Img4} alt="10x10"></Thumbnail></Col>
-        <Col xs={6} sm={4}><Thumbnail src={Img5} alt="10x10"></Thumbnail></Col>
-        <Col xs={6} sm={4}><Thumbnail src={Img6} alt="10x10"></Thumbnail></Col>
-    </div>
+  <h4 style={{color: '#00A69C'}} >NUESTRAS EMPRESAS</h4>
+  <div style={{padding: '5%', color: 'gray'}}>
+    <Col xs={6} sm={4}><Thumbnail src={Img1} /></Col>
+    <Col xs={6} sm={4}><Thumbnail src={Img2} /></Col>
+    <Col xs={6} sm={4}><Thumbnail src={Img3} /></Col>
+    <Col xs={6} sm={4}><Thumbnail src={Img4} /></Col>
+    <Col xs={6} sm={4}><Thumbnail src={Img5} /></Col>
+    <Col xs={6} sm={4}><Thumbnail src={Img6} /></Col>
+  </div>
 </section>
