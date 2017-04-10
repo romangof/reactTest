@@ -16,7 +16,7 @@ import './App.css';
 const NotFound = () => <h1>404.. This page is not found!</h1>
 
 export default () => 
-<Router history={browserHistory}>
+<Router onUpdate={() => window.scrollTo(0, 0)} history={browserHistory}>
   <Route path='/' component={Main}>
     <IndexRoute component={Home}/>
     <Route path='/who' component={Who}/>
