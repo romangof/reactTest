@@ -72,7 +72,7 @@ var Ss3 = React.createClass({
         <p>{testimonials[0].position}</p>
         <br/>
         <p>{testimonials[0].comment}</p>
-        <button className="homebutton1">VER CASO DE ÉXITO</button>
+        {/*<button className="homebutton1">VER CASO DE ÉXITO</button>*/}
       </div>)
     
     const carousel = (
@@ -89,7 +89,7 @@ var Ss3 = React.createClass({
             <Carousel.Caption>
               {/*<h3>First slide label</h3>
               <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>*/}
-              <button className="homebutton1">VER CASO DE ÉXITO</button>
+              {/*<button className="homebutton1">VER CASO DE ÉXITO</button>*/}
             </Carousel.Caption>
           </Carousel.Item>
         )}
