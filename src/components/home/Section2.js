@@ -25,7 +25,7 @@ const buttonStyle = {
 // TRY react-bootstrap IMAGE component instead of Thumbnail
 
 export default () =>
-<section className="container-fluid" style={{minHeight: "75vh", paddingTop: '3%'}}>
+<section className="container-fluid" style={{minHeight: "85vh", paddingTop: '3%'}}>
 
   <Col sm={12}>
     <h4 className="hometitle1"><b>LÍNEAS DE NEGOCIO</b></h4>
