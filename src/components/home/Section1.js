@@ -4,14 +4,14 @@ import Img2 from '../../assets/down.png'
 import { Button, Thumbnail } from 'react-bootstrap';
 
 const sectionStyle = {
-  minHeight: "100vh",
+  minHeight: "30vh",
   backgroundImage: `url(${Img})`,
   backgroundSize: "cover",
   // backgroundSize: '100% 100%',
   backgroundRepeat: "no-repeat",
   backgroundPosition: "center center",
   color: 'white',
-  padding: '20% 20%',
+  padding: '20% 20% 0 20%',
   display: 'flex',
   flexDirection: 'column',
   justifyContent: 'space-around',
@@ -25,6 +25,10 @@ const buttonStyle = {
   fontFamily : "Raleway-regular",
 }
 
+const thumbnailStyle = {
+  margin: '15vh 0 5vh 0',
+}
+
 export default () =>
 <section className="container-fluid" style={sectionStyle}>
   <h1>
@@ -34,5 +38,5 @@ export default () =>
     que ofrece soluciones disruptivas a las medianas y grandes empresas a través de diseño, estrategias digitales e innovación tecnológica, para desafiar los anticuados modelos de negocio y diseñar las empresas del futuro.
   </h4>
   <Button bsStyle="warning" bsSize="large" style={buttonStyle} block>¡DESAFÍANOS!</Button>
-  <Thumbnail src={Img2}></Thumbnail>
+  <Thumbnail src={Img2} style={thumbnailStyle}></Thumbnail>
 </section>

@@ -2,7 +2,7 @@ import React from 'react';
 import { Col, Button, buttonStyle } from 'react-bootstrap';
 
 const sectionStyle = {
-    minHeight: '70vh',
+    minHeight: '65vh',
     padding: '5% 0%',
     textAlign: 'center',
     fontFamily : "Raleway",

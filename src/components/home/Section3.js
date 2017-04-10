@@ -6,13 +6,12 @@ import { Carousel, Col } from 'react-bootstrap';
 // And iterate over it once received from bkEnd
 
 const titleStyle = {
-    color: 'green',
     padding: '3% 0%',
     
 }
 
 const sectionStyle = {
-  height: "75vh",
+  height: "55vh",
   backgroundImage: `url(${ Img })`,
   backgroundSize: "cover",
   // backgroundSize: '100% 100%',
@@ -24,9 +23,9 @@ const sectionStyle = {
 }
 
 const carouselStyle = {
-  height: "55vh",
+  height: "60vh",
   width: "100%",
-  padding: '1vh 25%',
+  padding: '1vh 15%',
   // color: 'white',
   fontFamily : "Raleway-regular",
   fontSize: "14px",

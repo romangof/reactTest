@@ -8,10 +8,10 @@ export default () =>
     overflow: 'hidden', 
     height: '100%',
     }}>
-    <Col xs={6} xsOffset={3} sm={4} smOffset={1} style={{padding: '5%'}}>
+    <Col xs={6} xsOffset={3} sm={6} smOffset={1} style={{padding: '5%'}}>
       <Image src={require( '../../assets/comunicaciones.png' )} responsive/>
     </Col>
-    <Col xs={11} sm={4} smOffset={1} style={{padding: '5%'}}>
+    <Col xs={11} sm={6} smOffset={1} style={{padding: '5%'}}>
       <h4 style={{color: 'green'}}>COMUNICACIONES Y MARKETING DIGITAL</h4>
       <br/>
       <p>Desarrollamos planes de comunicación estratégica y marketing digital para aumentar la visibilidad

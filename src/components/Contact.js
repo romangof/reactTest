@@ -15,6 +15,7 @@ export default class Contact extends React.Component {
     data[e.target.name] = e.target.value;
     this.setState({data: data});
 
+
     // console.log(prevState);
     // console.log(this.state.data);
   }
@@ -47,7 +48,7 @@ export default class Contact extends React.Component {
             {this.state.data.name}
           </Col>
           <Col xs={12} sm={5} smOffset={1} style={{padding: '5%'}}>
-            <h4 style={{color: 'green'}}>Contacto</h4>
+            <h4 style={{color: '#00A69C', fontFamily: "Raleway"}}>CONTACTO</h4>
             <br/>
             Hablemos, nos encantaría ayudarte.
             <br/>
@@ -78,8 +79,8 @@ export default class Contact extends React.Component {
                 <FormControl componentClass="textarea" style={{height: '200px'}} name='comment' onChange={this.handleChange}/>
               </FormGroup>
 
-              <Button className={'contactBtn'} 
-                style={{color: 'white', backgroundColor: '#871D5F', borderRadius: 0, padding:'10px auto'}} 
+              <Button 
+                style={{color: 'white', backgroundColor: '#871D5F', borderRadius: 0,  padding: '2vh 4vh 2vh 4vh', }} 
                 bsSize="large" 
                 onClick={this.post}>Enviar</Button>
             </form>
@@ -89,4 +90,3 @@ export default class Contact extends React.Component {
     );
   }
 }
-

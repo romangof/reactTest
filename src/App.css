@@ -41,7 +41,6 @@
 }
 
 
-
 /* --- NavBar Header --- */
 
 .navbarIndex {
@@ -127,8 +126,6 @@
     bottom:5%;
     right:5%;
 }
-
-
 
 
 
@@ -295,8 +292,8 @@
 }
 
 .businessdescription {
-    font-size: 15px;
-    line-height: 4vh;
+    font-size: 14px;
+    line-height: 3.5vh;
     font-weight: 50;
     font-family: "Raleway-regular", sans-serif;
     margin: 0 auto;
@@ -358,6 +355,9 @@
     -webkit-backface-visibility: hidden;
     width: 9vw;
     height: 8vh;
+    position: relative;
+    overflow: hidden;
+
 }
 
 .twitterbutton {
@@ -366,6 +366,9 @@
     -webkit-backface-visibility: hidden;
     width: 9vw;
     height: 8vh;
+    position: relative;
+    overflow: hidden;
+
 }
 
 .linkedinbutton {
@@ -374,6 +377,9 @@
     -webkit-backface-visibility: hidden;
     width: 9vw;
     height: 8vh;
+    position: relative;
+    overflow: hidden;
+
 }
 
 /*end*/
@@ -411,6 +417,8 @@ h6{
     letter-spacing: -0.05em;
     color: #FFF;
     border: none;
+    border-color: transparent;
+
 }
 
 .dropdown-content {
@@ -423,6 +431,7 @@ h6{
     z-index: 0;
     letter-spacing: -0.05em;
     border: none !important;
+    border-color: transparent;
     outline: 0px;
 }
 

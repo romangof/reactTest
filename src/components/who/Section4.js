@@ -20,7 +20,7 @@ var sectionStyle = {
 
 export default () =>  
 <section style={sectionStyle}>
-    <h4 style={{color: 'green'}} >NUESTRAS EMPRESAS</h4>
+    <h4 style={{color: '#00A69C'}} >NUESTRAS EMPRESAS</h4>
     <div style={{padding: '5%', color: 'gray'}}>
         <Col xs={6} sm={4}><Thumbnail src={Img1} alt="10x10"></Thumbnail></Col>
         <Col xs={6} sm={4}><Thumbnail src={Img2} alt="10x10"></Thumbnail></Col>

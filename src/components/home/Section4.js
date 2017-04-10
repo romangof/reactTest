@@ -2,14 +2,14 @@ import React from 'react';
 import {div, Col} from 'react-bootstrap';
 
 var sectionStyle = {
-    height: '50vh',
+    height: '45vh',
     // width: '100%',
     backgroundColor: 'rgb(242, 160, 49)',
     paddingTop: '2vh'
 }
 
 const titleStyle = {
-    padding: '3% 0%',
+    padding: '2% 0%',
 }
 
 export default () => 

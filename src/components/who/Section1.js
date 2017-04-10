@@ -3,9 +3,9 @@ import Img from '../../assets/maquina.png';
 import { Col, Image } from 'react-bootstrap';
 
 var sectionStyles = {
-    minHeight: '95vh',
+    minHeight: '70vh',
     // backgroundColor: 'gray',
-    padding: '10% 4%',
+    padding: '5% 4%',
     textAlign: 'left',
     fontFamily : "Raleway-regular",
 

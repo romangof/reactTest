@@ -2,12 +2,13 @@ import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 
 var sectionStyle = {
-  height: '30vh',
+  height: '25vh',
   textAlign: 'center',
   color: 'white',
   backgroundColor: 'rgb(56, 152, 138)',
   fontFamily : "Raleway-regular",
   fontSize: "14px",
+  color: "#FFF",
 }
 
 const socialmedia = {
@@ -20,17 +21,9 @@ export default () =>
 <section style={sectionStyle} >
   <br/>
   
-  <Row style={socialmedia}>
-    <Col sm={4} md={4}>
-      <button className={`btn btn-link facebookbutton`} />
-    </Col>
-    <Col sm={4} md={4}>
-      <button className={`btn btn-link twitterbutton`} />
-    </Col>
-    <Col sm={4} md={4}>
-      <button className={`btn btn-link linkedinbutton`} />
-    </Col>
-  </Row>
+      <button className={'btn btn-link facebookbutton'} />
+      <button className={'btn btn-link twitterbutton'} />
+      <button className={'btn btn-link linkedinbutton'} />
 
   <br/>
   <b>ACELERACIÓN LABS</b>
