@@ -1,5 +1,6 @@
 import React from 'react';
 import { Col, Image, Button } from 'react-bootstrap';
+import { LinkContainer } from 'react-router-bootstrap';
 
 var data = require('./data.json');
 
@@ -54,7 +55,9 @@ export default (props) => {
             <br/>
           </div>
         )}
-         <Button  bsSize="medium" style={buttonStyle} block>{obj['section1']['buttonText']}</Button>
+        <LinkContainer to='contact' >
+          <Button style={buttonStyle} block>{obj['section1']['buttonText']}</Button>
+        </LinkContainer>
       </Col>
     </section>
 
@@ -113,6 +116,8 @@ export default (props) => {
 
       <h3>Si tienes un desafío comercial específico,
       <br/><b>nos encantaría ayudarte.</b></h3>
-      <button bsStyle="warning" bsSize="medium" style={buttonStyle2} block>CONTÁCTANOS</button>
+      <LinkContainer to='contact' >
+        <Button bsStyle="warning" style={buttonStyle2} block>CONTÁCTANOS</Button>
+      </LinkContainer>
     </section>
   </div>}

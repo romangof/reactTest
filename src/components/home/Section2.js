@@ -4,7 +4,7 @@ import Img2 from '../../assets/diseno.png'
 import Img3 from '../../assets/ti.png'
 import Img4 from '../../assets/modelos.png'
 import {Row, Col, Thumbnail, Button, Image} from 'react-bootstrap';
-
+import { LinkContainer } from 'react-router-bootstrap';
 
 const colStyle = {
   height: '65vh',
@@ -37,7 +37,9 @@ export default () =>
         <Image src={Img1} responsive />
         <h4 className="businesstitle">Comunicaciones y Marketing Digital</h4>
         <p className="businessdescription">Aumenta la visibilidad de tu marca, mejora su reputación online y consigue más conversiones.</p>
-        <Button bsStyle="warning" style={buttonStyle} block>Más Información</Button>
+        <LinkContainer to='/how/comunicaciones' >
+          <Button bsStyle="warning" style={buttonStyle} block>Más Información</Button>
+        </LinkContainer>
         {/*</Thumbnail>*/}
       </Row>
     </Col>
@@ -47,7 +49,9 @@ export default () =>
         <Image src={Img2} responsive/>
         <h4 className="businesstitle">Diseño e Identidad Corportativa</h4>
         <p className="businessdescription">Aumenta la capacidad de innovación y competitividad de tu empresa mediante diseño estratégico.</p>
-        <Button bsStyle="warning" style={buttonStyle} block>Más Información</Button>
+        <LinkContainer to='/how/diseño' >
+          <Button bsStyle="warning" style={buttonStyle} block>Más Información</Button>
+        </LinkContainer>
         {/*</Thumbnail>*/}
       </Row>
     </Col>
@@ -55,9 +59,12 @@ export default () =>
     <Col xs={12} sm={3} style={colStyle}>
       <Row>
         <Thumbnail src={Img3}>
-         <h4 className="businesstitle">Soluciones TI</h4>
-         <p className="businessdescription">Responde a los desafíos dinámicos del mercado con el uso de nuevas tecnologías.</p>
-         <br /><Button bsStyle="warning" style={buttonStyle} block>Más Información</Button>
+          <h4 className="businesstitle">Soluciones TI</h4>
+          <p className="businessdescription">Responde a los desafíos dinámicos del mercado con el uso de nuevas tecnologías.</p>
+          <br />
+          <LinkContainer to='/how/ti' >
+            <Button bsStyle="warning" style={buttonStyle} block>Más Información</Button>
+          </LinkContainer>
         </Thumbnail>
       </Row>
     </Col>
@@ -67,7 +74,10 @@ export default () =>
         <Thumbnail src={Img4}>
           <h4 className="businesstitle">Modelos de Negocios</h4>
           <p className="businessdescription">Descubre nuevas oportunidades de éxito para tu empresa.</p>
-          <br /><br /><Button bsStyle="warning" style={buttonStyle} block>Más Información</Button>
+          <br /><br />
+          <LinkContainer to='/how/negocios' >
+            <Button bsStyle="warning" style={buttonStyle} block>Más Información</Button>
+          </LinkContainer>
        </Thumbnail>
       </Row>
     </Col>

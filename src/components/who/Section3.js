@@ -1,5 +1,6 @@
 import React from 'react';
 import { Col, Button, buttonStyle } from 'react-bootstrap';
+import { LinkContainer } from 'react-router-bootstrap';
 
 const sectionStyle = {
   minHeight: '65vh',
@@ -33,7 +34,9 @@ export default () =>
       <br/>
       <p>Averigua todo lo que podemos hacer por ti</p>
       <br/>
-      <Button bsStyle="warning" bsSize="large" style={buttonStyle} block >¡CONTÁCTANOS!</Button>
+      <LinkContainer to='contact' >
+        <Button bsStyle="warning" bsSize="large" style={buttonStyle} block >¡CONTÁCTANOS!</Button>
+      </LinkContainer>
     </div>
   </Col>
 </section>
