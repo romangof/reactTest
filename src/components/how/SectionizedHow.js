@@ -95,9 +95,7 @@ export default (props) => {
         <Col xs={12} sm={ (obj['section3']['texts'].length > 3) ? 2 : 3 } key={index} style={{fontFamily: "Raleway-regular"}}>
           <b>{text['subtitle']}</b>
           <ul>
-            {text.topics.map((topic, jdex) => 
-              <li key={jdex} >{topic}</li>
-            )}
+            {text.topics.map((topic, jdex) => <li key={jdex} >{topic}</li>)}
           </ul>
         </Col>
       )}

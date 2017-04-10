@@ -6,8 +6,7 @@ import { Carousel, Col } from 'react-bootstrap';
 // And iterate over it once received from bkEnd
 
 const titleStyle = {
-    padding: '3% 0%',
-    
+    padding: '3% 0%'
 }
 
 const sectionStyle = {
@@ -18,8 +17,7 @@ const sectionStyle = {
   backgroundRepeat: "no-repeat",
   backgroundPosition: "center center",
   padding: 0,
-  overflow: 'hidden', 
-
+  overflow: 'hidden'
 }
 
 const carouselStyle = {
@@ -29,12 +27,11 @@ const carouselStyle = {
   // color: 'white',
   fontFamily : "Raleway-regular",
   fontSize: "14px",
-  color: "#FFF",
-  
+  color: "#FFF"
 }
 
 var Ss3 = React.createClass({
-  getInitialState( ) {
+  getInitialState() {
     return { index: 0, direction: null };
   },
 
@@ -43,7 +40,7 @@ var Ss3 = React.createClass({
     this.setState({ index: selectedIndex, direction: e.direction });
   },
 
-  render( ) {
+  render() {
 
     // This should at some point be brought from bkEnd via REST
     var testimonials = [
@@ -98,16 +95,13 @@ var Ss3 = React.createClass({
         )}
       </Carousel>)
 
-
-            
-
     return (
       <section className="container-fluid" style={sectionStyle}>
         <Col sm={12} style={titleStyle}>
           <h4 className="hometitle2"><b>TESTIMONIOS</b></h4>
         </Col>        
         <div>
-          {console.log(testimonials.length)}
+          {/*{console.log(testimonials.length)}*/}
           {(testimonials.length < 2) ? single:carousel}
         </div>
       </section>
