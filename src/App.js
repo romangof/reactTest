@@ -21,7 +21,7 @@ export default () =>
     <IndexRoute component={Home}/>
     <Route path='who' component={Who}/>
     <Route path='contact' component={Contact} />
-    <Route path='/how'>
+    <Route path='how'>
       {/*<IndexRoute component={How}/>*/}
       {/*<Route path='/how/comms' component={Comms}/>
       <Route path='/how/design' component={Design}/>
