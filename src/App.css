@@ -253,12 +253,8 @@ h1 {
 
 .dropdown {
     position: relative;
-    font-family: "Raleway-regular", sans-serif;
-    letter-spacing: -0.05em;
-    color: #FFF !important;
     border: none;
     border-color: transparent;
-    
 }
 
 .dropdown:hover .dropdown-content {
@@ -276,30 +272,27 @@ ul.dropdown-menu {
     position: relative;
     display: none;
     background-color: #00A69C;
-    color: white !important;
+    color: white;
     min-width: 20vw;
-    padding: 2vh 4vw;
+    padding: 1.2vh 4vw;
     margin: 0px;
     z-index: 0;
     letter-spacing: -0.01em;
     border: none !important;
     border-color: transparent;
     outline: 0px;
-    
-    
 }
 
 .dropdown-content a {
-    padding: 2px 2px;
+    padding: 1.5px 2px;
 }
 
 .dropdown-content:hover {
     background-color: #FAAF40;
 }
 
-.navbar-nav > li > .dropdown-menu a{   color: #FFF;  }
+.navbar-nav > li > .dropdown-menu a{   color: #FFF; background-color: transparent;  }
 .navbar-nav > li > .dropdown-menu a:hover{   color: #FFF; background-color: transparent;   }
-
 
 
 
