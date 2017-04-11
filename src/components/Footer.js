@@ -1,28 +1,24 @@
 import React from 'react';
-// import { Col, Row } from 'react-bootstrap';
+// import { Image } from 'react-bootstrap';
 
 var sectionStyle = {
   height: '25vh',
   textAlign: 'center',
-  // color: 'white',
   backgroundColor: 'rgb(56, 152, 138)',
   fontFamily : "Raleway-regular",
   fontSize: "14px",
   color: "#FFF"
 }
 
-// const socialmedia = {
-//     width: '15vw',
-//     textAlign: 'center',
-//     margin: '0 43vw'
-// }
-
 export default () => 
 <section style={sectionStyle} >
   <br/>
-  <button className={'btn btn-link facebookbutton'} />
-  <button className={'btn btn-link twitterbutton'} />
-  <button className={'btn btn-link linkedinbutton'} />
+  <div>
+    
+    <div className={'btn btn-link socialmedia facebookbutton'} />
+    <div className={'btn btn-link socialmedia twitterbutton'} />
+    <div className={'btn btn-link socialmedia linkedinbutton'} />
+  </div>
   <br/>
   <b>ACELERACIÓN LABS</b>
   <br/>

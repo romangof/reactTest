@@ -17,47 +17,45 @@ export default () =>
 
   <div className="container_circulo">
     <Row>
-    {/*<div style={{width: '100%', height: '100vh'}}>*/}
-        <Col sm={6} md={6} className={'colHow'}>
-          <div className={'itemHow'}>
-            <Image className={'imgHow'} src={require("../../assets/bussinesHow.png")} />
-            <div className="descriptionHow">
-              <h3>desarrollamos negocios</h3>
-              <h4>Para encontrar oportunidades de éxito</h4>
-            </div>
+      <Col sm={6} md={6} className={'colHow'}>
+        <div className={'itemHow'}>
+          <Image className={'imgHow'} src={require("../../assets/bussinesHow.png")} />
+          <div className="descriptionHow">
+            <h3>desarrollamos negocios</h3>
+            <h4>Para encontrar oportunidades de éxito</h4>
           </div>
-        </Col>
-        
-        <Col sm={6} md={6} className={'colHow'}>
-          <div className={'itemHow'}>
-            <Image className={'imgHow'} src={require("../../assets/createHow.png")} />
-            <div className="descriptionHow">
-              <h3>creamos tu imagen</h3>
-              <h4>Para aumentar la capacidad de innovación y competitividad</h4>
-            </div>
+        </div>
+      </Col>
+      
+      <Col sm={6} md={6} className={'colHow'}>
+        <div className={'itemHow'}>
+          <Image className={'imgHow'} src={require("../../assets/createHow.png")} />
+          <div className="descriptionHow">
+            <h3>creamos tu imagen</h3>
+            <h4>Para aumentar la capacidad de innovación y competitividad</h4>
           </div>
-        </Col>
-        
-        <Col sm={6} md={6} className={'colHow'}>
-          <div className={'itemHow'}>
-            <Image className={'imgHow'} src={require("../../assets/designHow.png")} />
-            <div className="descriptionHow">
-              <h3>diseñamos una estrategia</h3>
-              <h4>Para posicionar tu marca y generar conversiones</h4>
-            </div>
+        </div>
+      </Col>
+      
+      <Col sm={6} md={6} className={'colHow'}>
+        <div className={'itemHow'}>
+          <Image className={'imgHow'} src={require("../../assets/designHow.png")} />
+          <div className="descriptionHow">
+            <h3>diseñamos una estrategia</h3>
+            <h4>Para posicionar tu marca y generar conversiones</h4>
           </div>
-        </Col>
-        
-        <Col sm={6} md={6} className={'colHow'}>
-          <div className={'itemHow'}>
-            <Image className={'imgHow'} src={require("../../assets/tiHow.png")} />
-            <div className="descriptionHow">
-              <h3>usamos tecnología</h3>
-              <h4>Para responder a los desafíos dinámicos del mercado</h4>
-            </div>
+        </div>
+      </Col>
+      
+      <Col sm={6} md={6} className={'colHow'}>
+        <div className={'itemHow'}>
+          <Image className={'imgHow'} src={require("../../assets/tiHow.png")} />
+          <div className="descriptionHow">
+            <h3>usamos tecnología</h3>
+            <h4>Para responder a los desafíos dinámicos del mercado</h4>
           </div>
-        </Col>      
-    {/*</div>*/}
+        </div>
+      </Col>
     </Row>
   </div>
 

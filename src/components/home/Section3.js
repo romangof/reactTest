@@ -72,7 +72,7 @@ var Ss3 = React.createClass({
         <p>{testimonials[0].position}</p>
         <br/>
         <p>{testimonials[0].comment}</p>
-        {/*<button className="homebutton1">VER CASO DE ÉXITO</button>*/}
+        {/*<button className="homebutton homebutton1">VER CASO DE ÉXITO</button>*/}
       </div>)
     
     const carousel = (
@@ -89,7 +89,7 @@ var Ss3 = React.createClass({
             <Carousel.Caption>
               {/*<h3>First slide label</h3>
               <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>*/}
-              {/*<button className="homebutton1">VER CASO DE ÉXITO</button>*/}
+              {/*<button className="homebutton homebutton1">VER CASO DE ÉXITO</button>*/}
             </Carousel.Caption>
           </Carousel.Item>
         )}
@@ -98,7 +98,7 @@ var Ss3 = React.createClass({
     return (
       <section className="container-fluid" style={sectionStyle}>
         <Col sm={12} style={titleStyle}>
-          <h4 className="hometitle2"><b>TESTIMONIOS</b></h4>
+          <h4 className="hometitle white"><b>TESTIMONIOS</b></h4>
         </Col>        
         <div>
           {/*{console.log(testimonials.length)}*/}

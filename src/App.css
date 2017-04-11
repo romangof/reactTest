@@ -10,20 +10,14 @@
     background-color: RGBA(0,0,0,0);
 }
 
-@media screen and (max-width: 770px) {
-  .contactBtn {
-    width: 100%;
-  }
+button {
+  background: none;
+  border: none;
+  box-shadow: none;
 }
 
-.subtitle {
-    font-size: 16px;
-    line-height: 30px;
-    font-weight: 50;
-    font-family: "Raleway-regular", sans-serif;
-    margin: 0 auto;
-    max-width: 600px;
-    color: white;
+p, h1, h2, h3, h4, h5, h6{
+  font-family: "Raleway-regular", sans-serif;
 }
 
 
@@ -44,32 +38,24 @@
   border-color: transparent;
 }
 
-
 /* Cambiar lo siguiente por react-bootstrap Image */
-
 .navbar-brand>img {
   height: 120%;
-  /*width: max-content;*/
-  /*height: max-content;*/
-  /*padding: 7px 14px;*/
 }
 
 .navbar-nav>li>a {
   color: white !important;
   font-family: "Raleway-regular", sans-serif;
   font-size: 14px;
-
 }
 
 .navbar-nav>.active>a {
-  /*text-decoration: underline;
-  -moz-text-decoration-color: rgb(230, 133, 40) !important;
-  text-decoration-color: rgb(230, 133, 40) !important;*/
   background-color: RGBA(0,0,0,0) !important;
   border-bottom: 1px solid darkorange;
   padding-bottom: 2px;
 }
 
+<<<<<<< HEAD
 /* --- How.js circle --- */
 
 #circle {
@@ -115,11 +101,13 @@
 
 
 
+=======
+>>>>>>> ef229283028a4e3c61165ca81458e1a76de9b852
 
 /*   KAREN CSS   */
+/*   How   */
 .container_circulo {
-	padding-right: 15px;
-	padding-left: 15px;
+	padding: 15px 0;
 	margin-right: auto;
 	margin-left: auto;
   margin-bottom: 100px;
@@ -130,22 +118,15 @@
   max-width: 80%;
 }
 
-
-.container_circulo-fluid {
+/*.container_circulo-fluid {
 	padding-right: 15px;
 	padding-left: 15px;
 	margin-right: auto;
 	margin-left: auto;
-}
+}*/
 
 .itemHow {
   padding: 5% 20%;
-  /*padding-right: 15px;
-	padding-left: 15px;
-	margin-right: auto;
-	margin-left: auto;*/
-  /*max-width: 250px;*/
-  /*max-height: 350px;*/
 }
 
 .descriptionHow {
@@ -156,17 +137,17 @@
 
 .imgHow {
   max-width: 300px;
-  /*max-height: 250px;*/
-  /*padding: 0px 10%;*/
   padding-right: 20%;
 }
 
 .titleHow {
   font-family: "Raleway-regular", sans-serif;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+  padding: 0 15px;
+  /*margin: auto 0;*/
+  /*padding-right: 15px;
+  padding-left: 15px;*/
+  /*margin-right: auto;
+  margin-left: auto;*/
   font-weight: 500;
   font-size: 18px;
   line-height: 40px;
@@ -175,7 +156,7 @@
   text-transform: uppercase;
 }
 
-.titleitemHow {
+/*.titleitemHow {
   font-family: "Raleway", sans-serif;
   padding-right: 15px;
   padding-left: 15px;
@@ -187,57 +168,40 @@
   text-align: left;
   color: #871D5F ;
   text-transform: uppercase;
-}
+}*/
 
 .maindescriptionHow {
   font-family: "Raleway-regular", sans-serif;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding: 0 15px;
   max-width:80%;
   text-align: left;
   margin-bottom: 10%;
 }
 
 
-.hometitle1 {
+/*   Home   */
+.hometitle {
     font-size: 16px;
     line-height: 30px;
     font-weight: 50;
-    font-family: "Raleway-regular", sans-serif;
+    font-family: "Raleway", sans-serif;
     margin: 0 auto;
     max-width: 600px;
-    color:#38988A;
 }
 
-.hometitle2 {
-    font-size: 16px;
-    line-height: 30px;
-    font-weight: 50;
-    font-family: "Raleway-regular", sans-serif;
-    margin: 0 auto;
-    max-width: 600px;
-    color:#FFFFFF;
+.white {
+    color: white;
 }
-
-.hometitle3 {
-    font-size: 16px;
-    line-height: 30px;
-    font-weight: 50;
-    font-family: "Raleway-regular", sans-serif;
-    margin: 0 auto;
-    max-width: 600px;
+.dark {
     color:#332530;
 }
 
-.hometitle4 {
-    font-size: 16px;
-    line-height: 30px;
-    font-weight: 50;
-    font-family: "Raleway-regular", sans-serif;
-    margin: 0 auto;
-    max-width: 600px;
-    color:#FAAF40;
+/*.hometitle1 {
+    color:#38988A;
 }
+.hometitle4 {
+    color:#FAAF40;
+}*/
 
 .businesstitle {
     font-size: 16px;
@@ -259,34 +223,28 @@
     color:#231F20;
 }
 
-.homebutton1 {
+.homebutton {
     font-size: 12px;
     line-height: 30px;
     font-weight: 60;
     font-family: "Raleway-regular", sans-serif;
-    padding-left: 20px;
-    padding-right: 20px;
     margin: 0 auto;
     max-width: 600px;
     color:#FFF;
-    background-color: #A51976;
     border: none;
     letter-spacing: -0.01em;
 }
 
+.homebutton1 {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #A51976;
+}
+
 .homebutton2 {
-    font-size: 12px;
-    line-height: 30px;
-    font-weight: 60;
-    font-family: "Raleway-regular", sans-serif;
     padding-left: 3vw;
     padding-right: 3vw;
-    margin: 0 auto;
-    max-width: 600px;
-    color:#FFF;
     background-color: #00A69C;
-    border: none;
-    letter-spacing: -0.01em;
 }
 
 .homeinput {
@@ -305,50 +263,38 @@
     letter-spacing: -0.01em;
 }
 
-/*   Social media footer buttons   */
+.descriptionHome {
+  font-family: "Raleway-regular", sans-serif;
+  text-align: center; 
+  color: #FFF;
+  margin-bottom: 5%;
+  line-height: 5vh;
+}
 
-.facebookbutton {
-    background-image: url(./assets/facebook.png);
+
+/*   Social media footer buttons   */
+.socialmedia{
     background-repeat: no-repeat;
     -webkit-backface-visibility: hidden;
     width: 9vw;
     height: 8vh;
     position: relative;
     overflow: hidden;
+}
 
+.facebookbutton {
+    background-image: url(./assets/facebook.png);
 }
 
 .twitterbutton {
     background-image: url(./assets/twitter.png);
-    background-repeat: no-repeat;
-    -webkit-backface-visibility: hidden;
-    width: 9vw;
-    height: 8vh;
-    position: relative;
-    overflow: hidden;
-
 }
 
 .linkedinbutton {
     background-image: url(./assets/linkedin.png);
-    background-repeat: no-repeat;
-    -webkit-backface-visibility: hidden;
-    width: 9vw;
-    height: 8vh;
-    position: relative;
-    overflow: hidden;
-
 }
 
-/*end*/
-
-
-button {
-  background: none;
-  border: none;
-  box-shadow: none;
-}
-
+<<<<<<< HEAD
 .descriptionHome {
   font-family: "Raleway-regular", sans-serif;
   text-align: center;
@@ -359,6 +305,8 @@ button {
 p, h1, h2, h3, h4, h5, h6{
   font-family: "Raleway-regular", sans-serif;
 }
+=======
+>>>>>>> ef229283028a4e3c61165ca81458e1a76de9b852
 
 /* Dropdown Main Menu */
 
@@ -408,11 +356,17 @@ ul.dropdown-menu {
     background-color: #FAAF40;
 }
 
+<<<<<<< HEAD
 .navbar-nav > li > .dropdown-menu a{   color: #FFF;  }
 .navbar-nav > li > .dropdown-menu a:hover{   color: #FFF; background-color: transparent;   }
 
 
 
+=======
+
+
+/*   Responsive   */
+>>>>>>> ef229283028a4e3c61165ca81458e1a76de9b852
 @media (max-width: 768px) {
 	.container_circulo {
 		width: 750px;
@@ -425,17 +379,17 @@ ul.dropdown-menu {
     margin-bottom:20%;
     max-width: 100%;
   }
+  h4 {
+    padding-bottom: 30px;
+  }
+  .contactBtn {
+    width: 100%;
+  }
 }
 @media (min-width: 768px) {
 	.colHow {
     height: 4%;
   }
-}
-
-@media (max-width: 768px) {
-	h4 {
-		padding-bottom: 30px;
-	}
 }
 
   h1 {
