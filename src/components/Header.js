@@ -3,7 +3,6 @@ import logo from '../assets/logo_header.png';
 import { Navbar, Nav, NavItem, MenuItem, NavDropdown } from 'react-bootstrap';
 import { IndexLinkContainer, LinkContainer } from 'react-router-bootstrap';
 
-
 export default (props) => 
 <Navbar collapseOnSelect fixedTop className={(props.location !== '/') ? 'navbarElse' : 'navbarIndex'}>
 
@@ -24,7 +23,7 @@ export default (props) =>
       <LinkContainer to="/who">
         <NavItem>SOMOS</NavItem>
       </LinkContainer>
-      {/*<LinkContainer to='/how'>*/}
+      <LinkContainer to='/how' onClick={(event) => event.preventDefault()} >
         <NavDropdown className="dropdown" title="TE AYUDAMOS" id="basic-nav-dropdown">
           <LinkContainer to='/how/comunicaciones'>
             <MenuItem className="dropdown-content">COMUNICACIONES Y MARKETING DIGITAL</MenuItem>
@@ -39,7 +38,7 @@ export default (props) =>
             <MenuItem className="dropdown-content">MODELOS DE NEGOCIOS</MenuItem>
           </LinkContainer>
         </NavDropdown>
-      {/*</LinkContainer>*/}
+      </LinkContainer>
       {/*<LinkContainer to="/">*/}
         {/*<NavItem>BLOG</NavItem>*/}
       {/*</LinkContainer>*/}
