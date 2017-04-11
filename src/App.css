@@ -19,6 +19,10 @@ button {
 p, h1, h2, h3, h4, h5, h6{
   font-family: "Raleway-regular", sans-serif;
 }
+h1 {
+  font-size: 24px;
+}
+
 
 
 /* --- NavBar Header --- */
@@ -315,8 +319,4 @@ p, h1, h2, h3, h4, h5, h6{
 	.colHow {
     height: 4%;
   }
-}
-
-  h1 {
-  font-size: 24px;
 }
