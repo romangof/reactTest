@@ -8,11 +8,11 @@ import Img5 from '../../assets/thedatamonitor.png'
 import Img6 from '../../assets/mintelect.png'
 
 var sectionStyle = {
-  height: '65vh',
+  height: '100%',
+  overflow: 'hidden',
   textAlign: 'center',
   backgroundColor: 'rgb(247, 246, 246)',
   padding: '5% 0%',
-  overflow: 'hidden', 
 }
 
 // this should be the same as section 5 in home with 

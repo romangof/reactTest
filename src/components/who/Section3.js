@@ -3,7 +3,9 @@ import { Col, Button, buttonStyle } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 
 const sectionStyle = {
-  minHeight: '65vh',
+  // minHeight: '65vh',
+  height: '100%',
+  overflow: 'hidden',
   padding: '5% 0%',
   textAlign: 'center',
   fontFamily : "Raleway"
