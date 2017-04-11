@@ -4,10 +4,10 @@
 }
 
 .thumbnail {
-    height: 100%;
-    border: 0 none;
-    box-shadow: none;
-    background-color: RGBA(0,0,0,0);
+  height: 100%;
+  border: 0 none;
+  box-shadow: none;
+  background-color: RGBA(0,0,0,0);
 }
 
 button {
@@ -22,7 +22,6 @@ p, h1, h2, h3, h4, h5, h6{
 h1 {
   font-size: 24px;
 }
-
 
 
 /* --- NavBar Header --- */
@@ -137,19 +136,19 @@ h1 {
 
 /*   Home   */
 .hometitle {
-    font-size: 16px;
-    line-height: 30px;
-    font-weight: 50;
-    font-family: "Raleway", sans-serif;
-    margin: 0 auto;
-    max-width: 600px;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 50;
+  font-family: "Raleway", sans-serif;
+  margin: 0 auto;
+  max-width: 600px;
 }
 
 .white {
-    color: white;
+  color: white;
 }
 .dark {
-    color:#332530;
+  color:#332530;
 }
 
 /*.hometitle1 {
@@ -160,63 +159,63 @@ h1 {
 }*/
 
 .businesstitle {
-    font-size: 16px;
-    line-height: 4vh;
-    font-weight: 100;
-    font-family: "Raleway", sans-serif;
-    margin: 0 auto;
-    max-width: 600px;
-    color:#871D5F;
+  font-size: 16px;
+  line-height: 4vh;
+  font-weight: 100;
+  font-family: "Raleway", sans-serif;
+  margin: 0 auto;
+  max-width: 600px;
+  color:#871D5F;
 }
 
 .businessdescription {
-    font-size: 14px;
-    line-height: 3.5vh;
-    font-weight: 50;
-    font-family: "Raleway-regular", sans-serif;
-    margin: 0 auto;
-    max-width: 600px;
-    color:#231F20;
+  font-size: 14px;
+  line-height: 3.5vh;
+  font-weight: 50;
+  font-family: "Raleway-regular", sans-serif;
+  margin: 0 auto;
+  max-width: 600px;
+  color:#231F20;
 }
 
 .homebutton {
-    font-size: 12px;
-    line-height: 30px;
-    font-weight: 60;
-    font-family: "Raleway-regular", sans-serif;
-    margin: 0 auto;
-    max-width: 600px;
-    color:#FFF;
-    border: none;
-    letter-spacing: -0.01em;
+  font-size: 12px;
+  line-height: 30px;
+  font-weight: 60;
+  font-family: "Raleway-regular", sans-serif;
+  margin: 0 auto;
+  max-width: 600px;
+  color:#FFF;
+  border: none;
+  letter-spacing: -0.01em;
 }
 
 .homebutton1 {
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: #A51976;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #A51976;
 }
 
 .homebutton2 {
-    padding-left: 3vw;
-    padding-right: 3vw;
-    background-color: #00A69C;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  background-color: #00A69C;
 }
 
 .homeinput {
-    font-size: 12px;
-    line-height: 30px;
-    font-weight: 60;
-    font-family: "Raleway-regular", sans-serif;
-    padding-left: 3vw;
-    padding-right: 3vw;
-    margin: 0 1vw;
-    max-width: 600px;
-    min-width: 40vw;
-    color:#333;
-    background-color: #FFF;
-    border: none;
-    letter-spacing: -0.01em;
+  font-size: 12px;
+  line-height: 30px;
+  font-weight: 60;
+  font-family: "Raleway-regular", sans-serif;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  margin: 0 1vw;
+  max-width: 600px;
+  min-width: 40vw;
+  color:#333;
+  background-color: #FFF;
+  border: none;
+  letter-spacing: -0.01em;
 }
 
 .descriptionHome {
@@ -230,67 +229,67 @@ h1 {
 
 /*   Social media footer buttons   */
 .socialmedia{
-    background-repeat: no-repeat;
-    -webkit-backface-visibility: hidden;
-    width: 9vw;
-    height: 8vh;
-    position: relative;
-    overflow: hidden;
+  background-repeat: no-repeat;
+  -webkit-backface-visibility: hidden;
+  width: 9vw;
+  height: 8vh;
+  position: relative;
+  overflow: hidden;
 }
 
 .facebookbutton {
-    background-image: url(./assets/facebook.png);
+  background-image: url(./assets/facebook.png);
 }
 
 .twitterbutton {
-    background-image: url(./assets/twitter.png);
+  background-image: url(./assets/twitter.png);
 }
 
 .linkedinbutton {
-    background-image: url(./assets/linkedin.png);
+  background-image: url(./assets/linkedin.png);
 }
 
 
 /* Dropdown Main Menu */
 
 .dropdown {
-    position: relative;
-    display: inline-block;
-    font-family: "Raleway-regular", sans-serif;
-    letter-spacing: -0.05em;
-    color: #FFF;
-    border: none;
-    border-color: transparent;
+  position: relative;
+  display: inline-block;
+  font-family: "Raleway-regular", sans-serif;
+  letter-spacing: -0.05em;
+  color: #FFF;
+  border: none;
+  border-color: transparent;
 }
 
 .dropdown-content {
-    font-family: "Raleway-regular", sans-serif;
-    position: relative;
-    display: none;
-    background-color: #00A69C;
-    min-width: 20vw;
-    padding: 3px 2px;
-    z-index: 0;
-    letter-spacing: -0.05em;
-    border: none !important;
-    border-color: transparent;
-    outline: 0px;
+  font-family: "Raleway-regular", sans-serif;
+  position: relative;
+  display: none;
+  background-color: #00A69C;
+  min-width: 20vw;
+  padding: 3px 2px;
+  z-index: 0;
+  letter-spacing: -0.05em;
+  border: none !important;
+  border-color: transparent;
+  outline: 0px;
 }
 
 .dropdown-content a {
-    font-family: "Raleway-regular", sans-serif;
-    position: relative;
-    display: none;
-    background-color: #00A69C;
-    min-width: 20vw;
-    padding: 2px 2px;
-    z-index: 0;
-    letter-spacing: -0.05em;
-    border: none;
+  font-family: "Raleway-regular", sans-serif;
+  position: relative;
+  display: none;
+  background-color: #00A69C;
+  min-width: 20vw;
+  padding: 2px 2px;
+  z-index: 0;
+  letter-spacing: -0.05em;
+  border: none;
 }
 
 .dropdown:hover .dropdown-content {
-    display: block;
+  display: block;
 }
 
 
