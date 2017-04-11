@@ -32,9 +32,9 @@ const thumbnailStyle = {
 export default () =>
 <section className="container-fluid" style={sectionStyle}>
   <h1>
-    <b>SOMOS UNA TRANSFORMADORA DIGITAL</b>
+    <b style={{fontFamily: 'Raleway'}} >SOMOS UNA TRANSFORMADORA DIGITAL</b>
   </h1>
-  <h4 className="hometitle" style={{color:'white'}}>
+  <h4 className="hometitle" style={{color:'white', fontFamily: 'Raleway-regular'}}>
     que ofrece soluciones disruptivas a las medianas y grandes empresas a través de diseño, estrategias digitales e innovación tecnológica, para desafiar los anticuados modelos de negocio y diseñar las empresas del futuro.
   </h4>
   <LinkContainer to='/contact' >
