@@ -27,16 +27,16 @@ export default (props) =>
       {/*<LinkContainer to='/how'>*/}
         <NavDropdown className="dropdown" title="TE AYUDAMOS" id="basic-nav-dropdown">
           <LinkContainer to='/how/comunicaciones'>
-            <MenuItem>COMUNICACIONES Y MARKETING DIGITAL</MenuItem>
+            <MenuItem className="dropdown-content">COMUNICACIONES Y MARKETING DIGITAL</MenuItem>
           </LinkContainer>
           <LinkContainer to='/how/diseño'>
-            <MenuItem>DISEÑO E IDENTIDAD CORPORATIVA</MenuItem>
+            <MenuItem className="dropdown-content">DISEÑO E IDENTIDAD CORPORATIVA</MenuItem>
           </LinkContainer>
           <LinkContainer to='/how/ti'>
-            <MenuItem>SOLUCIONES TI</MenuItem>
+            <MenuItem className="dropdown-content">SOLUCIONES TI</MenuItem>
           </LinkContainer>
           <LinkContainer to='/how/negocios'>
-            <MenuItem>MODELOS DE NEGOCIOS</MenuItem>
+            <MenuItem className="dropdown-content">MODELOS DE NEGOCIOS</MenuItem>
           </LinkContainer>
         </NavDropdown>
       {/*</LinkContainer>*/}
