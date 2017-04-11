@@ -8,7 +8,6 @@ const sectionStyle = {
   minHeight: "30vh",
   backgroundImage: `url(${Img})`,
   backgroundSize: "cover",
-  // backgroundSize: '100% 100%',
   backgroundRepeat: "no-repeat",
   backgroundPosition: "center center",
   color: 'white',
@@ -35,7 +34,7 @@ export default () =>
   <h1>
     <b>SOMOS UNA TRANSFORMADORA DIGITAL</b>
   </h1>
-  <h4 className="subtitle">
+  <h4 className="hometitle" style={{color:'white'}}>
     que ofrece soluciones disruptivas a las medianas y grandes empresas a través de diseño, estrategias digitales e innovación tecnológica, para desafiar los anticuados modelos de negocio y diseñar las empresas del futuro.
   </h4>
   <LinkContainer to='/contact' >

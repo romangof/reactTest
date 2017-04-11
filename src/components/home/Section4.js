@@ -1,21 +1,16 @@
 import React from 'react';
-import {div, Col} from 'react-bootstrap';
+import {Col} from 'react-bootstrap';
 
 var sectionStyle = {
     height: '45vh',
-    // width: '100%',
     backgroundColor: 'rgb(242, 160, 49)',
     paddingTop: '2vh'
 }
 
-const titleStyle = {
-    padding: '2% 0%',
-}
-
 export default () => 
 <section style={sectionStyle}>
-  <Col sm={12} style={titleStyle}>
-    <h4 className="hometitle3"><b>NEWSLETTER</b></h4>
+  <Col sm={12} style={{padding: '2% 0%'}}>
+    <h4 className="hometitle dark"><b>NEWSLETTER</b></h4>
   </Col>    
   <div className="descriptionHome">
     ¿Quieres que te ayudemos?
@@ -24,6 +19,6 @@ export default () =>
   </div>
   <div>
     <input className="homeinput" type="text" placeholder="Email" />
-    <button className="homebutton2">LO QUIERO</button>
+    <button className="homebutton homebutton2">LO QUIERO</button>
   </div>
 </section>
