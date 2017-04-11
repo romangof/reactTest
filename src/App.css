@@ -281,6 +281,13 @@ ul.dropdown-menu {
     border: none !important;
     border-color: transparent;
     outline: 0px;
+    -webkit-user-select: none;
+}
+
+.dropdown-contentHome {
+    font-family: "Raleway-regular", sans-serif;
+    text-align: center;
+    font-size: 12px;
 }
 
 .dropdown-content a {
@@ -288,6 +295,14 @@ ul.dropdown-menu {
 }
 
 .dropdown-content:hover {
+    background-color: #FAAF40;
+}
+
+.dropdown-contentHome a {
+    padding: 1.5px 2px;
+}
+
+.dropdown-contentHome:hover {
     background-color: #FAAF40;
 }
 
