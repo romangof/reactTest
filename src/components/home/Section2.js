@@ -3,7 +3,7 @@ import Img1 from '../../assets/comunicaciones.png'
 import Img2 from '../../assets/diseno.png'
 import Img3 from '../../assets/ti.png'
 import Img4 from '../../assets/modelos.png'
-import {Row, Col, Thumbnail, Button, Image} from 'react-bootstrap';
+import {Row, Col, Thumbnail, Button} from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 
 const colStyle = {
