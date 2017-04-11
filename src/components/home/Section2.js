@@ -7,7 +7,8 @@ import {Row, Col, Thumbnail, Button, Image} from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 
 const colStyle = {
-  height: '65vh',
+  overflow: 'hidden',
+  height: '100%',
   padding: "0% 4%",
   fontFamily : "Raleway",
   fontSize: "15px",
@@ -34,25 +35,25 @@ export default () =>
   <Row>
     <Col xs={12} sm={3} style={colStyle}>
       <Row>
-        <Image src={Img1} responsive />
-        <h4 className="businesstitle">Comunicaciones y Marketing Digital</h4>
-        <p className="businessdescription">Aumenta la visibilidad de tu marca, mejora su reputación online y consigue más conversiones.</p>
-        <LinkContainer to='/how/comunicaciones' >
-          <Button bsStyle="warning" style={buttonStyle} block>Más Información</Button>
-        </LinkContainer>
-        {/*</Thumbnail>*/}
+        <Thumbnail src={Img1}>
+          <h4 className="businesstitle">Comunicaciones y Marketing Digital</h4>
+          <p className="businessdescription">Aumenta la visibilidad de tu marca, mejora su reputación online y consigue más conversiones.</p>
+          <LinkContainer to='/how/comunicaciones' >
+            <Button bsStyle="warning" style={buttonStyle} block>Más Información</Button>
+          </LinkContainer>
+        </Thumbnail>
       </Row>
     </Col>
 
     <Col xs={12} sm={3} style={colStyle}>
       <Row>
-        <Image src={Img2} responsive/>
-        <h4 className="businesstitle">Diseño e Identidad Corportativa</h4>
-        <p className="businessdescription">Aumenta la capacidad de innovación y competitividad de tu empresa mediante diseño estratégico.</p>
-        <LinkContainer to='/how/diseño' >
-          <Button bsStyle="warning" style={buttonStyle} block>Más Información</Button>
-        </LinkContainer>
-        {/*</Thumbnail>*/}
+        <Thumbnail src={Img2}>
+          <h4 className="businesstitle">Diseño e Identidad Corportativa</h4>
+          <p className="businessdescription">Aumenta la capacidad de innovación y competitividad de tu empresa mediante diseño estratégico.</p>
+          <LinkContainer to='/how/diseño' >
+            <Button bsStyle="warning" style={buttonStyle} block>Más Información</Button>
+          </LinkContainer>
+        </Thumbnail>
       </Row>
     </Col>
 

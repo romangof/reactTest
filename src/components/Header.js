@@ -24,8 +24,8 @@ export default (props) =>
       <LinkContainer to="/who">
         <NavItem>SOMOS</NavItem>
       </LinkContainer>
-      <LinkContainer to='/how'>
-        <NavDropdown  className="dropdown" title="TE AYUDAMOS" id="basic-nav-dropdown">
+      {/*<LinkContainer to='/how'>*/}
+        <NavDropdown className="dropdown" title="TE AYUDAMOS" id="basic-nav-dropdown">
           <LinkContainer to='/how/comunicaciones'>
             <MenuItem>COMUNICACIONES Y MARKETING DIGITAL</MenuItem>
           </LinkContainer>
@@ -39,7 +39,7 @@ export default (props) =>
             <MenuItem>MODELOS DE NEGOCIOS</MenuItem>
           </LinkContainer>
         </NavDropdown>
-      </LinkContainer>
+      {/*</LinkContainer>*/}
       {/*<LinkContainer to="/">*/}
         {/*<NavItem>BLOG</NavItem>*/}
       {/*</LinkContainer>*/}
