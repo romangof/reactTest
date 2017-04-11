@@ -67,7 +67,7 @@
   text-decoration-color: rgb(230, 133, 40) !important;*/
   background-color: RGBA(0,0,0,0) !important;
   border-bottom: 1px solid darkorange;
-  padding-bottom: 2px; 
+  padding-bottom: 2px;
 }
 
 /* --- How.js circle --- */
@@ -95,7 +95,7 @@
 #circle>div:nth-child(1) {
     border-color:green;
     top:5%;
-    left:5%;    
+    left:5%;
 }
 #circle>div:nth-child(2) {
     border-color:red;
@@ -159,7 +159,7 @@
   /*max-height: 250px;*/
   /*padding: 0px 10%;*/
   padding-right: 20%;
-} 
+}
 
 .titleHow {
   font-family: "Raleway-regular", sans-serif;
@@ -194,7 +194,7 @@
   padding-right: 15px;
   padding-left: 15px;
   max-width:80%;
-  text-align: left; 
+  text-align: left;
   margin-bottom: 10%;
 }
 
@@ -351,7 +351,7 @@ button {
 
 .descriptionHome {
   font-family: "Raleway-regular", sans-serif;
-  text-align: center; 
+  text-align: center;
   color: #FFF;
   margin-bottom: 5%;
   line-height: 5vh;
@@ -364,43 +364,54 @@ p, h1, h2, h3, h4, h5, h6{
 
 .dropdown {
     position: relative;
-    display: inline-block;
     font-family: "Raleway-regular", sans-serif;
     letter-spacing: -0.05em;
-    color: #FFF;
+    color: #FFF !important;
     border: none;
     border-color: transparent;
-}
-
-.dropdown-content {
-    font-family: "Raleway-regular", sans-serif;
-    position: relative;
-    display: none;
-    background-color: #00A69C;
-    min-width: 20vw;
-    padding: 3px 2px;
-    z-index: 0;
-    letter-spacing: -0.05em;
-    border: none !important;
-    border-color: transparent;
-    outline: 0px;
-}
-
-.dropdown-content a {
-    font-family: "Raleway-regular", sans-serif;
-    position: relative;
-    display: none;
-    background-color: #00A69C;
-    min-width: 20vw;
-    padding: 2px 2px;
-    z-index: 0;
-    letter-spacing: -0.05em;
-    border: none;
+    
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+ul.dropdown-menu {
+    background-color: transparent;
+}
+
+.dropdown-content {
+    font-family: "Raleway-regular", sans-serif;
+    text-align: center;
+    font-size: 12px;
+    position: relative;
+    display: none;
+    background-color: #00A69C;
+    color: white !important;
+    min-width: 20vw;
+    padding: 2vh 4vw;
+    margin: 0px;
+    z-index: 0;
+    letter-spacing: -0.01em;
+    border: none !important;
+    border-color: transparent;
+    outline: 0px;
+    
+    
+}
+
+.dropdown-content a {
+    padding: 2px 2px;
+}
+
+.dropdown-content:hover {
+    background-color: #FAAF40;
+}
+
+.navbar-nav > li > .dropdown-menu a{   color: #FFF;  }
+.navbar-nav > li > .dropdown-menu a:hover{   color: #FFF; background-color: transparent;   }
+
+
 
 @media (max-width: 768px) {
 	.container_circulo {
