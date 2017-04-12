@@ -11,6 +11,7 @@ import Who from './components/who/Who';
 // import Business from './components/how/Bussiness';
 import HowSection from './components/how/SectionizedHow';
 import Contact from './components/Contact';
+import Thanks from './components/thanks/Thanks';
 import './App.css';
 
 const NotFound = () => <h1>404.. This page is not found!</h1>
@@ -21,6 +22,7 @@ export default () =>
     <IndexRoute component={Home}/>
     <Route path='who' component={Who}/>
     <Route path='contact' component={Contact} />
+    <Route path='thanks' component={Thanks} />
     <Route path='how'>
       {/*<IndexRoute component={How}/>*/}
       {/*<Route path='/how/comms' component={Comms}/>

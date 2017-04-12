@@ -1,5 +1,6 @@
 import React from 'react';
 import { Col, Image, FormControl, FormGroup, ControlLabel, Button } from 'react-bootstrap';
+import { LinkContainer } from 'react-router-bootstrap';
 
 export default class Contact extends React.Component {
 
@@ -76,10 +77,13 @@ export default class Contact extends React.Component {
                 <FormControl componentClass="textarea" style={{height: '200px'}} name='comment' onChange={this.handleChange}/>
               </FormGroup>
 
-              <Button 
-                style={{color: 'white', backgroundColor: '#871D5F', borderRadius: 0,  padding: '2vh 4vh 2vh 4vh'}} 
-                bsSize="large" 
-                onClick={this.post}>Enviar</Button>
+              <LinkContainer to='thanks' >
+                <Button 
+                  style={{color: 'white', backgroundColor: '#871D5F', borderRadius: 0,  padding: '2vh 4vh 2vh 4vh'}} 
+                  bsSize="large" 
+                  onClick={this.post}>Enviar</Button>
+              </LinkContainer>
+
             </form>
           </Col>
         </section>

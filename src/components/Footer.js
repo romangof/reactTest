@@ -23,5 +23,5 @@ export default () =>
   <br/>
   <span>Magnere 1540, of. 901, Providencia, Santiago</span>
   <br/>
-  <a href="mailto:hola@aceleracion.cl">hola@aceleracion.cl</a>
+  <a href="mailto:hola@aceleracion.cl" style={{color: 'white'}} >hola@aceleracion.cl</a>
 </section>

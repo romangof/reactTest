@@ -132,6 +132,10 @@ h1 {
   margin-bottom: 10%;
 }
 
+.section1How {
+  padding: 5% 20% 0 0;
+}
+
 
 /*   Home   */
 .hometitle {
@@ -330,6 +334,9 @@ ul.dropdown-menu {
   }
   .contactBtn {
     width: 100%;
+  }
+  .section1How {
+    padding: 5%;
   }
 }
 @media (min-width: 768px) {

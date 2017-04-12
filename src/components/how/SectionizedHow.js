@@ -26,14 +26,10 @@ const buttonStyle2 = {
 
 export default (props) => {
 
-  // var obj = data[props.params.section];
   var obj = data.find( x => x.site === props.params.section);
-  // console.log(`urlParam: ${props.params.section} - json.site: ${data.filter( x => x.site === props.params.section )}`);
-  // console.log(data.filter( x => x.site === props.params.section ));
-  // console.log(data.find( x => x.site === props.params.section ));
 
   if (!obj) {
-    return <h1>404.. This page is not found!</h1>
+    return <h1 style={{textAlign: 'center'}} >404 Page not found!</h1>
   }
 
   return <div>
@@ -46,7 +42,7 @@ export default (props) => {
       <Col xs={6} xsOffset={3} sm={5} smOffset={1} style={{padding: '5%'}}>
         <Image src={require( `../../assets/${obj['section1']['imgURL']}.png` )} responsive/>
       </Col>
-      <Col xs={11} sm={5} smOffset={1} style={{padding: '5% 20% 0 0'}}>
+      <Col xs={11} sm={5} smOffset={1} className='section1How' >
         <h4 style={{color: '#00A69C', fontFamily: "Raleway"}}>{obj['section1']['title']}</h4>
         <br/>
         {obj['section1']['texts'].map((text, index) => 
