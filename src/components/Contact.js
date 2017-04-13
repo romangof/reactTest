@@ -36,6 +36,7 @@ export default class Contact extends React.Component {
   render () {
     return (
       <div>
+        <title>{document.title = 'Contacto'}</title>
         <section className={'sectionsHow'} style={{
           textAlign: 'left',
           overflow: 'hidden',

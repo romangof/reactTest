@@ -6,8 +6,9 @@ import Section4 from './Section4';
 
 export default () =>
 <div>
-    <Section1 />
-    <Section2 />
-    <Section3 />
-    <Section4 />
+  <title>{document.title = 'Somos'}</title>
+  <Section1 />
+  <Section2 />
+  <Section3 />
+  <Section4 />
 </div>

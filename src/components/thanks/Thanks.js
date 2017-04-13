@@ -13,6 +13,7 @@ var sectionStyles = {
 
 export default () => 
 <section style={sectionStyles}>
+  <title>{document.title = 'Gracias!'}</title>
   <Col>
     <Thumbnail src={Img} responsive />
       <h3 style={{color: '#00A69C'}}>

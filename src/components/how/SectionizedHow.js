@@ -38,6 +38,7 @@ export default (props) => {
       overflow: 'hidden', 
       height: '100%',
       fontFamily : "Raleway-regular" }} >
+      <title>{document.title = obj['section1']['title']}</title>
 
       <Col xs={6} xsOffset={3} sm={5} smOffset={1} style={{padding: '5%'}}>
         <Image src={require( `../../assets/${obj['section1']['imgURL']}.png` )} responsive/>
