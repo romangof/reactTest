@@ -13,7 +13,7 @@ var sectionStyle = {
 export default () => 
 <section style={sectionStyle} >
   <br/>
-  <div style={{paddingLeft: '5%'}} >
+  <div style={{paddingLeft: '4%'}} >
     <div className={'btn btn-link socialmedia facebookbutton'} />
     <div className={'btn btn-link socialmedia twitterbutton'} />
     <div className={'btn btn-link socialmedia linkedinbutton'} />
