@@ -38,7 +38,7 @@ export default () =>
         <Thumbnail src={Img1}>
           <h4 className="businesstitle">Comunicaciones y Marketing Digital</h4>
           <p className="businessdescription">Aumenta la visibilidad de tu marca, mejora su reputación online y consigue más conversiones.</p>
-          <LinkContainer to='/how/comunicaciones' >
+          <LinkContainer to='/ayudamos/comunicaciones' >
             <Button bsStyle="warning" style={buttonStyle} block>Más Información</Button>
           </LinkContainer>
         </Thumbnail>
@@ -50,7 +50,7 @@ export default () =>
         <Thumbnail src={Img2}>
           <h4 className="businesstitle">Diseño e Identidad Corportativa</h4>
           <p className="businessdescription">Aumenta la capacidad de innovación y competitividad de tu empresa mediante diseño estratégico.</p>
-          <LinkContainer to='/how/diseño' >
+          <LinkContainer to='/ayudamos/diseño' >
             <Button bsStyle="warning" style={buttonStyle} block>Más Información</Button>
           </LinkContainer>
         </Thumbnail>
@@ -63,7 +63,7 @@ export default () =>
           <h4 className="businesstitle">Soluciones TI</h4>
           <p className="businessdescription">Responde a los desafíos dinámicos del mercado con el uso de nuevas tecnologías.</p>
           <br />
-          <LinkContainer to='/how/ti' >
+          <LinkContainer to='/ayudamos/ti' >
             <Button bsStyle="warning" style={buttonStyle} block>Más Información</Button>
           </LinkContainer>
         </Thumbnail>
@@ -76,7 +76,7 @@ export default () =>
           <h4 className="businesstitle">Modelos de Negocios</h4>
           <p className="businessdescription">Descubre nuevas oportunidades de éxito para tu empresa.</p>
           <br /><br />
-          <LinkContainer to='/how/negocios' >
+          <LinkContainer to='/ayudamos/negocios' >
             <Button bsStyle="warning" style={buttonStyle} block>Más Información</Button>
           </LinkContainer>
        </Thumbnail>

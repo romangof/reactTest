@@ -35,24 +35,24 @@ export default class Header extends React.Component {
             <IndexLinkContainer to="/">
               <NavItem>INICIO</NavItem>
             </IndexLinkContainer>
-            <LinkContainer to="/who">
+            <LinkContainer to="/somos">
               <NavItem>SOMOS</NavItem>
             </LinkContainer>
-            <LinkContainer to='/how' onClick={(event) => event.preventDefault()} >
+            <LinkContainer to='/ayudamos' onClick={(event) => event.preventDefault()} >
               <NavDropdown onMouseEnter={ this.handleOpen }
                 onMouseLeave={ this.handleClose }
                 open={ this.state.isOpen } noCaret
                 className="dropdown" title="TE AYUDAMOS" id="basic-nav-dropdown">
-                <LinkContainer to='/how/comunicaciones'>
+                <LinkContainer to='/ayudamos/comunicaciones'>
                   <MenuItem className="dropdown-content">COMUNICACIONES Y MARKETING DIGITAL</MenuItem>
                 </LinkContainer>
-                <LinkContainer to='/how/diseño'>
+                <LinkContainer to='/ayudamos/diseño'>
                   <MenuItem className="dropdown-content">DISEÑO E IDENTIDAD CORPORATIVA</MenuItem>
                 </LinkContainer>
-                <LinkContainer to='/how/ti'>
+                <LinkContainer to='/ayudamos/ti'>
                   <MenuItem className="dropdown-content">SOLUCIONES TI</MenuItem>
                 </LinkContainer>
-                <LinkContainer to='/how/negocios'>
+                <LinkContainer to='/ayudamos/negocios'>
                   <MenuItem className="dropdown-content">MODELOS DE NEGOCIOS</MenuItem>
                 </LinkContainer>
               </NavDropdown>
@@ -60,7 +60,7 @@ export default class Header extends React.Component {
             {/*<LinkContainer to="/">*/}
               {/*<NavItem>BLOG</NavItem>*/}
             {/*</LinkContainer>*/}
-            <LinkContainer to="/contact">
+            <LinkContainer to="/contacto">
               <NavItem>CONTACTO</NavItem>
             </LinkContainer>
           </Nav>

@@ -37,7 +37,7 @@ export default () =>
   <h4 className="hometitle" style={{color:'white', fontFamily: 'Raleway-regular'}}>
     que ofrece soluciones disruptivas a las medianas y grandes empresas a través de diseño, estrategias digitales e innovación tecnológica, para desafiar los anticuados modelos de negocio y diseñar las empresas del futuro.
   </h4>
-  <LinkContainer to='/contact' >
+  <LinkContainer to='/contacto' >
     <Button bsStyle="warning" bsSize="large" style={buttonStyle} block>¡DESAFÍANOS!</Button>
   </LinkContainer>
   <Thumbnail src={Img2} style={thumbnailStyle}></Thumbnail>
