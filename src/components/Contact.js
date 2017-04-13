@@ -77,7 +77,7 @@ export default class Contact extends React.Component {
                 <FormControl componentClass="textarea" style={{height: '200px'}} name='comment' onChange={this.handleChange}/>
               </FormGroup>
 
-              <LinkContainer to='thanks' >
+              <LinkContainer to='gracias' >
                 <Button 
                   style={{color: 'white', backgroundColor: '#871D5F', borderRadius: 0,  padding: '2vh 4vh 2vh 4vh'}} 
                   bsSize="large" 

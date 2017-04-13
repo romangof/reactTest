@@ -51,7 +51,7 @@ export default (props) => {
             <br/>
           </div>
         )}
-        <LinkContainer to='contact' >
+        <LinkContainer to='/contacto' >
           <Button style={buttonStyle} block>{obj['section1']['buttonText']}</Button>
         </LinkContainer>
       </Col>
@@ -112,7 +112,7 @@ export default (props) => {
 
       <h3>Si tienes un desafío comercial específico,
       <br/><b>nos encantaría ayudarte.</b></h3>
-      <LinkContainer to='contact' >
+      <LinkContainer to='/contacto' >
         <Button bsStyle="warning" style={buttonStyle2} block>CONTÁCTANOS</Button>
       </LinkContainer>
     </section>

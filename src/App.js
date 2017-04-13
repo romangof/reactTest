@@ -20,16 +20,16 @@ export default () =>
 <Router onUpdate={() => window.scrollTo(0, 0)} history={browserHistory}>
   <Route path='/' component={Main}>
     <IndexRoute component={Home}/>
-    <Route path='who' component={Who}/>
-    <Route path='contact' component={Contact} />
-    <Route path='thanks' component={Thanks} />
-    <Route path='how'>
+    <Route path='somos' component={Who}/>
+    <Route path='contacto' component={Contact} />
+    <Route path='gracias' component={Thanks} />
+    <Route path='ayudamos'>
       {/*<IndexRoute component={How}/>*/}
       {/*<Route path='/how/comms' component={Comms}/>
       <Route path='/how/design' component={Design}/>
       <Route path='/how/ti' component={TI}/>
       <Route path='/how/business' component={Business}/>*/}
-      <Route path='/how(/:section)' component={HowSection}/>
+      <Route path='/ayudamos(/:section)' component={HowSection}/>
     </Route>
     {/*<Route path='/blog' component={Blog} />*/}
     <Route path='*' component={NotFound} />

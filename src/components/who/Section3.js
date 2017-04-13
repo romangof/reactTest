@@ -36,7 +36,7 @@ export default () =>
       <br/>
       <p>Averigua todo lo que podemos hacer por ti</p>
       <br/>
-      <LinkContainer to='contact' >
+      <LinkContainer to='contacto' >
         <Button bsStyle="warning" bsSize="large" style={{borderRadius: 0}} block >¡CONTÁCTANOS!</Button>
       </LinkContainer>
     </div>
