@@ -33,7 +33,7 @@ export default (props) => {
   }
 
   return <div>
-    <section className={'sectionsHow'} style={{
+    <section style={{
       textAlign: 'left',
       overflow: 'hidden', 
       height: '100%',

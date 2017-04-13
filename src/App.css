@@ -60,7 +60,7 @@ h1 {
 
 /*   KAREN CSS   */
 /*   How   */
-.container_circulo {
+/*.container_circulo {
 	padding: 15px 0;
 	margin-right: auto;
 	margin-left: auto;
@@ -70,67 +70,41 @@ h1 {
   background-position: center;
   text-align: center;
   max-width: 80%;
-}
-
-/*.container_circulo-fluid {
-	padding-right: 15px;
-	padding-left: 15px;
-	margin-right: auto;
-	margin-left: auto;
 }*/
-
+/*
 .itemHow {
   padding: 5% 20%;
-}
-
+}*/
+/*
 .descriptionHow {
   height: 150px;
   width: 80%;
   min-width: 200px;
-}
-
+}*/
+/*
 .imgHow {
   max-width: 300px;
   padding-right: 20%;
-}
-
+}*/
+/*
 .titleHow {
   font-family: "Raleway-regular", sans-serif;
   padding: 0 15px;
-  /*margin: auto 0;*/
-  /*padding-right: 15px;
-  padding-left: 15px;*/
-  /*margin-right: auto;
-  margin-left: auto;*/
   font-weight: 500;
   font-size: 18px;
   line-height: 40px;
   text-align: left;
   color: #00A69C ;
   text-transform: uppercase;
-}
-
-/*.titleitemHow {
-  font-family: "Raleway", sans-serif;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 40px;
-  text-align: left;
-  color: #871D5F ;
-  text-transform: uppercase;
 }*/
-
+/*
 .maindescriptionHow {
   font-family: "Raleway-regular", sans-serif;
   padding: 0 15px;
   max-width:80%;
   text-align: left;
   margin-bottom: 10%;
-}
+}*/
 
 .section1How {
   padding: 5% 20% 0 0;
@@ -325,10 +299,10 @@ ul.dropdown-menu {
   .imgHow {
     padding-right: 65%;
   }
-  .maindescriptionHow {
+  /*.maindescriptionHow {
     margin-bottom:20%;
     max-width: 100%;
-  }
+  }*/
   h4 {
     padding-bottom: 30px;
   }
