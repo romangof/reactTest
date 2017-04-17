@@ -23,6 +23,9 @@ h1 {
   font-size: 24px;
 }
 
+.list {
+  margin-top: 1vh;
+}
 
 /* --- NavBar Header --- */
 
@@ -201,10 +204,11 @@ h1 {
 
 .descriptionHome {
   font-family: "Raleway-regular", sans-serif;
-  text-align: center; 
+  font-size: "1.2 em";
+  text-align: center;
   color: #FFF;
-  margin-bottom: 5%;
-  line-height: 5vh;
+  margin-bottom: 2%;
+  line-height: 3vh;
 }
 
 
@@ -256,7 +260,6 @@ ul.dropdown-menu {
     background-color: #00A69C;
     color: white;
     min-width: 20vw;
-    padding: 1.2vh 4vw;
     margin: 0px;
     z-index: 0;
     letter-spacing: -0.01em;
@@ -273,7 +276,7 @@ ul.dropdown-menu {
 }
 
 .dropdown-content a {
-    padding: 1.5px 2px;
+    padding: 2px 4px;
 }
 
 .dropdown-content:hover {
@@ -288,10 +291,26 @@ ul.dropdown-menu {
     background-color: #FAAF40;
 }
 
-.navbar-nav > li > .dropdown-menu a{   color: #FFF; background-color: transparent;  }
-.navbar-nav > li > .dropdown-menu a:hover{   color: #FFF; background-color: transparent;   }
+.navbar-nav > li > .dropdown-menu a{   
+    color: #FFF; 
+    background-color: transparent;
+    padding: 8px 25px;
+}
 
+.navbar-nav > li > .dropdown-menu a:hover{   
+  color: #FFF; 
+  background-color: transparent;
+}
 
+.navbar-nav > li > .dropdown-menu a:active{   
+  color: #FFF; 
+  background-color: #FAAF40;
+}
+
+.navbar-nav > li > .dropdown-menu a:visited{   
+  color: #FFF; 
+  background-color: #00A69C;
+}
 
 
 /*   Responsive   */
@@ -317,7 +336,7 @@ ul.dropdown-menu {
     padding: 5%;
   }
   .business {
-    height: 75vh;
+    height: 80vh;
   }
 }
 @media (min-width: 768px) {
