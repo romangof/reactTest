@@ -78,7 +78,7 @@ var Ss3 = React.createClass({
       </div>)
     
     const carousel = (
-      <Carousel activeIndex={this.state.index} direction={this.state.direction} onSelect={this.handleSelect}>
+      <Carousel activeIndex={this.state.index} direction={this.state.direction} onSelect={this.handleSelect} indicators={false}>
         {testimonials.map((element) => 
           <Carousel.Item key={element.id}>
             <div style={carouselStyle}>
