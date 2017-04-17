@@ -161,6 +161,10 @@ h1 {
     color:#FAAF40;
 }*/
 
+.business {
+  height: 60vh;
+}
+
 .businesstitle {
   font-size: 16px;
   line-height: 4vh;
@@ -337,6 +341,9 @@ ul.dropdown-menu {
   }
   .section1How {
     padding: 5%;
+  }
+  .business {
+    height: 75vh;
   }
 }
 @media (min-width: 768px) {
