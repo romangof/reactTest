@@ -1,16 +1,11 @@
 @font-face {
-  font-family: "Raleway-regular";
+  font-family: "Raleway";
   src: url("./assets/Fonts/Raleway-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Raleway";
-  font-style: bold;
+  font-weight: bold;
   src: url("./assets/Fonts/Raleway-Bold.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Raleway";
-  font-style: italic;
-  src: url("./assets/Fonts/Raleway-Italic.ttf") format("truetype");
 }
 
 body {

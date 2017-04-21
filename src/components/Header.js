@@ -4,10 +4,8 @@ import { Navbar, Nav, NavItem, MenuItem, NavDropdown } from 'react-bootstrap';
 import { IndexLinkContainer, LinkContainer } from 'react-router-bootstrap';
 
 export default class Header extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state = { isOpen: false }
-  }
+
+  state = { isOpen: false }
 
   handleOpen = () => {
     this.setState({ isOpen: true })
@@ -17,7 +15,7 @@ export default class Header extends React.Component {
      this.setState({ isOpen: false })
   }
 
-  render (props) {
+  render () {
     return (
       <Navbar collapseOnSelect fixedTop className={(location.pathname !== '/') ? 'navbarElse' : 'navbarIndex'}>
 

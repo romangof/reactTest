@@ -3,13 +3,10 @@ import { Col, Button } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 
 const sectionStyle = {
-  // minHeight: '65vh',
   height: '100%',
   overflow: 'hidden',
   padding: '5% 0%',
   textAlign: 'center',
-  fontFamily : "Raleway"
-  // backgroundColor: 'rgb(247, 246, 246)',
 }
 
 const textStyle = {
@@ -19,7 +16,6 @@ const textStyle = {
   paddingLeft: '10%',
   fontSize: '80px',
   lineHeight: '72px',
-  fontFamily : "Raleway-regular"
 }
 
 export default () =>

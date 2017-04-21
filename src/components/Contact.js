@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, Image, FormControl, FormGroup, ControlLabel, Button } from 'react-bootstrap';
-import { LinkContainer } from 'react-router-bootstrap';
+import { browserHistory } from 'react-router';
 
 export default class Contact extends React.Component {
 
@@ -15,75 +15,89 @@ export default class Contact extends React.Component {
     var data = this.state.data;
     data[e.target.name] = e.target.value;
     this.setState({data: data});
-
-    // console.log(prevState);
-    // console.log(this.state.data);
   }
 
-  post () {
-    console.log(this.state.data);
-    // const url = 'http://www.reddit.com/r/reactjs.json';
-    // fetch(url)
-    //   .then((response) => {
-    //     console.log(response.json());
-    //   })
-    //   .catch((error) => {
-    //     console.log('***   ' + error);
-    //   })
-    this.setState({data: {}});
+  post (e) {
+    e.preventDefault();
+    var data = this.state.data;
+    // console.log({contact:this.state.data});
+    // console.log(data);
+    if (data.name && data.company && data.job_title && data.email && data.telephone && data.message) {
+      fetch('http://localhost:3001/api/contact', {
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json'
+        },
+        method: 'POST',
+        body: JSON.stringify({contact: this.state.data})
+      })
+      .then((response) => {
+        console.log(this.request);
+        if(response.ok) {
+          console.log(response.json());
+          browserHistory.push('/gracias');
+        } else {
+          return response.json();
+        }
+      })
+      .then((response) => {console.log(response.error)})
+      .catch((error) => {console.log(error)})
+    }
   }
 
   render () {
     return (
       <div>
         <title>{document.title = 'Contacto'}</title>
-        <section className={'sectionsHow'} style={{
-          textAlign: 'left',
-          overflow: 'hidden',
-          height: '100%',
-          fontFamily : "Raleway-regular"}}>
+        <section className={'sectionsHow'} style={{textAlign: 'left', overflow: 'hidden', height: '100%'}}>
+
           <Col xs={6} xsOffset={3} sm={4} smOffset={1} style={{padding: '5%'}}>
-            <Image src={require( '../assets/contact.png' )} responsive/>
-            {this.state.data.name}
+            <Image src={require('../assets/contact.png')} responsive/>
           </Col>
+
           <Col xs={12} sm={5} smOffset={1} style={{padding: '5%'}}>
-            <h4 style={{color: '#00A69C', fontFamily: "Raleway"}}>CONTACTO</h4>
+            <h4 style={{color: '#00A69C'}}><b>CONTACTO</b></h4>
             <br/>
             Hablemos, nos encantaría ayudarte.
             <br/>
             <br/>
-            <form action="">
-              <FormGroup controlId="formName">
+
+            <form onSubmit={this.post}>
+              <FormGroup controlId="formName" validationState={(this.state.data.name) ? 'success':'error'}>
                 <ControlLabel>Nombre</ControlLabel>
-                <FormControl type="text" name='name' value={this.state.data.name} onChange={this.handleChange}/>
+                <FormControl type="text" name='name' onChange={this.handleChange} required/>
               </FormGroup>
 
-              <FormGroup controlId="formCompany">
+              <FormGroup controlId="formCompany" validationState={(this.state.data.company) ? 'success':'error'}>
                 <ControlLabel>Empresa</ControlLabel>
-                <FormControl type="text" name='company' onChange={this.handleChange}/>
+                <FormControl type="text" name='company' onChange={this.handleChange} required/>
+              </FormGroup>
+              
+              <FormGroup controlId="formTitle" validationState={(this.state.data.job_title) ? 'success':'error'}>
+                <ControlLabel>Cargo</ControlLabel>
+                <FormControl type="text" name='job_title' onChange={this.handleChange} required/>
               </FormGroup>
 
-              <FormGroup controlId="formMail">
+              <FormGroup controlId="formMail" validationState={/^\S+@\S+\.\S+$/.test(this.state.data.email) ? 'success':'error'}>
                 <ControlLabel>Mail</ControlLabel>
-                <FormControl type="email" name='email' onChange={this.handleChange}/>
+                <FormControl type="email" name='email' onChange={this.handleChange} required/>
               </FormGroup>
 
-              <FormGroup controlId="formPhone">
+              <FormGroup controlId="formPhone" validationState={/\(?([0-9]{3})\)?([ .-]?)([0-9]{4})\2([0-9]{4})/.test(this.state.data.telephone) ? 'success':'error'}>
                 <ControlLabel>Teléfono</ControlLabel>
-                <FormControl type="text" name='phone' onChange={this.handleChange}/>
+                <FormControl type="text" name='telephone' onChange={this.handleChange} required/>
               </FormGroup>
 
-              <FormGroup controlId="formComment">
+              <FormGroup controlId="formComment" validationState={(this.state.data.message) ? 'success':'error'}>
                 <ControlLabel>Comentario</ControlLabel>
-                <FormControl componentClass="textarea" style={{height: '200px'}} name='comment' onChange={this.handleChange}/>
+                <FormControl componentClass="textarea" style={{height: '200px'}} name='message' onChange={this.handleChange} required/>
               </FormGroup>
 
-              <LinkContainer to='gracias' >
-                <Button 
-                  style={{color: 'white', backgroundColor: '#871D5F', borderRadius: 0,  padding: '2vh 4vh 2vh 4vh'}} 
-                  bsSize="large" 
-                  onClick={this.post}>Enviar</Button>
-              </LinkContainer>
+              <Button onClick={this.post} type='submit' bsSize="large" style={{
+                color: 'white',
+                backgroundColor: '#871D5F',
+                borderRadius: 0,
+                padding: '2vh 4vh 2vh 4vh'}}>Enviar</Button>
 
             </form>
           </Col>

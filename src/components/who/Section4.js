@@ -16,11 +16,11 @@ var sectionStyle = {
 }
 
 // this should be the same as section 5 in home with 
-// logos and text and styles brought from bkEnd
+// logos, text and styles brought from bkEnd
 
 export default () =>  
 <section style={sectionStyle}>
-  <h4 style={{color: '#00A69C'}} >NUESTRAS EMPRESAS</h4>
+  <h4 style={{color: '#00A69C'}}><b>NUESTRAS EMPRESAS</b></h4>
   <div style={{padding: '5%', color: 'gray'}}>
     <Col xs={6} sm={4}><Thumbnail src={Img1} /></Col>
     <Col xs={6} sm={4}><Thumbnail src={Img2} /></Col>

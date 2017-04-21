@@ -5,7 +5,6 @@ var sectionStyle = {
   height: '25vh',
   textAlign: 'center',
   backgroundColor: 'rgb(56, 152, 138)',
-  fontFamily : "Raleway-regular",
   fontSize: "14px",
   color: "#FFF"
 }

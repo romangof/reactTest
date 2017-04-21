@@ -4,10 +4,8 @@ import { Col, Thumbnail } from 'react-bootstrap';
 
 var sectionStyles = {
   minHeight: '60vh',
-  // backgroundColor: 'gray',
   padding: '5%',
   textAlign: 'center',
-  fontFamily : "Raleway-regular"
 }
 
 export default () => 

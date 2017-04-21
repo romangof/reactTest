@@ -10,7 +10,6 @@ const colStyle = {
   overflow: 'hidden',
   height: '100%',
   padding: "0% 4%",
-  fontFamily : "Raleway",
   fontSize: "15px",
   color: "#FFF"
 }
@@ -20,10 +19,7 @@ const buttonStyle = {
   minWidth: '150px',
   margin: '5% auto',
   borderRadius: '0',
-  fontFamily : "Raleway-regular"
 }
-
-// TRY react-bootstrap IMAGE component instead of Thumbnail
 
 export default () =>
 <section className="container-fluid" style={{minHeight: "90vh", paddingTop: '3%'}}>
@@ -38,7 +34,7 @@ export default () =>
       <Row>
         <div className="business">
           <Thumbnail src={Img1}>
-          <h4 className="businesstitle">Comunicaciones y Marketing Digital</h4>
+          <h4 className="businesstitle"><b>Comunicaciones y Marketing Digital</b></h4>
           <p className="businessdescription">Aumenta la visibilidad de tu marca, mejora su reputación online y consigue más conversiones.</p>
           </Thumbnail>
         </div>
@@ -52,7 +48,7 @@ export default () =>
       <Row>
         <div className="business">
          <Thumbnail src={Img2}>
-           <h4 className="businesstitle">Diseño e Identidad Corportativa</h4>
+           <h4 className="businesstitle"><b>Diseño e Identidad Corportativa</b></h4>
             <p className="businessdescription">Aumenta la capacidad de innovación y competitividad de tu empresa mediante diseño estratégico.</p>
         </Thumbnail>
         </div>
@@ -66,7 +62,7 @@ export default () =>
       <Row>
         <div className="business">
         <Thumbnail src={Img3}>
-           <h4 className="businesstitle">Soluciones TI</h4>
+           <h4 className="businesstitle"><b>Soluciones TI</b></h4>
             <p className="businessdescription">Responde a los desafíos dinámicos del mercado con el uso de nuevas tecnologías.</p>
           <br />
           </Thumbnail>
@@ -81,7 +77,7 @@ export default () =>
       <Row>
        <div className="business">
         <Thumbnail src={Img4}>
-          <h4 className="businesstitle">Modelos de Negocios</h4>
+          <h4 className="businesstitle"><b>Modelos de Negocios</b></h4>
           <p className="businessdescription">Descubre nuevas oportunidades de éxito para tu empresa.</p>
           <br /><br />
        </Thumbnail>

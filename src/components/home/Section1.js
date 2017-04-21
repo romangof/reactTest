@@ -22,7 +22,6 @@ const buttonStyle = {
   width: '70%',
   margin: '5% auto',
   borderRadius: '0',
-  fontFamily : "Raleway-regular",
 }
 
 const thumbnailStyle = {
@@ -32,9 +31,9 @@ const thumbnailStyle = {
 export default () =>
 <section className="container-fluid" style={sectionStyle}>
   <h1>
-    <b style={{fontFamily: 'Raleway'}} >SOMOS UNA TRANSFORMADORA DIGITAL</b>
+    <b>SOMOS UNA TRANSFORMADORA DIGITAL</b>
   </h1>
-  <h4 className="hometitle" style={{color:'white', fontFamily: 'Raleway-regular'}}>
+  <h4 className="hometitle" style={{color:'white'}}>
     que ofrece soluciones disruptivas a las medianas y grandes empresas a través de diseño, estrategias digitales e innovación tecnológica, para desafiar los anticuados modelos de negocio y diseñar las empresas del futuro.
   </h4>
   <LinkContainer to='/contacto' >

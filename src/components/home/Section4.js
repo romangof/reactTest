@@ -1,12 +1,11 @@
 import React from 'react';
-import {Col} from 'react-bootstrap';
+import { Col } from 'react-bootstrap';
 
 var sectionStyle = {
     height: '45vh',
     backgroundColor: 'rgb(242, 160, 49)',
     paddingTop: '2vh',
     fontSize: "1.2em",
-
 }
 
 export default () => 

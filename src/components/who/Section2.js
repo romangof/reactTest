@@ -5,7 +5,6 @@ const sectionStyle = {
   padding: '3% 5%',
   textAlign: 'center',
   backgroundColor: 'rgb(247, 246, 246)',
-  fontFamily : "Raleway-regular",
 }
 
 export default () =>  

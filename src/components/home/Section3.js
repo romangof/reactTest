@@ -25,8 +25,6 @@ const carouselStyle = {
   height: "50vh",
   width: "100%",
   padding: '3vh 15% 0 15%',
-  // color: 'white',
-  fontFamily : "Raleway-regular",
   fontSize: "1.2em",
   color: "#FFF"
 }
@@ -37,12 +35,10 @@ var Ss3 = React.createClass({
   },
 
   handleSelect( selectedIndex, e ) {
-    // alert('selected=' + selectedIndex + ', direction=' + e.direction);
     this.setState({ index: selectedIndex, direction: e.direction });
   },
 
   render() {
-
     // This should at some point be brought from bkEnd via REST
     var testimonials = [
       {
@@ -87,10 +83,6 @@ var Ss3 = React.createClass({
               <br/>
               <p>{element.comment}</p>
             </div>
-            {/*<img width={"100%"} height={"70vh"} src="/assets/carousel.png"/>*/}
-              {/*<h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>*/}
-              {/*<button className="homebutton homebutton1">VER CASO DE ÉXITO</button>*/}
           </Carousel.Item>
         )}
       </Carousel>)
@@ -101,7 +93,6 @@ var Ss3 = React.createClass({
           <h4 className="hometitle white"><b>TESTIMONIOS</b></h4>
         </Col>        
         <div>
-          {/*{console.log(testimonials.length)}*/}
           {(testimonials.length < 2) ? single:carousel}
         </div>
       </section>
