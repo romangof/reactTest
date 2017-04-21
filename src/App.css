@@ -16,6 +16,19 @@ button {
   box-shadow: none;
 }
 
+input {
+  border-color: #cccccc !important;
+}
+
+textarea {
+  border-color: #cccccc !important;
+
+}
+label {
+  color: #333333 !important;
+  font-weight: normal;
+}
+
 h1 {
   font-size: 24px;
 }
