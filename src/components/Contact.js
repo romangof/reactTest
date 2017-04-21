@@ -1,6 +1,7 @@
 import React from 'react';
 import { Col, Image, FormControl, FormGroup, ControlLabel, Button } from 'react-bootstrap';
 import { browserHistory } from 'react-router';
+import runtimeEnv from '@mars/heroku-js-runtime-env'
 
 export default class Contact extends React.Component {
 
@@ -19,11 +20,13 @@ export default class Contact extends React.Component {
 
   post (e) {
     e.preventDefault();
+    const env = runtimeEnv();
     var data = this.state.data;
     // console.log({contact:this.state.data});
     // console.log(data);
     if (data.name && data.company && data.job_title && data.email && data.telephone && data.message) {
-      fetch('http://localhost:3001/api/contact', {
+      fetch(env.REACT_APP_HELLO, {
+        // 174.129.25.170
         headers: {
           'Accept': 'application/json',
           'Content-Type': 'application/json'
