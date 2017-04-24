@@ -25,7 +25,7 @@ export default class Contact extends React.Component {
     // console.log({contact:this.state.data});
     // console.log(data);
     if (data.name && data.company && data.job_title && data.email && data.telephone && data.message) {
-      fetch(env.REACT_APP_HELLO, {
+      fetch(env.REACT_APP_API_URL, {
         // 174.129.25.170
         headers: {
           'Accept': 'application/json',
