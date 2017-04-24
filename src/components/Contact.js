@@ -4,7 +4,6 @@ import { browserHistory } from 'react-router';
 import runtimeEnv from '@mars/heroku-js-runtime-env'
 
 export default class Contact extends React.Component {
-
   constructor(props) {
     super();
     this.state = { data: {} };
@@ -22,11 +21,8 @@ export default class Contact extends React.Component {
     e.preventDefault();
     const env = runtimeEnv();
     var data = this.state.data;
-    // console.log({contact:this.state.data});
-    // console.log(data);
     if (data.name && data.company && data.job_title && data.email && data.telephone && data.message) {
       fetch(env.REACT_APP_API_URL, {
-        // 174.129.25.170
         headers: {
           'Accept': 'application/json',
           'Content-Type': 'application/json'
@@ -35,15 +31,13 @@ export default class Contact extends React.Component {
         body: JSON.stringify({contact: this.state.data})
       })
       .then((response) => {
-        console.log(this.request);
         if(response.ok) {
-          console.log(response.json());
           browserHistory.push('/gracias');
         } else {
           return response.json();
         }
       })
-      .then((response) => {console.log(response.error)})
+      // .then((response) => {console.log(response.error)})
       .catch((error) => {console.log(error)})
     }
   }
