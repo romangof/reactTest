@@ -7,7 +7,8 @@ import Ss5 from './Section5';
 
 export default () => 
 <div className="Home">
-  <title>{document.title = 'AceleracionLabs'}</title>
+  <title>{document.title = 'Aceleración Labs | Transformación digital'}</title>
+  <meta name="Description" content="Ofrecemos soluciones disruptivas de negocios a través de comunicación estratégica, marketing digital, diseño, identidad corporativa y soluciones TI.">
   <Ss1 />
 
   <Ss2 />
