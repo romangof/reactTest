@@ -9,12 +9,8 @@ export default () =>
 <div className="Home">
   <title>{document.title = 'AceleracionLabs'}</title>
   <Ss1 />
-
   <Ss2 />
-
   <Ss3 />
-
   <Ss4 />
-
   <Ss5 />
 </div>
