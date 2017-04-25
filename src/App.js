@@ -1,5 +1,5 @@
 import React from 'react';
-import {Router, Route, IndexRoute, browserHistory} from 'react-router';
+import { Router, Route, IndexRoute, browserHistory } from 'react-router';
 import ReactGA from 'react-ga';
 import Main from './components/Main';
 import Home from './components/home/Home';
@@ -17,15 +17,15 @@ function update() {
   ReactGA.pageview(window.location.pathname);
 }
 
-const NotFound = () => <h1>404.. This page is not found!</h1>
+const NotFound = () => <h1>404 This page is not found!</h1>
 
 export default () => 
 <Router onUpdate={update} history={browserHistory}>
   <Route path='/' component={Main}>
     <IndexRoute component={Home}/>
     <Route path='somos' component={Who}/>
-    <Route path='contacto' component={Contact} />
-    <Route path='/gracias(/:from)' component={Thanks} />
+    <Route path='contacto(/:from)' component={Contact} />
+    <Route path='gracias(/:from)' component={Thanks} />
     <Route path='ayudamos'>
       <Route path='/ayudamos(/:section)' component={HowSection}/>
     </Route>

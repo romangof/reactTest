@@ -15,8 +15,8 @@ export default (props) =>
     <Thumbnail src={Img} />
       <h3 style={{color: '#00A69C'}}>
         <b>¡Gracias por escribirnos, <br/>pronto estaremos conversando!</b>
-        {console.log(props)}
-        {console.log(props.params)}
+        {/*{console.log(props)}
+        {console.log(props.params)}*/}
       </h3>
   </Col>
   <br/>
