@@ -7,7 +7,7 @@ import Ss5 from './Section5';
 
 export default () => 
 <div className="Home">
-  <title>{document.title = 'Aceleración Labs | Transformación digital'}</title>
+  <title>Aceleración Labs | Transformación digital</title>
   <meta name="Description" content="Ofrecemos soluciones disruptivas de negocios a través de comunicación estratégica, marketing digital, diseño, identidad corporativa y soluciones TI." />
   <meta name="google-site-verification" content="anR0ZNaxCM7uuZDLpVGQuA0C3o2z9DQK77v-JBV_Dsc" />
   <Ss1 />
