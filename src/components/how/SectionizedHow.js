@@ -36,7 +36,7 @@ export default (props) => {
         <Image src={require( `../../assets/${obj['section1']['imgURL']}.png` )} responsive/>
       </Col>
       <Col xs={11} sm={5} smOffset={1} className='section1How' >
-        <h4 style={{color: '#00A69C'}}><b>{obj['section1']['title']}</b></h4>
+        <h4 style={{color: '#00A69C', textTransform: 'uppercase'}}><b>{obj['section1']['title']}</b></h4>
         <br/>
         {obj['section1']['texts'].map((text, index) => 
           <div key={index}>

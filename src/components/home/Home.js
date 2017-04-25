@@ -7,7 +7,7 @@ import Ss5 from './Section5';
 
 export default () => 
 <div className="Home">
-  <title>{document.title = 'Aceleración Labs | Transformación digital'}</title>
+  <title>Aceleración Labs | Transformación digital</title>
   <Ss1 />
   <Ss2 />
   <Ss3 />

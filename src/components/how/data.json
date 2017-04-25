@@ -3,7 +3,7 @@
     "site": "comunicaciones",
     "section1": {
       "imgURL": "comunicaciones",
-      "title": "COMUNICACIONES Y MARKETING DIGITAL",
+      "title": "Comunicaciones y Marketing Digital",
       "texts": ["Desarrollamos planes de comunicación estratégica y marketing digital para aumentar la visibilidad de la marca y mejorar su reputación online.", "Entendemos cómo diseñar estrategias que se transformen en ventas"],
       "buttonText": "CONVERSEMOS"
     },
@@ -30,7 +30,7 @@
     "site": "diseño",
     "section1": {
       "imgURL": "diseno",
-      "title": "DISEÑO E IDENTIDAD CORPORATIVA",
+      "title": "Diseño e Identidad Corporativa",
       "texts": ["Creamos marcas más allá de la concepción gráfica. Desarrollamos su identidad corporativa a través de diseño estratégico y cohesivo.", "Entendemos cómo crear, construir y diseñar proyectos exitosos"],
       "buttonText": "CONVERSEMOS"
     },
@@ -61,7 +61,7 @@
     "site": "ti",
     "section1": {
       "imgURL": "ti",
-      "title": "SOLUCIONES TI",
+      "title": "Soluciones TI",
       "texts": ["Entregamos soluciones TI reales y modernas a través de servicios innovadores de desarrollo de software, sitios web y aplicaciones móviles.", "Entendemos cómo desarrollar soluciones tecnológicas para el crecimiento de las empresas"],
       "buttonText": "CONVERSEMOS"
     },
@@ -96,7 +96,7 @@
     "site": "negocios",
     "section1": {
       "imgURL": "modelos",
-      "title": "MODELOS DE NEGOCIO",
+      "title": "Modelos de Negocio",
       "texts": ["Creamos nuevos modelos de negocio para dejar atrás los antiguos estándares comerciales y diseñar las empresas del futuro.", "Entendemos cómo transformar empresas a través de nuevos modelos de negocio"],
       "buttonText": "CONVERSEMOS"
     },
