@@ -282,6 +282,12 @@ ul.dropdown-menu {
   }
 }
 
+@media only screen and (max-width : 768px) {
+.navbar-collapse .navbar-collapse li a  { background: #00A69C; }
+.dropdown-content li a {color: #FFF;}
+.dropdown a {background-color: #FFF;}
+}
+
 @media (min-width: 768px) {
 	.colHow {
     height: 4%;
