@@ -91,7 +91,7 @@ export default class Contact extends React.Component {
                   <option value="comunicaciones">Marketing y Comunicaciones</option>
                   <option value="diseno">Diseño e identidad corporativa</option>
                   <option value="ti">Soluciones TI</option>
-                  <option value="business">Negocios</option>
+                  <option value="negocios">Negocios</option>
                   <option value="newsletter">Suscripcion</option>
                 </FormControl>
               </FormGroup>
