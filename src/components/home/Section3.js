@@ -10,21 +10,19 @@ const titleStyle = {
 }
 
 const sectionStyle = {
-  height: "100%",
   backgroundImage: `url(${ Img })`,
   backgroundSize: "cover",
   // backgroundSize: '100% 100%',
   backgroundRepeat: "no-repeat",
   backgroundPosition: "center center",
-  padding: "0 0 10vh 0",
+  padding: "0",
   overflow: 'hidden'
   
 }
 
 const carouselStyle = {
-  height: "100%",
   width: "100%",
-  padding: '3vh 15% 0 15%',
+  padding: '3vh 15% 5% 15%',
   fontSize: "1em",
   color: "#FFF"
 }
