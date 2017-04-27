@@ -8,16 +8,24 @@ var sectionStyles = {
   textAlign: 'center',
 }
 
+var thxNewsletter = <b>¡Te has suscrito a nuestro newsletter exitosamente! <br/>Ahora recibirás contenido valioso para tus estrategias de negocios.</b>
+var thxContact = <b>¡Gracias por escribirnos, <br/>pronto estaremos conversando!</b>
+
+// var asd = <button>asd</button>
+
 export default (props) => 
 <section style={sectionStyles}>
   <title>{document.title = 'Gracias!'}</title>
   <Col>
     <Thumbnail src={Img} />
       <h3 style={{color: '#00A69C'}}>
-        <b>¡Gracias por escribirnos, <br/>pronto estaremos conversando!</b>
-        {/*{console.log(props)}
-        {console.log(props.params)}*/}
+        {(props.params.from !== 'newsletter') ? thxContact:thxNewsletter}
       </h3>
+{/*
+      { () => {console.log('am i running')} }
+      { console.log('aqui') }
+      { console.log(true?true:false) }
+      { ((props) => {console.log(props); return ('123')})(props.params.from) }*/}
   </Col>
   <br/>
 </section>
