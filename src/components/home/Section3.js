@@ -2,9 +2,6 @@ import React from 'react';
 import Img from '../../assets/fondo2-01.png'
 import { Carousel, Col } from 'react-bootstrap';
 
-// Make a component of each Carousel.Item
-// And iterate over it once received from bkEnd
-
 const titleStyle = {
     padding: '3% 0%'
 }
@@ -12,12 +9,10 @@ const titleStyle = {
 const sectionStyle = {
   backgroundImage: `url(${ Img })`,
   backgroundSize: "cover",
-  // backgroundSize: '100% 100%',
   backgroundRepeat: "no-repeat",
   backgroundPosition: "center center",
   padding: "0",
   overflow: 'hidden'
-  
 }
 
 const carouselStyle = {
@@ -52,14 +47,7 @@ var Ss3 = React.createClass({
         position: 'Managing Director, Dorstener Latinoamérica SpA',
         comment: '"Este gran equipo nos apoyó en la creación de la imagen corporativa de nuestra nueva área de negocios. El desafío era lograr una imagen que comunicará de manera consistente la propuesta de valor a nuestro público objetivo y que a la vez se alineara con la identidad de nuestro grupo de empresas. El resultado cumple cabalmente con nuestras expectativas. Un grupo de trabajo serio, responsable y muy preocupado por cumplir vuestras necesidades".',
         link: ''
-       }, 
-      //  {
-    //     id: 3,
-    //     name: '',
-    //     position: '',
-    //     comment: '',
-    //     link: ''
-    //   }
+       }
     ];
 
     const single = (
