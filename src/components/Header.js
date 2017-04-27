@@ -22,7 +22,7 @@ export default class Header extends React.Component {
         <Navbar.Header>
           <Navbar.Brand>
             <a href="/">
-              <img src={logo} alt="Aceleracion Labs."/>
+              <img src={logo} alt="Aceleracion Labs"/>
             </a>
           </Navbar.Brand>
           <Navbar.Toggle/>
