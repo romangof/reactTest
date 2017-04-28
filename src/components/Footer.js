@@ -13,9 +13,15 @@ export default () =>
 <section style={sectionStyle} >
   <br/>
   <div style={{paddingLeft: '4%'}} >
-                <a href="https://www.facebook.com/aceleracionlabs/"><div className={'btn btn-link socialmedia facebookbutton'} /></a>
-                <a href="https://twitter.com/AceleracionLabs"><div className={'btn btn-link socialmedia twitterbutton'} /></a>
-                <a href="https://www.linkedin.com/company-beta/10178890/"><div className={'btn btn-link socialmedia linkedinbutton'} /></a>
+    <a href="https://www.facebook.com/aceleracionlabs/">
+      <div className={'btn btn-link socialmedia facebookbutton'} />
+    </a>
+    <a href="https://twitter.com/AceleracionLabs">
+      <div className={'btn btn-link socialmedia twitterbutton'} />
+    </a>
+    <a href="https://www.linkedin.com/company-beta/10178890/">
+      <div className={'btn btn-link socialmedia linkedinbutton'} />
+    </a>
   </div>
   <br/>
   <b>ACELERACIÓN LABS</b>
