@@ -17,7 +17,7 @@ function update() {
   ReactGA.pageview(window.location.pathname);
 }
 
-const NotFound = () => <h1>404 This page is not found!</h1>
+const NotFound = () => <h1 style={{textAlign: 'center'}}>404 Page not found!</h1>
 
 export default () => 
 <Router onUpdate={update} history={browserHistory}>
