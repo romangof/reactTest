@@ -47,6 +47,7 @@ export default class Ss4 extends React.Component {
           return response.json();
         }
       })
+      // i can add an if in the next line if (response.error) then clg()
       // .then((response) => {console.log(response.error)})
       .catch((error) => {console.log(error)})
     }

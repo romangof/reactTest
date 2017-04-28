@@ -25,7 +25,7 @@ export default () =>
     <IndexRoute component={Home}/>
     <Route path='somos' component={Who}/>
     <Route path='contacto(/:from)' component={Contact} />
-    <Route path='gracias(/:from)' component={Thanks} />
+    <Route path='gracias(/:from)(/:spec)' component={Thanks} />
     <Route path='ayudamos'>
       <Route path='/ayudamos(/:section)' component={HowSection}/>
     </Route>
