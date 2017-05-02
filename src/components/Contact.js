@@ -37,7 +37,7 @@ export default class Contact extends React.Component {
           return response.json();
         }
       })
-      // .then((response) => {console.log(response.error)})
+      .then((response) => {response && console.log(response.error)})
       .catch((error) => {console.log(error)})
     }
   }

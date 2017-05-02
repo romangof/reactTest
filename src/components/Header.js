@@ -39,6 +39,7 @@ export default class Header extends React.Component {
             <LinkContainer to='/ayudamos' onClick={(event) => event.preventDefault()} >
               <NavDropdown onMouseEnter={ this.handleOpen }
                 onMouseLeave={ this.handleClose }
+                onToggle={function() {/* I REMOVE A WARNING */}}
                 open={ this.state.isOpen } noCaret
                 className="dropdown" title="TE AYUDAMOS" id="basic-nav-dropdown">
                 <LinkContainer to='/ayudamos/comunicaciones'>

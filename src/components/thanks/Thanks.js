@@ -9,7 +9,7 @@ var sectionStyles = {
 }
 
 var data = {
-  contact: {
+  contacto: {
     title: <b>¡Gracias por escribirnos, <br/>pronto estaremos conversando!</b>,
     text: {
       comunicaciones: <p>¿Buscas leads de calidad en tus estrategias de marketing? Entonces puede interesarte nuestro ebook <b>7 FORMAS DE GENERAR LEADS CUALIFICADOS B2B CON INBOUND MARKETING</b></p>,
@@ -28,8 +28,6 @@ var data = {
   }
 }
 
-
-
 export default (props) => {
   var route = props.params.from;
   var spec = props.params.spec;
@@ -39,15 +37,17 @@ export default (props) => {
     <Col>
       <Thumbnail src={Img} />
       <h3 style={{color: '#00A69C'}}>
-        {
-          (route && Object.keys(data).includes(route))?
-            data[route].title : data.contact.title
-        }
+        {(route && Object.keys(data).includes(route))?
+            data[route].title : data.contacto.title}
       </h3>
-      
-      <div style={{width: '80%', paddingLeft: '20%'}} >
-        {(spec || route === 'contact') ? data.contact.text[spec] : data[route].text}
-      </div>
+
+      { route && 
+        <div style={{width: '80%', paddingLeft: '20%'}} >
+          {(route === 'contacto') ? data.contacto.text[spec] : data[route].text}
+          <button className='homebutton' style={{backgroundColor:'orange', minWidth:"30%"}} >
+            <b>{ (route !== 'contacto') ? 'CONTÁCTANOS':'DESCARGAR' }</b>
+          </button>
+        </div>}
     </Col>
     <br/>
   </section>}

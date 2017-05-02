@@ -43,12 +43,10 @@ export default class Ss4 extends React.Component {
         if(response.ok) {
           browserHistory.push('/gracias/newsletter');
         } else {
-          console.log("Is that a valid email?");
           return response.json();
         }
       })
-      // i can add an if in the next line if (response.error) then clg()
-      // .then((response) => {console.log(response.error)})
+      .then((response) => {response && console.log(response.error)})
       .catch((error) => {console.log(error)})
     }
   }
