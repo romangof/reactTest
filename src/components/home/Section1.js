@@ -29,7 +29,7 @@ export default () =>
 
 <section className="container-fluid" style={sectionStyle}>
  <div id="background"> 
-   <video muted  muted loop autoPlay style={{backgroundSize: 'cover', minHeight: "100vh", minWidth: "100vh"}}>  
+   <video muted  muted loop autoPlay style={{backgroundSize: 'cover', minHeight: "100vh", minWidth: "100vw"}}>  
     <source src={Vid} type="video/mp4" />
   </video>
 </div>
