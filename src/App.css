@@ -274,6 +274,10 @@ ul.dropdown-menu {
   background-color: #00A69C;
 }
 
+.navbar-nav > li > a{   
+  background-color:transparent;
+}
+
 
 /*   Responsive   */
 @media (max-width: 768px) {
