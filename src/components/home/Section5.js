@@ -16,6 +16,7 @@ var sectionStyle = {
     color: '#FAAF40',
     padding: '5% 0%',
     overflow: 'hidden', 
+    backgroundColor: '#FFF',
 }
 
 export default () =>  

@@ -70,6 +70,22 @@ h1 {
 }
 
 /*   KAREN CSS   */
+
+#background {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+	background: url(./assets/fondo-01.png) no-repeat;
+	background-size: cover;
+
+}
 /*   How   */
 .section1How {
   padding: 5% 20% 0 0;
@@ -280,6 +296,9 @@ ul.dropdown-menu {
   .business {
     height: 80vh;
   }
+  video {
+        display:none;
+      }
 }
 
 @media only screen and (max-width : 768px) {

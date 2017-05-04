@@ -22,7 +22,7 @@ const buttonStyle = {
 }
 
 export default () =>
-<section className="container-fluid" style={{minHeight: "90vh", paddingTop: '3%'}}>
+<section className="container-fluid" style={{minHeight: "90vh", paddingTop: '3%', backgroundColor: '#FFF'}}>
 
   <Col sm={12}>
     <h4 className="hometitle" style={{color:'#38988A'}}><b>LÍNEAS DE NEGOCIO</b></h4>

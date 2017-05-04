@@ -59,7 +59,7 @@ export default class Contact extends React.Component {
             <br/>
             <br/>
 
-            <form onSubmit={this.post}>
+            <form onSubmit={this.post} id="gform_7">
               <FormGroup controlId="formName" validationState={(this.state.data.name) ? 'success':'error'}>
                 <ControlLabel>Nombre</ControlLabel>
                 <FormControl type="text" name='name' onChange={this.handleChange} required/>

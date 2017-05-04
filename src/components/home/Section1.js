@@ -1,21 +1,18 @@
 import React from 'react';
 import Img from '../../assets/fondo-01.png'
 import Img2 from '../../assets/down.png'
-import { Button, Thumbnail } from 'react-bootstrap';
+import Vid from '../../assets/ALintro5.mp4'
+import { Button, Thumbnail, Video } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 
 const sectionStyle = {
   minHeight: "30vh",
-  backgroundImage: `url(${Img})`,
-  backgroundSize: "cover",
-  backgroundRepeat: "no-repeat",
-  backgroundPosition: "center center",
   color: 'white',
   padding: '20% 20% 0 20%',
   display: 'flex',
   flexDirection: 'column',
   justifyContent: 'space-around',
-  alignItems: 'center'
+  alignItems: 'center',
 }
 
 const buttonStyle = {
@@ -29,7 +26,13 @@ const thumbnailStyle = {
 }
 
 export default () =>
+
 <section className="container-fluid" style={sectionStyle}>
+ <div id="background"> 
+   <video muted  muted loop autoPlay>  
+    <source src={Vid} type="video/mp4" />
+  </video>
+</div>
   <h1>
     <b>SOMOS UNA TRANSFORMADORA DIGITAL</b>
   </h1>

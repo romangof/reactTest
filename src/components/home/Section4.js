@@ -64,7 +64,7 @@ export default class Ss4 extends React.Component {
         </p>
       </div>
 
-      <form>
+      <form id="gform_7">
         <input className="homeinput" type="email" name="email" placeholder="Email" onChange={this.handleChange} />
         <button onClick={this.post} type="submit" className="homebutton homebutton2">LO QUIERO</button>
       </form>
