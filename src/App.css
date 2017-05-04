@@ -69,7 +69,31 @@ h1 {
   padding-bottom: 2px;
 }
 
+
+
 /*   KAREN CSS   */
+/*   Social media footer buttons   */
+.socialmedia {
+  margin: 0 auto;
+  width: 20vw;
+  min-width: 225px;
+  max-width: 225px;
+}
+
+.socialmedia ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.socialmedia ul li {
+     float: left;
+     margin: 0 auto;
+}
+.socialmedia ul li a {
+    display: inline;
+    padding: 9px;
+}
 
 #background {
 	position: fixed;
@@ -177,28 +201,6 @@ h1 {
 }
 
 
-/*   Social media footer buttons   */
-.socialmedia{
-  background-repeat: no-repeat;
-  -webkit-backface-visibility: hidden;
-  width: 9vw;
-  height: 8vh;
-  position: relative;
-  overflow: hidden;
-}
-
-.facebookbutton {
-  background-image: url(./assets/facebook.png);
-}
-
-.twitterbutton {
-  background-image: url(./assets/twitter.png);
-}
-
-.linkedinbutton {
-  background-image: url(./assets/linkedin.png);
-}
-
 
 /* Dropdown Main Menu */
 .dropdown {
@@ -229,7 +231,6 @@ ul.dropdown-menu {
     border: none !important;
     border-color: transparent;
     outline: 0px;
-    -webkit-user-select: none;
 }
 
 .dropdown-contentHome {
