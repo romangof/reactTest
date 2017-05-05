@@ -1,8 +1,8 @@
 import React from 'react';
-import Img from '../../assets/fondo-01.png'
+// import Img from '../../assets/fondo-01.png'
 import Img2 from '../../assets/down.png'
 import Vid from '../../assets/ALintro5.mp4'
-import { Button, Thumbnail, Video } from 'react-bootstrap';
+import { Button, Thumbnail } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 
 const sectionStyle = {
@@ -28,11 +28,11 @@ const thumbnailStyle = {
 export default () =>
 
 <section className="container-fluid" style={sectionStyle}>
- <div id="background"> 
-   <video muted  muted loop autoPlay style={{backgroundSize: 'cover', minHeight: "100vh", minWidth: "100vw"}}>  
-    <source src={Vid} type="video/mp4" />
-  </video>
-</div>
+  <div id="background"> 
+    <video muted loop autoPlay style={{backgroundSize: 'cover', minHeight: "100vh", minWidth: "100vw"}}>  
+      <source src={Vid} type="video/mp4" />
+    </video>
+  </div>
   <h1>
     <b>SOMOS UNA TRANSFORMADORA DIGITAL</b>
   </h1>
