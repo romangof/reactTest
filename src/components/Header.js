@@ -56,9 +56,9 @@ export default class Header extends React.Component {
                 </LinkContainer>
               </NavDropdown>
             </LinkContainer>
-            {/*<LinkContainer to="/">*/}
-              {/*<NavItem>BLOG</NavItem>*/}
-            {/*</LinkContainer>*/}
+            <LinkContainer to="/blog">
+              <NavItem>BLOG</NavItem>
+            </LinkContainer>
             <LinkContainer to="/contacto">
               <NavItem>CONTACTO</NavItem>
             </LinkContainer>

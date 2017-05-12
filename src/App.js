@@ -7,6 +7,7 @@ import Who from './components/who/Who';
 import HowSection from './components/how/SectionizedHow';
 import Contact from './components/Contact';
 import Thanks from './components/thanks/Thanks';
+import Blog from './components/blog/Blog';
 import './App.css';
 
 ReactGA.initialize('UA-82163217-1');
@@ -29,7 +30,7 @@ export default () =>
     <Route path='ayudamos'>
       <Route path='/ayudamos(/:section)' component={HowSection}/>
     </Route>
-    {/*<Route path='/blog' component={Blog} />*/}
+    <Route path='/blog' component={Blog} />
     <Route path='*' component={NotFound} />
   </Route>
 </Router>;
