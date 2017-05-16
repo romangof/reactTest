@@ -286,6 +286,9 @@ ul.dropdown-menu {
 		width: 750px;
     background-image: none;
 	}
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #FFFFFF;
+  }
   .imgHow {
     padding-right: 65%;
   }
