@@ -28,7 +28,7 @@ export default class Header extends React.Component {
           <Navbar.Toggle/>
         </Navbar.Header>
 
-        <Navbar.Collapse>
+        <Navbar.Collapse className="backnavbar">
           <Nav pullRight>
             <IndexLinkContainer to="/">
               <NavItem>INICIO</NavItem>

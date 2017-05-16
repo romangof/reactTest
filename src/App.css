@@ -307,10 +307,31 @@ ul.dropdown-menu {
 }
 
 @media only screen and (max-width : 768px) {
-.navbar-collapse .navbar-collapse li a  { background: #00A69C; }
+.navbar-collapse .navbar-collapse li a  { background: #00A69C; color: #FFF; }
 .dropdown-content li a {color: #FFF;}
-.dropdown a {background-color: #FFF;}
+.dropdown a {background-color: #FFF; color: #FFF;}
+
+.navbarIndex {
+  position: absolute;
+  border-color: transparent;
+  color: #FFF;
 }
+
+.navbarElse {
+  position: static;
+  background: url("./assets/header.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-color: transparent;
+  color: #FFF;
+}
+.backnavbar {
+    background-color: #00A69C;
+    color: #FFF !important;
+}
+}
+
 
 @media (min-width: 768px) {
 	.colHow {
