@@ -52,7 +52,7 @@ export default () =>
             <p className="businessdescription">Aumenta la capacidad de innovación y competitividad de tu empresa mediante diseño estratégico.</p>
         </Thumbnail>
         </div>
-         <LinkContainer to='/ayudamos/diseño' >
+         <LinkContainer to='/ayudamos/diseno' >
             <Button bsStyle="warning" style={buttonStyle} block>Más Información</Button>
           </LinkContainer>
       </Row>

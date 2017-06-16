@@ -45,7 +45,7 @@ export default class Header extends React.Component {
                 <LinkContainer to='/ayudamos/comunicaciones'>
                   <MenuItem className="dropdown-content">COMUNICACIONES Y MARKETING DIGITAL</MenuItem>
                 </LinkContainer>
-                <LinkContainer to='/ayudamos/diseño'>
+                <LinkContainer to='/ayudamos/diseno'>
                   <MenuItem className="dropdown-content">DISEÑO E IDENTIDAD CORPORATIVA</MenuItem>
                 </LinkContainer>
                 <LinkContainer to='/ayudamos/ti'>
