@@ -37,9 +37,6 @@ var data = {
 export default (props) => {
   var route = props.params.from;
   var spec = props.params.spec;
-  function btn (params) {
-    
-  }
 
   return <section style={sectionStyles}>
     <title>{document.title = 'Gracias!'}</title>

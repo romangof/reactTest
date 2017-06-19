@@ -21,8 +21,10 @@ export default class Contact extends React.Component {
     e.preventDefault();
     const env = runtimeEnv();
     var data = this.state.data;
+    console.log(data);
     if (data.name && data.company && data.job_title && data.email && data.telephone && data.message) {
-      fetch(`${env.REACT_APP_API_URL}/contacts`, {
+      fetch(`https://aceleracion.herokuapp.com/api/contacts`, {
+      // fetch(`${env.REACT_APP_API_URL}/contacts`, {
         headers: {
           'Accept': 'application/json',
           'Content-Type': 'application/json'
@@ -32,7 +34,7 @@ export default class Contact extends React.Component {
       })
       .then((response) => {
         if(response.ok) {
-          browserHistory.push('/gracias');
+          browserHistory.push(`/gracias/${data}`);
         } else {
           return response.json();
         }
