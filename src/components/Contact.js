@@ -23,8 +23,8 @@ export default class Contact extends React.Component {
     var data = this.state.data;
     if (!data.option) data.option = this.props.params.from || 'comunicaciones';
     if (data.name && data.company && data.job_title && data.email && data.telephone && data.message) {
-      // fetch(`https://aceleracion.herokuapp.com/api/contacts`, {
-      fetch(`${env.REACT_APP_API_URL}/contacts`, {
+      fetch(`https://aceleracion.herokuapp.com/api/contacts`, { // comment this when pushing to heroku
+      // fetch(`${env.REACT_APP_API_URL}/contacts`, { // use this when pushing to heroku
         headers: {
           'Accept': 'application/json',
           'Content-Type': 'application/json'
