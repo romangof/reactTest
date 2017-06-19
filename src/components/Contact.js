@@ -21,10 +21,11 @@ export default class Contact extends React.Component {
     e.preventDefault();
     const env = runtimeEnv();
     var data = this.state.data;
+    if (!data.option) data.option = this.props.params.from || 'comunicaciones';
     console.log(data);
     if (data.name && data.company && data.job_title && data.email && data.telephone && data.message) {
-      fetch(`https://aceleracion.herokuapp.com/api/contacts`, {
-      // fetch(`${env.REACT_APP_API_URL}/contacts`, {
+      // fetch(`https://aceleracion.herokuapp.com/api/contacts`, {
+      fetch(`${env.REACT_APP_API_URL}/contacts`, {
         headers: {
           'Accept': 'application/json',
           'Content-Type': 'application/json'
@@ -33,8 +34,8 @@ export default class Contact extends React.Component {
         body: JSON.stringify({contact: this.state.data})
       })
       .then((response) => {
-        if(response.ok) {
-          browserHistory.push(`/gracias/${data}`);
+        if(response.ok) {      
+          browserHistory.push(`gracias/${ (data.option !== 'newsletter') ? 'contacto/'+data.option:data.option }`);
         } else {
           return response.json();
         }
@@ -89,7 +90,7 @@ export default class Contact extends React.Component {
               
               <FormGroup controlId="formInterest">
                 <ControlLabel>Interés</ControlLabel>
-                <FormControl componentClass="select" defaultValue={this.props.params.from}>
+                <FormControl componentClass="select" name='option' defaultValue={this.props.params.from || 'comunicaciones'} onChange={this.handleChange} >
                   <option value="comunicaciones">Marketing y Comunicaciones</option>
                   <option value="diseno">Diseño e identidad corporativa</option>
                   <option value="ti">Soluciones TI</option>
