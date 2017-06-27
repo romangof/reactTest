@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from "react-helmet";
 import Ss1 from './Section1';
 import Ss2 from './Section2';
 import Ss3 from './Section3';
@@ -7,7 +8,10 @@ import Ss5 from './Section5';
 
 export default () => 
 <div className="Home">
-  <title>Aceleración Labs | Transformación digital</title>
+  <Helmet>
+    <title>Aceleración Labs | Transformación digital</title>
+    <meta name="Description" content="Ofrecemos soluciones disruptivas de negocios a través de comunicación estratégica, marketing digital, diseño, identidad corporativa y soluciones TI." />
+  </Helmet>
   <Ss1 />
   <Ss2 />
   <Ss3 />

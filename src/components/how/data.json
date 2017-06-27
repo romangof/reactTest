@@ -4,6 +4,7 @@
     "section1": {
       "imgURL": "comunicaciones",
       "title": "Comunicaciones y Marketing Digital",
+      "description": "Planes de comunicación y marketing digital para aumentar la visibilidad de tu empresa, mejorar su reputación online y aumentar las oportunidades de venta.",
       "texts": ["Desarrollamos planes de comunicación estratégica y marketing digital para aumentar la visibilidad de la marca y mejorar su reputación online.", "Entendemos cómo diseñar estrategias que se transformen en ventas"],
       "buttonText": "CONVERSEMOS"
     },
@@ -31,6 +32,7 @@
     "section1": {
       "imgURL": "diseno",
       "title": "Diseño e Identidad Corporativa",
+      "description": "Creamos marcas más allá de la concepción gráfica. Desarrollamos su imagen corporativa a través de diseño estratégico y cohesivo.",
       "texts": ["Creamos marcas más allá de la concepción gráfica. Desarrollamos su identidad corporativa a través de diseño estratégico y cohesivo.", "Entendemos cómo crear, construir y diseñar proyectos exitosos"],
       "buttonText": "CONVERSEMOS"
     },
@@ -62,6 +64,7 @@
     "section1": {
       "imgURL": "ti",
       "title": "Soluciones TI",
+      "description": "Entregamos soluciones TI reales y modernas a través de servicios innovadores de desarrollo de software, sitios web y aplicaciones móviles.",
       "texts": ["Entregamos soluciones TI reales y modernas a través de servicios innovadores de desarrollo de software, sitios web y aplicaciones móviles.", "Entendemos cómo desarrollar soluciones tecnológicas para el crecimiento de las empresas"],
       "buttonText": "CONVERSEMOS"
     },
@@ -97,6 +100,7 @@
     "section1": {
       "imgURL": "modelos",
       "title": "Modelos de Negocio",
+      "description": "Creamos nuevos modelos de negocio para dejar atrás los antiguos estándares comerciales y diseñar las empresas del futuro.",
       "texts": ["Creamos nuevos modelos de negocio para dejar atrás los antiguos estándares comerciales y diseñar las empresas del futuro.", "Entendemos cómo transformar empresas a través de nuevos modelos de negocio"],
       "buttonText": "CONVERSEMOS"
     },

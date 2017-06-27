@@ -2,6 +2,7 @@ import React from 'react';
 import { Col, Image, FormControl, FormGroup, ControlLabel, Button } from 'react-bootstrap';
 import { browserHistory } from 'react-router';
 import runtimeEnv from '@mars/heroku-js-runtime-env'
+import { Helmet } from "react-helmet";
 
 export default class Contact extends React.Component {
   constructor(props) {
@@ -47,7 +48,10 @@ export default class Contact extends React.Component {
   render () {
     return (
       <div>
-        <title>{document.title = 'Contacto'}</title>
+        <Helmet>
+          <title>Contáctanos | Aceleración Labs</title>
+          <meta name="Description" content="Hablemos, nos encantaría ayudarte a alcanzar los objetivos comerciales de tu empresa." />
+        </Helmet>
         <section className={'sectionsHow'} style={{textAlign: 'left', overflow: 'hidden', height: '100%'}}>
 
           <Col xs={6} xsOffset={3} sm={4} smOffset={1} style={{padding: '5%'}}>
@@ -56,8 +60,7 @@ export default class Contact extends React.Component {
 
           <Col xs={12} sm={5} smOffset={1} style={{padding: '5%'}}>
             <h4 style={{color: '#00A69C'}}><b>CONTACTO</b></h4>
-            <br/>
-            Hablemos, nos encantaría ayudarte.
+            <br/>Hablemos, nos encantaría ayudarte.
             <br/>
             <br/>
 

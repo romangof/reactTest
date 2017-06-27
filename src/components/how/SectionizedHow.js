@@ -1,6 +1,7 @@
 import React from 'react';
 import { Col, Image, Button } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
+import { Helmet } from "react-helmet";
 
 var data = require('./data.json');
 
@@ -30,7 +31,10 @@ export default (props) => {
 
   return <div>
     <section style={{textAlign: 'left', overflow: 'hidden', height: '100%'}}>
-      <title>{document.title = obj['section1']['title']}</title>
+      <Helmet>
+        <title>{obj['section1']['title']} | Aceleración Labs</title>
+        <meta name="Description" content={obj['section1']['description']} />
+      </Helmet>
 
       <Col xs={6} xsOffset={3} sm={5} smOffset={1} style={{padding: '5%'}}>
         <Image src={require( `../../assets/${obj['section1']['imgURL']}.png` )} responsive/>

@@ -1,6 +1,7 @@
 import React from 'react';
 import Img from '../../assets/gracias.png';
 import { Col, Thumbnail } from 'react-bootstrap';
+import { Helmet } from "react-helmet";
 
 var sectionStyles = {
   minHeight: '60vh',
@@ -39,7 +40,11 @@ export default (props) => {
   var spec = props.params.spec;
 
   return <section style={sectionStyles}>
-    <title>{document.title = 'Gracias!'}</title>
+    <Helmet>
+      <title>Gracias! | Aceleración Labs</title>
+      <meta name="Description" content="Ofrecemos soluciones disruptivas de negocios a través de comunicación estratégica, marketing digital, diseño, identidad corporativa y soluciones TI." />
+    </Helmet>
+    
     <Col>
       <Thumbnail src={Img} />
       <h3 style={{color: '#00A69C'}}>
