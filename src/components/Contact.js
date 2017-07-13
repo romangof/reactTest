@@ -34,7 +34,9 @@ export default class Contact extends React.Component {
         body: JSON.stringify({contact: this.state.data})
       })
       .then((response) => {
-        if(response.ok) {      
+        if(response.ok) {
+          var image = new Image(1, 1); 
+          image.src = "//www.googleadservices.com/pagead/conversion/" + 873644984 + "/?label=" + 'qzlyCPCZinMQuIfLoAM' + "&script=0";
           browserHistory.push(`gracias/${ (data.option !== 'newsletter') ? 'contacto/'+data.option:data.option }`);
         } else {
           return response.json();
