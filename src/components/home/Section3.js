@@ -45,7 +45,7 @@ var Ss3 = React.createClass({
         id: 2,
         name: 'Rodolfo Saldias',
         position: 'Managing Director, Dorstener Latinoamérica SpA',
-        comment: '"Este gran equipo nos apoyó en la creación de la imagen corporativa de nuestra nueva área de negocios. El desafío era lograr una imagen que comunicará de manera consistente la propuesta de valor a nuestro público objetivo y que a la vez se alineara con la identidad de nuestro grupo de empresas. El resultado cumple cabalmente con nuestras expectativas. Un grupo de trabajo serio, responsable y muy preocupado por cumplir vuestras necesidades".',
+        comment: '"Este gran equipo nos apoyó en la creación de la imagen corporativa de nuestra nueva área de negocios. El desafío era lograr una imagen que comunicará de manera consistente la propuesta de valor a nuestro público objetivo y que a la vez se alineara con la identidad de nuestro grupo de empresas. El resultado cumple cabalmente con nuestras expectativas. Un grupo de trabajo serio, responsable y muy preocupado por cumplir nuestras necesidades".',
         link: ''
        }
     ];
