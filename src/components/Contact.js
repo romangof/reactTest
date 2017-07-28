@@ -24,7 +24,7 @@ export default class Contact extends React.Component {
     var data = this.state.data;
     if (!data.option) data.option = this.props.params.from || 'comunicaciones';
     if (data.name && data.company && data.job_title && data.email && data.telephone && data.message) {
-      // fetch(`https://aceleracion.herokuapp.com/api/contacts`, { // comment this when pushing to heroku
+      // fetch(`https://aceleracion.herokuapp.com/api/contacts`, { // use this for local development
       fetch(`${env.REACT_APP_API_URL}/contacts`, { // use this when pushing to heroku
         headers: {
           'Accept': 'application/json',
@@ -36,7 +36,7 @@ export default class Contact extends React.Component {
       .then((response) => {
         if(response.ok) {
           var image = new Image(1, 1); 
-          image.src = "//www.googleadservices.com/pagead/conversion/" + 873644984 + "/?label=" + 'qzlyCPCZinMQuIfLoAM' + "&script=0";
+          image.src = `//www.googleadservices.com/pagead/conversion/${873644984}/?label=${'qzlyCPCZinMQuIfLoAM'}&script=0`;
           browserHistory.push(`gracias/${ (data.option !== 'newsletter') ? 'contacto/'+data.option:data.option }`);
         } else {
           return response.json();
