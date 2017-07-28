@@ -24,8 +24,13 @@ export default class Contact extends React.Component {
     var data = this.state.data;
     if (!data.option) data.option = this.props.params.from || 'comunicaciones';
     if (data.name && data.company && data.job_title && data.email && data.telephone && data.message) {
+<<<<<<< HEAD
       // fetch(`https://aceleracion.herokuapp.com/api/contacts`, { // use this for local development
       fetch(`${env.REACT_APP_API_URL}/contacts`, { // use this when pushing to heroku
+=======
+      fetch(`https://aceleracion.herokuapp.com/api/contacts`, { // comment this when pushing to heroku
+      // fetch(`${env.REACT_APP_API_URL}/contacts`, { // use this when pushing to heroku
+>>>>>>> 9d47d82882979f284e1b9d57d6b718adba6dd618
         headers: {
           'Accept': 'application/json',
           'Content-Type': 'application/json'
@@ -34,9 +39,13 @@ export default class Contact extends React.Component {
         body: JSON.stringify({contact: this.state.data})
       })
       .then((response) => {
+<<<<<<< HEAD
         if(response.ok) {
           var image = new Image(1, 1); 
           image.src = `//www.googleadservices.com/pagead/conversion/${873644984}/?label=${'qzlyCPCZinMQuIfLoAM'}&script=0`;
+=======
+        if(response.ok) {      
+>>>>>>> 9d47d82882979f284e1b9d57d6b718adba6dd618
           browserHistory.push(`gracias/${ (data.option !== 'newsletter') ? 'contacto/'+data.option:data.option }`);
         } else {
           return response.json();
