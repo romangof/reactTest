@@ -1,8 +1,12 @@
 import React from 'react';
 import { Button, Carousel } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
-// import Img from '../../assets/fondo-01.png'
-// import Img2 from '../../assets/down.png'
+import slidebg1 from '../../assets/slidebg1.png'
+import slidebg2 from '../../assets/slidebg2.png'
+import slidebg3 from '../../assets/slidebg3.png'
+import slidebg4 from '../../assets/slidebg4.png'
+import slidebg5 from '../../assets/slidebg5.png'
+
 // import Vid from '../../assets/ALintro5.mp4'
 
 const sectionStyle = {
@@ -13,9 +17,6 @@ const sectionStyle = {
   // flexDirection: 'column',
   // justifyContent: 'space-around',
   // alignItems: 'center',
-  backgroundSize: "cover",
-  backgroundRepeat: "no-repeat",
-  backgroundPosition: "center center",
   padding: "0",
   overflow: 'hidden'
 }
@@ -29,7 +30,8 @@ const buttonStyle = {
 const carouselStyle = {
   width: "100%",
   height: "100%",
-  padding: '10vh 15% 5% 15%',
+  minHeight: "600px",
+  padding: '20vh 15% 5% 15%',
   fontSize: "1em",
   color: "#FFF"
 }
@@ -39,65 +41,97 @@ var slides = [
   {
     id: 1,
     title: 'AUMENTA LA VISIBILIDAD DE TU MARCA,',
-    text: 'mejora tu reputación online y consigue  más conversiones con marketing digital',
+    subtitle: 'mejora tu reputación online y consigue  más conversiones con marketing digital',
     button: 'TE AYUDAMOS',
-    buttonURL: '/contacto',
+    buttonURL: `/contacto?utm_source=HomeAL&utm_medium=slide1&utm_campaign=${"leadsmarketing"}`,
     styles: {
-      text: {},
-      button: {}
+      title: {fontSize: "40px", fontWeight:"bolder",maxWidth:"500px", textAlign: "left", lineHeight:"40px",},
+      subtitle: {fontSize: "28px" ,maxWidth:"500px", textAlign: "left", lineHeight:"40px",},
+      button: {width: "300px", margin: "0 auto 10vh 15vw", borderRadius: "0", border: "none", background: "#A51976", fontWeight:"bolder",},
+      self: {
+        height: "100%",
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        backgroundImage: `url(${ slidebg1 })`
+      }
     },
-    name: 'Francisco Díaz',
-    position: 'Subgerente de Marketing, Enaex',
-    comment: '"Nos han ayudado a darle un foco distinto a nuestra marca y también a hacer más eficiente los procesos de desarrollo de gestión de imagen, siempre con una actitud y disponibilidad inmediata. Estamos muy contentos por los resultados obtenidos gracias al compromiso fuerte que tienen por prestar un servicio de excelencia".'
   },
-  {
-    id: 2,
-    title: 'TRANSFORMA TU EMPRESA CON SOLUCIONES TECNOLÓGICAS QUE TE AYUDARÁN A CRECER',
-    text: 'a través de servicios innovadores de desarrollo de software, sitios web y aplicaciones móviles.',
-    button: 'TE AYUDAMOS',
-    buttonURL: '/contacto',
-    styles: {
-      text: {},
-      button: {}
-    },
-    name: 'Rodolfo Saldias',
-    position: 'Managing Director, Dorstener Latinoamérica SpA',
-    comment: '"Este gran equipo nos apoyó en la creación de la imagen corporativa de nuestra nueva área de negocios. El desafío era lograr una imagen que comunicará de manera consistente la propuesta de valor a nuestro público objetivo y que a la vez se alineara con la identidad de nuestro grupo de empresas. El resultado cumple cabalmente con nuestras expectativas. Un grupo de trabajo serio, responsable y muy preocupado por cumplir nuestras necesidades".'
-  },
+  // {
+  //   id: 2,
+  //   title: "TRANSFORMA TU EMPRESA CON SOLUCIONES TECNOLÓGICAS QUE TE AYUDARÁN A CRECER",
+  //   subtitle: 'a través de servicios innovadores de desarrollo de software, sitios web y aplicaciones móviles.',
+  //   button: 'TE AYUDAMOS',
+  //   buttonURL: '/contacto',
+  //   styles: {
+  //     title: {fontSize: "28px", fontWeight:"bolder", textAlign: "right", lineHeight:"40px", margin: "0 auto 0 20vw",},
+  //     subtitle: {fontSize: "24px" , textAlign: "right", lineHeight:"40px", margin: "0 auto 0 30vw",},
+  //     button: {width: "300px", margin: "0 15vw 10vh auto", borderRadius: "0", border: "none", color: "#A51976", background:"#F9AE4C", fontWeight:"bolder",},
+  //     self: {
+  //       height: "100%",
+  //       textAlign: "right",
+  //       backgroundSize: "cover",
+  //       backgroundRepeat: "no-repeat",
+  //       backgroundImage: `url(${ slidebg2 })`
+  //     }
+  //   },
+  // },
   {
     id: 3,
-    title: 'Únete a nuestra comunidad'.upcase,
-    subtitle: 'y recibe  mensualmente recomendaciones, tendencias y mejores prácticas directamente en tu mail'.upcase,
-    text: 'y recibe  mensualmente recomendaciones, tendencias y mejores prácticas directamente en tu mail',
+    title: 'Únete a nuestra comunidad',
+    subtitle: 'y recibe  mensualmente recomendaciones, tendencias y mejores prácticas directamente en tu mail',
+    text: 'Queremos ayudarte a través de contenido único de valor preparado por nuestro equipo de profesionales para ayudarte a alcanzar tus metas comerciales.',
     button: 'SUSCRIBIRSE',
-    buttonURL: '/contacto',
+    buttonURL: `/contacto?utm_source=HomeAL&utm_medium=slide1&utm_campaign=${"leadsnewsletter"}`,
     styles: {
-      text: {},
-      button: {}
+      title: {fontSize: "40px", fontWeight:"bolder", textAlign: "center", textTransform:"uppercase", lineHeight:"40px", margin: "0 auto",},
+      subtitle: {fontSize: "24px" , fontWeight:"bolder", textAlign: "center", textTransform:"uppercase", lineHeight:"30px", margin: "3vh 12vw",},
+      text: {fontSize: "18px" , textAlign: "center", lineHeight:"30px", margin: "0 12vw",},
+      button: {width: "300px", margin: "0 auto 10vh auto", borderRadius: "0", border: "none", color: "#FFF", background:"#00A69C", fontWeight:"bolder",},
+      self: {
+        height: "100%",
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        backgroundImage: `url(${ slidebg3 })`
+      }
     }
   },
-  {
-    id: 4,
-    title: '¿Quieres hacer crecer tu negocio?'.upcase,
-    subtitle: 'Suscríbete al blog y consigue todo el contenido que te ayudará a alcanzar tus metas'.upcase,
-    text: 'Creemos en la transformación digital y queremos ser parte de este paso importante para tu negocio, para ello creamos este espacio con toda la información que necesitas para lograrlo.',
-    button: 'SUSCRIBIRSE',
-    buttonURL: '/contacto',
-    styles: {
-      text: {},
-      button: {}
-    }
-  },
+  // {
+  //   id: 4,
+  //   title: '¿Quieres hacer crecer tu negocio?',
+  //   subtitle: 'Suscríbete al blog y consigue todo el contenido que te ayudará a alcanzar tus metas',
+  //   text: 'Creemos en la transformación digital y queremos ser parte de este paso importante para tu negocio, para ello creamos este espacio con toda la información que necesitas para lograrlo.',
+  //   button: 'SUSCRIBIRSE',
+  //   buttonURL: '/contacto',
+  //   styles: {
+  //     title: {fontSize: "28px", fontWeight:"bolder", textAlign: "center", textTransform:"uppercase", lineHeight:"40px", margin: "0 auto",},
+  //     subtitle: {fontSize: "24px" , textAlign: "center", textTransform:"uppercase", lineHeight:"30px", margin: "3vh 15vw",},
+  //     text: {fontSize: "18px" , textAlign: "center", lineHeight:"30px", margin: "0 12vw",},
+  //     button: {width: "300px", margin: "0 auto 10vh auto", borderRadius: "0", border: "none", color: "#FFF", background:"#F9AE4C", fontWeight:"bolder",},
+  //     self: {
+  //       height: "100%",
+  //       backgroundSize: "cover",
+  //       backgroundRepeat: "no-repeat",
+  //       backgroundImage: `url(${ slidebg4 })`
+  //     }
+  //   }
+  // },
   {
     id: 5,
-    title: '¡Únete a la transformación digital!'.upcase,
-    subtitle: 'Te ayudamos con el desarrollo de una app para optimizar tus oportunidades y rentabilizar tu negocio.'.upcase,
-    text: 'Visita nuestro portafolio y conoce cómo otras empresas han aplicado la tecnología con nuestra ayuda para mejorar sus resultados.',
-    button: 'VER PORTAFOLIO',
-    buttonURL: '/contacto',
+    title: '¡Únete a la transformación digital!',
+    subtitle: 'Te ayudamos con el desarrollo de una app para optimizar tus oportunidades y rentabilizar tu negocio.',
+    button: 'CONTÁCTANOS',
+    buttonURL: `/contacto?utm_source=HomeAL&utm_medium=slide1&utm_campaign=${"leadsapps"}`,
     styles: {
-      text: {},
-      button: {}
+      title: {fontSize: "37px", fontWeight:"bolder", textAlign: "center", textTransform:"uppercase", lineHeight:"40px", margin: "0 auto",},
+      subtitle: {fontSize: "24px" , textAlign: "center", textTransform:"uppercase", lineHeight:"30px", margin: "3vh 8vw",},
+      text: {fontSize: "18px" , textAlign: "center", lineHeight:"30px", margin: "0 12vw",},
+      button: {width: "300px", margin: "0 auto 10vh auto", borderRadius: "0", border: "none", color: "#FFF", background:"#A51976", fontWeight:"bolder",},
+      self: {
+        height: "100%",
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        backgroundImage: `url(${ slidebg5 })`
+      }
     }
   }
 ];
@@ -113,18 +147,18 @@ var Ss1 = React.createClass({
 
   render() {    
     return <section className="container-fluid" style={sectionStyle}>
-      <div style={{background: 'red'}}>
+      <div>
         <Carousel activeIndex={this.state.index} direction={this.state.direction} onSelect={this.handleSelect} indicators={false}>
           {slides.map((element) => 
-            <Carousel.Item key={element.id}>
+            <Carousel.Item key={element.id} style={element.styles.self}>
               <div style={carouselStyle}>
-                <p><b>{element.name}</b></p>
-                <p>{element.position}</p>
+                <p style={element.styles.title}>{element.title}</p>
+                <p style={element.styles.subtitle}>{element.subtitle}</p>
                 <br/>
-                <p>{element.comment}</p>
+                <p style={element.styles.text}>{element.text}</p>
               </div>
-              <LinkContainer to='/contacto' >
-                <Button bsStyle="warning" bsSize="large" style={buttonStyle} block>¡DESAFÍANOS!</Button>
+              <LinkContainer to={element.buttonURL} >
+                <Button bsStyle="warning" bsSize="large" style={element.styles.button} block>{element.button}</Button>
               </LinkContainer>
             </Carousel.Item>)
           }
@@ -135,8 +169,6 @@ var Ss1 = React.createClass({
 });
 
 export default Ss1;
-
-
 
 // export default () =>
 // <section className="container-fluid" style={sectionStyle}>
