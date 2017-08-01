@@ -79,7 +79,7 @@ var slides = [
     title: 'Únete a nuestra comunidad',
     subtitle: 'y recibe  mensualmente recomendaciones, tendencias y mejores prácticas directamente en tu mail',
     text: 'Queremos ayudarte a través de contenido único de valor preparado por nuestro equipo de profesionales para ayudarte a alcanzar tus metas comerciales.',
-    button: 'SUSCRIBIRSE',
+    button: 'SUSCRIBIRME',
     buttonURL: `/contacto?utm_source=HomeAL&utm_medium=slide1&utm_campaign=${"leadsnewsletter"}`,
     styles: {
       title: {fontSize: "40px", fontWeight:"bolder", textAlign: "center", textTransform:"uppercase", lineHeight:"40px", margin: "0 auto",},
@@ -129,7 +129,7 @@ var slides = [
         height: "100%",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
-        backgroundImage: `url(${ slidebg4 })`
+        backgroundImage: `url(${ slidebg2 })`
       }
     }
   }
