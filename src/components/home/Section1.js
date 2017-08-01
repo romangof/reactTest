@@ -29,9 +29,8 @@ const buttonStyle = {
 
 const carouselStyle = {
   width: "100%",
-  height: "100%",
-  minHeight: "600px",
-  padding: '20vh 15% 5% 15%',
+  height: "650px",
+  padding: '22vh 15% 5% 15%',
   fontSize: "1em",
   color: "#FFF"
 }
@@ -46,8 +45,8 @@ var slides = [
     buttonURL: `/contacto?utm_source=HomeAL&utm_medium=slide1&utm_campaign=${"leadsmarketing"}`,
     styles: {
       title: {fontSize: "40px", fontWeight:"bolder",maxWidth:"500px", textAlign: "left", lineHeight:"40px",},
-      subtitle: {fontSize: "28px" ,maxWidth:"500px", textAlign: "left", lineHeight:"40px",},
-      button: {width: "300px", margin: "0 auto 10vh 15vw", borderRadius: "0", border: "none", background: "#A51976", fontWeight:"bolder",},
+      subtitle: {fontSize: "22px" ,maxWidth:"500px", textAlign: "left", lineHeight:"30px",},
+      button: {width: "300px", margin: "2vh auto 10vh 0", borderRadius: "0", border: "none", background: "#A51976", fontWeight:"bolder",},
       self: {
         height: "100%",
         backgroundSize: "cover",
@@ -84,9 +83,9 @@ var slides = [
     buttonURL: `/contacto?utm_source=HomeAL&utm_medium=slide1&utm_campaign=${"leadsnewsletter"}`,
     styles: {
       title: {fontSize: "40px", fontWeight:"bolder", textAlign: "center", textTransform:"uppercase", lineHeight:"40px", margin: "0 auto",},
-      subtitle: {fontSize: "24px" , fontWeight:"bolder", textAlign: "center", textTransform:"uppercase", lineHeight:"30px", margin: "3vh 12vw",},
-      text: {fontSize: "18px" , textAlign: "center", lineHeight:"30px", margin: "0 12vw",},
-      button: {width: "300px", margin: "0 auto 10vh auto", borderRadius: "0", border: "none", color: "#FFF", background:"#00A69C", fontWeight:"bolder",},
+      subtitle: {fontSize: "22px" , fontWeight:"bolder", textAlign: "center", textTransform:"uppercase", lineHeight:"30px", margin: "2vh 12vw",},
+      text: {fontSize: "18px" , textAlign: "center", lineHeight:"20px", margin: "0 12vw",},
+      button: {width: "300px", margin: "2vh auto 10vh auto", borderRadius: "0", border: "none", color: "#FFF", background:"#00A69C", fontWeight:"bolder",},
       self: {
         height: "100%",
         backgroundSize: "cover",
@@ -123,14 +122,14 @@ var slides = [
     buttonURL: `/contacto?utm_source=HomeAL&utm_medium=slide1&utm_campaign=${"leadsapps"}`,
     styles: {
       title: {fontSize: "37px", fontWeight:"bolder", textAlign: "center", textTransform:"uppercase", lineHeight:"40px", margin: "0 auto",},
-      subtitle: {fontSize: "24px" , textAlign: "center", textTransform:"uppercase", lineHeight:"30px", margin: "3vh 8vw",},
+      subtitle: {fontSize: "22px" , textAlign: "center", textTransform:"uppercase", lineHeight:"30px", margin: "3vh 8vw",},
       text: {fontSize: "18px" , textAlign: "center", lineHeight:"30px", margin: "0 12vw",},
-      button: {width: "300px", margin: "0 auto 10vh auto", borderRadius: "0", border: "none", color: "#FFF", background:"#A51976", fontWeight:"bolder",},
+      button: {width: "300px", margin: "1vh auto 10vh auto", borderRadius: "0", border: "none", color: "#FFF", background:"#A51976", fontWeight:"bolder",},
       self: {
         height: "100%",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
-        backgroundImage: `url(${ slidebg5 })`
+        backgroundImage: `url(${ slidebg4 })`
       }
     }
   }
@@ -156,10 +155,10 @@ var Ss1 = React.createClass({
                 <p style={element.styles.subtitle}>{element.subtitle}</p>
                 <br/>
                 <p style={element.styles.text}>{element.text}</p>
-              </div>
               <LinkContainer to={element.buttonURL} >
                 <Button bsStyle="warning" bsSize="large" style={element.styles.button} block>{element.button}</Button>
-              </LinkContainer>
+              </LinkContainer>              
+              </div>
             </Carousel.Item>)
           }
         </Carousel>
