@@ -20,7 +20,7 @@ export default () =>
       <li><a href="https://www.facebook.com/aceleracionlabs/"><img src={Img} alt=''/></a></li>
       <li><a href="https://twitter.com/AceleracionLabs"><img src={Img2} alt=''/></a></li>
       <li><a href="https://www.linkedin.com/company-beta/10178890/"><img src={Img3} alt=''/></a></li>
-      <li><a href="https://www.instagram.com/team.aceleracion/"><img src={Img4} alt=''/></a></li>
+      <li><a href="https://www.instagram.com/aceleracionlabs/"><img src={Img4} alt=''/></a></li>
     </ul>
   </div>
   <br/>
