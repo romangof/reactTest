@@ -4,8 +4,8 @@ import { LinkContainer } from 'react-router-bootstrap';
 import slidebg1 from '../../assets/slidebg1.png'
 import slidebg2 from '../../assets/slidebg2.png'
 import slidebg3 from '../../assets/slidebg3.png'
-import slidebg4 from '../../assets/slidebg4.png'
-import slidebg5 from '../../assets/slidebg5.png'
+// import slidebg4 from '../../assets/slidebg4.png'
+// import slidebg5 from '../../assets/slidebg5.png'
 
 // import Vid from '../../assets/ALintro5.mp4'
 
@@ -21,11 +21,11 @@ const sectionStyle = {
   overflow: 'hidden'
 }
 
-const buttonStyle = {
-  width: '35%',
-  margin: '5% auto',
-  borderRadius: '0',
-}
+// const buttonStyle = {
+//   width: '35%',
+//   margin: '5% auto',
+//   borderRadius: '0',
+// }
 
 const carouselStyle = {
   width: "100%",
