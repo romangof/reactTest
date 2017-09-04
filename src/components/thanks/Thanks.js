@@ -81,7 +81,7 @@ export default (props) => {
               <b>{ (route !== 'contacto') ? 'CONTÁCTANOS':'DESCARGAR' }</b>
             </button>
           </a>
-          <p>Tus datos serán recogidos con el fin único de enviarte la información solicitada. Tus datos están protegidos y son confidenciales.</p>
+          <p style={{marginTop: '50px'}}>Tus datos serán recogidos con el fin único de enviarte la información solicitada. Tus datos están protegidos y son confidenciales.</p>
         </div>}
     </Col>
     <br/>
