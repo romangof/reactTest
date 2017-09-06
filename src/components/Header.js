@@ -56,9 +56,12 @@ export default class Header extends React.Component {
                 </LinkContainer>
               </NavDropdown>
             </LinkContainer>
-            {/*<LinkContainer to="/">*/}
-              {/*<NavItem>BLOG</NavItem>*/}
-            {/*</LinkContainer>*/}
+            <Navbar.Text>
+              <Navbar.Link href="http://blog.aceleracion.cl/?utm_source=AL&utm_medium=menu-principal&utm_campaign=BlogAL" target="_blank" style={{underline:"none", color:"white"}}>BLOG</Navbar.Link>
+            </Navbar.Text>
+            {/* <NavItem evenonClick={(event) => event.preventDefault()} href="http://blog.aceleracion.cl/?utm_source=AL&utm_medium=menu-principal&utm_campaign=BlogAL">
+              BLOG
+            </NavItem> */}
             <LinkContainer to="/contacto">
               <NavItem>CONTACTO</NavItem>
             </LinkContainer>
