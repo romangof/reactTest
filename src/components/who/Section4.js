@@ -22,10 +22,10 @@ export default () =>
 <section style={sectionStyle}>
   <h4 style={{color: '#00A69C'}}><b>NUESTRAS EMPRESAS</b></h4>
   <div style={{padding: '5%', color: 'gray'}}>
-    <Col xs={6} sm={4}><Thumbnail src={Img1} /></Col>
-    <Col xs={6} sm={4}><Thumbnail src={Img2} /></Col>
+    <Col xs={6} sm={4}><a href="http://www.radebach.com/?utm_source=AL&utm_medium=logo-quienes-somos&utm_campaign=Aceleracion" target="_blank"><Thumbnail src={Img1} /></a></Col>
+    <Col xs={6} sm={4}><a href="http://www.cupuladigital.cl/?utm_source=AL&utm_medium=logo-quienes-somos&utm_campaign=Aceleracion" target="_blank"><Thumbnail src={Img2} /></a></Col>
     <Col xs={6} sm={4}><Thumbnail src={Img3} /></Col>
-    <Col xs={6} sm={4}><Thumbnail src={Img4} /></Col>
+    <Col xs={6} sm={4}><a href="http://www.kannus.cl/?utm_source=AL&utm_medium=logo-quienes-somos&utm_campaign=Aceleracion" target="_blank"><Thumbnail src={Img4} /></a></Col>
     <Col xs={6} sm={4}><Thumbnail src={Img5} /></Col>
     <Col xs={6} sm={4}><Thumbnail src={Img6} /></Col>
   </div>
