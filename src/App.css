@@ -333,6 +333,9 @@ ul.dropdown-menu {
     background-color: #00A69C;
     color: #FFF !important;
 }
+.navbar-text {
+  margin-left: 15px;
+}
 }
 
 
