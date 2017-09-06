@@ -27,6 +27,6 @@ export default () =>
     <Col xs={6} sm={4}><Thumbnail src={Img3} /></Col>
     <Col xs={6} sm={4}><a href="http://www.kannus.cl/?utm_source=AL&utm_medium=logo-quienes-somos&utm_campaign=Aceleracion" target="_blank"><Thumbnail src={Img4} /></a></Col>
     <Col xs={6} sm={4}><Thumbnail src={Img5} /></Col>
-    <Col xs={6} sm={4}><Thumbnail src={Img6} /></Col>
+    <Col xs={6} sm={4}><a href="http://www.mintelect.cl/?utm_source=AL&utm_medium=logo-quienes-somos&utm_campaign=Aceleracion" target="_blank"><Thumbnail src={Img6} /></a></Col>
   </div>
 </section>
