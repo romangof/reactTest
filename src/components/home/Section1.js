@@ -58,7 +58,7 @@ var slides = [
     styles: {
       title: {fontSize: "28px", fontWeight:"bolder", textAlign: "right", lineHeight:"40px", margin: "0 auto 0 20vw",},
       subtitle: {fontSize: "24px" , textAlign: "right", lineHeight:"40px", margin: "0 auto 0 30vw",},
-      button: {width: "300px", margin: "0 15vw 10vh auto", borderRadius: "0", border: "none", color: "#A51976", background:"#F9AE4C", fontWeight:"bolder",},
+      button: {width: "300px", margin: "0 0 10vh auto", borderRadius: "0", border: "none", color: "#FFF", background:"#F9AE4C", fontWeight:"bolder",},
       self: {
         height: "100%",
         textAlign: "right",
