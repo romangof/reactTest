@@ -5,7 +5,7 @@ import slidebg1 from '../../assets/slidebg1.png'
 import slidebg2 from '../../assets/slidebg2.png'
 import slidebg3 from '../../assets/slidebg3.png'
 import slidebg4 from '../../assets/slidebg4.png'
-import slidebg5 from '../../assets/slidebg5.png'
+// import slidebg5 from '../../assets/slidebg5.png'
 
 // import Vid from '../../assets/ALintro5.mp4'
 
@@ -20,12 +20,6 @@ const sectionStyle = {
   padding: "0",
   overflow: 'hidden'
 }
-
-// const buttonStyle = {
-//   width: '35%',
-//   margin: '5% auto',
-//   borderRadius: '0',
-// }
 
 const carouselStyle = {
   width: "100%",
@@ -70,7 +64,7 @@ var slides = [
         textAlign: "right",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
-        backgroundImage: `url(${ slidebg5 })`
+        backgroundImage: `url(${ slidebg4 })`
       }
     },
   },
@@ -144,10 +138,20 @@ var Ss1 = React.createClass({
     this.setState({ index: selectedIndex, direction: e.direction });
   },
 
+  button(elem){
+    if (elem.buttonURL.indexOf("http://") === 0) {
+      return <Button bsStyle="warning" bsSize="large" style={elem.styles.button} href={elem.buttonURL} block>{elem.button}</Button>
+    } else {
+      return <LinkContainer to={elem.buttonURL} >
+        <Button bsStyle="warning" bsSize="large" style={elem.styles.button} block>{elem.button}</Button>
+      </LinkContainer> 
+    }
+  },
+
   render() {    
     return <section className="container-fluid" style={sectionStyle}>
       <div>
-        <Carousel activeIndex={this.state.index} direction={this.state.direction} onSelect={this.handleSelect} indicators={false}>
+        <Carousel direction={this.state.direction} onSelect={this.handleSelect} indicators={false} >
           {slides.map((element) => 
             <Carousel.Item key={element.id} style={element.styles.self}>
               <div style={carouselStyle}>
@@ -155,10 +159,7 @@ var Ss1 = React.createClass({
                 <p style={element.styles.subtitle}>{element.subtitle}</p>
                 <br/>
                 <p style={element.styles.text}>{element.text}</p>
-                () ? true:false
-                (element.buttonURL.indexOf("http://") === 0) && <LinkContainer to={element.buttonURL} >
-                  <Button bsStyle="warning" bsSize="large" style={element.styles.button} block>{element.button}</Button>
-                </LinkContainer>              
+                {this.button(element)}
               </div>
             </Carousel.Item>)
           }
