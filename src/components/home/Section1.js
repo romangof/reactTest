@@ -4,8 +4,8 @@ import { LinkContainer } from 'react-router-bootstrap';
 import slidebg1 from '../../assets/slidebg1.png'
 import slidebg2 from '../../assets/slidebg2.png'
 import slidebg3 from '../../assets/slidebg3.png'
-// import slidebg4 from '../../assets/slidebg4.png'
-// import slidebg5 from '../../assets/slidebg5.png'
+import slidebg4 from '../../assets/slidebg4.png'
+import slidebg5 from '../../assets/slidebg5.png'
 
 // import Vid from '../../assets/ALintro5.mp4'
 
@@ -55,25 +55,25 @@ var slides = [
       }
     },
   },
-  // {
-  //   id: 2,
-  //   title: "TRANSFORMA TU EMPRESA CON SOLUCIONES TECNOLÓGICAS QUE TE AYUDARÁN A CRECER",
-  //   subtitle: 'a través de servicios innovadores de desarrollo de software, sitios web y aplicaciones móviles.',
-  //   button: 'TE AYUDAMOS',
-  //   buttonURL: '/contacto',
-  //   styles: {
-  //     title: {fontSize: "28px", fontWeight:"bolder", textAlign: "right", lineHeight:"40px", margin: "0 auto 0 20vw",},
-  //     subtitle: {fontSize: "24px" , textAlign: "right", lineHeight:"40px", margin: "0 auto 0 30vw",},
-  //     button: {width: "300px", margin: "0 15vw 10vh auto", borderRadius: "0", border: "none", color: "#A51976", background:"#F9AE4C", fontWeight:"bolder",},
-  //     self: {
-  //       height: "100%",
-  //       textAlign: "right",
-  //       backgroundSize: "cover",
-  //       backgroundRepeat: "no-repeat",
-  //       backgroundImage: `url(${ slidebg2 })`
-  //     }
-  //   },
-  // },
+  {
+    id: 2,
+    title: "TRANSFORMA TU EMPRESA CON SOLUCIONES TECNOLÓGICAS QUE TE AYUDARÁN A CRECER",
+    subtitle: 'a través de servicios innovadores de desarrollo de software, sitios web y aplicaciones móviles.',
+    button: 'TE AYUDAMOS',
+    buttonURL: 'http://blog.aceleracion.cl/casos-de-exito?utm_source=AL&utm_medium=SlideHome&utm_campaign=Blog',
+    styles: {
+      title: {fontSize: "28px", fontWeight:"bolder", textAlign: "right", lineHeight:"40px", margin: "0 auto 0 20vw",},
+      subtitle: {fontSize: "24px" , textAlign: "right", lineHeight:"40px", margin: "0 auto 0 30vw",},
+      button: {width: "300px", margin: "0 15vw 10vh auto", borderRadius: "0", border: "none", color: "#A51976", background:"#F9AE4C", fontWeight:"bolder",},
+      self: {
+        height: "100%",
+        textAlign: "right",
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        backgroundImage: `url(${ slidebg5 })`
+      }
+    },
+  },
   {
     id: 3,
     title: 'Únete a nuestra comunidad',
@@ -155,9 +155,10 @@ var Ss1 = React.createClass({
                 <p style={element.styles.subtitle}>{element.subtitle}</p>
                 <br/>
                 <p style={element.styles.text}>{element.text}</p>
-              <LinkContainer to={element.buttonURL} >
-                <Button bsStyle="warning" bsSize="large" style={element.styles.button} block>{element.button}</Button>
-              </LinkContainer>              
+                () ? true:false
+                (element.buttonURL.indexOf("http://") === 0) && <LinkContainer to={element.buttonURL} >
+                  <Button bsStyle="warning" bsSize="large" style={element.styles.button} block>{element.button}</Button>
+                </LinkContainer>              
               </div>
             </Carousel.Item>)
           }
