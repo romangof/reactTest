@@ -1,0 +1,138 @@
+.section1 .title {
+  font-size: 40px;
+  font-weight: bolder;
+  max-width: 500px;
+  text-align: left;
+  line-height: 40px;
+}
+.section1 .subtitle {
+  font-size: 22px;
+  max-width: 500px;
+  text-align: left;
+  line-height: 30px;
+}
+.section1 .button {
+  width: 300px;
+  margin: 2vh auto 10vh 0;
+  border-radius: 0;
+  border: none;
+  background: #A51976;
+  font-weight: bolder;
+}
+
+.section2 .title {
+  font-size: 28px;
+  font-weight: bolder;
+  text-align: right;
+  line-height: 40px;
+  margin: 0 auto 0 20vw;
+}
+.section2 .subtitle {
+  font-size: 24px;
+  text-align: right;
+  line-height: 40px;
+  margin: 0 auto 0 30vw;
+}
+.section2 .button {
+  width: 300px;
+  margin: 0 0 10vh auto;
+  border-radius: 0;
+  border: none;
+  color: white;
+  background: #F9AE4C;
+  font-weight: bolder;
+}
+
+.section3 .title {
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 40px;
+  margin: 0 auto;
+}
+.section3 .subtitle {
+  font-size: 22px;
+  font-weight: bolder;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 30px;
+  margin: 2vh 12vw;
+}
+.section3 .text {
+  font-size: 18px;
+  text-align: center;
+  line-height: 20px;
+  margin: 0 12vw;
+}
+.section3 .button {
+  width: 300px;
+  margin: 2vh auto 10vh auto;
+  border-radius: 0;
+  border: none;
+  color: #FFF;
+  background: #00A69C;
+  font-weight: bolder;
+}
+
+.section4 .title {
+  font-size: 28px;
+  font-weight: bolder;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 40px;
+  margin: 0 auto;
+}
+.section4 .subtitle {
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 30px;
+  margin: 3vh 15vw;
+}
+.section4 .text {
+  font-size: 18px;
+  text-align: center;
+  line-height: 30px;
+  margin: 0 12vw;
+}
+.section4 .button {
+  width: 300px;
+  margin: 0 auto 10vh auto;
+  border-radius: 0;
+  border: none;
+  color: #FFF;
+  background: #F9AE4C;
+  font-weight: bolder;
+}
+
+.section5 .title {
+  font-size: 37px;
+  font-weight: bolder;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 40px;
+  margin: 0 auto;
+}
+.section5 .subtitle {
+  font-size: 22px ;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 30px;
+  margin: 3vh 8vw;
+}
+.section5 .text {
+  font-size: 18px ;
+  text-align: center;
+  line-height: 30px;
+  margin: 0 12vw;
+}
+.section5 .button {
+  width: 300px;
+  margin: 1vh auto 10vh auto;
+  border-radius: 0;
+  border: none;
+  color: #FFF;
+  background: #A51976;
+  font-weight: bolder;
+}

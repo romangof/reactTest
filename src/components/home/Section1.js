@@ -5,18 +5,10 @@ import slidebg1 from '../../assets/slidebg1.png'
 import slidebg2 from '../../assets/slidebg2.png'
 import slidebg3 from '../../assets/slidebg3.png'
 import slidebg4 from '../../assets/slidebg4.png'
+import './Section1.css'
 // import slidebg5 from '../../assets/slidebg5.png'
 
-// import Vid from '../../assets/ALintro5.mp4'
-
 const sectionStyle = {
-  // minHeight: "50vh",
-  // color: 'white',
-  // // padding: '20% 20% 0 20%',
-  // display: 'flex',
-  // flexDirection: 'column',
-  // justifyContent: 'space-around',
-  // alignItems: 'center',
   padding: "0",
   overflow: 'hidden'
 }
@@ -38,9 +30,9 @@ var slides = [
     button: 'TE AYUDAMOS',
     buttonURL: `/contacto?utm_source=HomeAL&utm_medium=slide1&utm_campaign=${"leadsmarketing"}`,
     styles: {
-      title: {fontSize: "40px", fontWeight:"bolder",maxWidth:"500px", textAlign: "left", lineHeight:"40px",},
-      subtitle: {fontSize: "22px" ,maxWidth:"500px", textAlign: "left", lineHeight:"30px",},
-      button: {width: "300px", margin: "2vh auto 10vh 0", borderRadius: "0", border: "none", background: "#A51976", fontWeight:"bolder",},
+      // title: {fontSize: "40px", fontWeight:"bolder",maxWidth:"500px", textAlign: "left", lineHeight:"40px",},
+      // subtitle: {fontSize: "22px" ,maxWidth:"500px", textAlign: "left", lineHeight:"30px",},
+      // button: {width: "300px", margin: "2vh auto 10vh 0", borderRadius: "0", border: "none", background: "#A51976", fontWeight:"bolder",},
       self: {
         height: "100%",
         backgroundSize: "cover",
@@ -56,9 +48,9 @@ var slides = [
     button: 'TE AYUDAMOS',
     buttonURL: 'http://blog.aceleracion.cl/casos-de-exito?utm_source=AL&utm_medium=SlideHome&utm_campaign=Blog',
     styles: {
-      title: {fontSize: "28px", fontWeight:"bolder", textAlign: "right", lineHeight:"40px", margin: "0 auto 0 20vw",},
-      subtitle: {fontSize: "24px" , textAlign: "right", lineHeight:"40px", margin: "0 auto 0 30vw",},
-      button: {width: "300px", margin: "0 15vw 10vh auto", borderRadius: "0", border: "none", color: "#A51976", background:"#F9AE4C", fontWeight:"bolder",},
+      // title: {fontSize: "28px", fontWeight:"bolder", textAlign: "right", lineHeight:"40px", margin: "0 auto 0 20vw",},
+      // subtitle: {fontSize: "24px" , textAlign: "right", lineHeight:"40px", margin: "0 auto 0 30vw",},
+      // button: {width: "300px", margin: "0 15vw 10vh auto", borderRadius: "0", border: "none", color: "#A51976", background:"#F9AE4C", fontWeight:"bolder",},
       self: {
         height: "100%",
         textAlign: "right",
@@ -76,10 +68,10 @@ var slides = [
     button: 'SUSCRIBIRME',
     buttonURL: `/contacto?utm_source=HomeAL&utm_medium=slide1&utm_campaign=${"leadsnewsletter"}`,
     styles: {
-      title: {fontSize: "40px", fontWeight:"bolder", textAlign: "center", textTransform:"uppercase", lineHeight:"40px", margin: "0 auto",},
-      subtitle: {fontSize: "22px" , fontWeight:"bolder", textAlign: "center", textTransform:"uppercase", lineHeight:"30px", margin: "2vh 12vw",},
-      text: {fontSize: "18px" , textAlign: "center", lineHeight:"20px", margin: "0 12vw",},
-      button: {width: "300px", margin: "2vh auto 10vh auto", borderRadius: "0", border: "none", color: "#FFF", background:"#00A69C", fontWeight:"bolder",},
+      // title: {fontSize: "40px", fontWeight:"bolder", textAlign: "center", textTransform:"uppercase", lineHeight:"40px", margin: "0 auto",},
+      // subtitle: {fontSize: "22px" , fontWeight:"bolder", textAlign: "center", textTransform:"uppercase", lineHeight:"30px", margin: "2vh 12vw",},
+      // text: {fontSize: "18px" , textAlign: "center", lineHeight:"20px", margin: "0 12vw",},
+      // button: {width: "300px", margin: "2vh auto 10vh auto", borderRadius: "0", border: "none", color: "#FFF", background:"#00A69C", fontWeight:"bolder",},
       self: {
         height: "100%",
         backgroundSize: "cover",
@@ -115,10 +107,10 @@ var slides = [
     button: 'CONTÁCTANOS',
     buttonURL: `/contacto?utm_source=HomeAL&utm_medium=slide1&utm_campaign=${"leadsapps"}`,
     styles: {
-      title: {fontSize: "37px", fontWeight:"bolder", textAlign: "center", textTransform:"uppercase", lineHeight:"40px", margin: "0 auto",},
-      subtitle: {fontSize: "22px" , textAlign: "center", textTransform:"uppercase", lineHeight:"30px", margin: "3vh 8vw",},
-      text: {fontSize: "18px" , textAlign: "center", lineHeight:"30px", margin: "0 12vw",},
-      button: {width: "300px", margin: "1vh auto 10vh auto", borderRadius: "0", border: "none", color: "#FFF", background:"#A51976", fontWeight:"bolder",},
+      // title: {fontSize: "37px", fontWeight:"bolder", textAlign: "center", textTransform:"uppercase", lineHeight:"40px", margin: "0 auto",},
+      // subtitle: {fontSize: "22px" , textAlign: "center", textTransform:"uppercase", lineHeight:"30px", margin: "3vh 8vw",},
+      // text: {fontSize: "18px" , textAlign: "center", lineHeight:"30px", margin: "0 12vw",},
+      // button: {width: "300px", margin: "1vh auto 10vh auto", borderRadius: "0", border: "none", color: "#FFF", background:"#A51976", fontWeight:"bolder",},
       self: {
         height: "100%",
         backgroundSize: "cover",
@@ -140,10 +132,10 @@ var Ss1 = React.createClass({
 
   button(elem){
     if (elem.buttonURL.indexOf("http://") === 0) {
-      return <Button bsStyle="warning" bsSize="large" style={elem.styles.button} href={elem.buttonURL} block>{elem.button}</Button>
+      return <Button bsStyle="warning" bsSize="large" className={'button'} href={elem.buttonURL} block>{elem.button}</Button>
     } else {
       return <LinkContainer to={elem.buttonURL} >
-        <Button bsStyle="warning" bsSize="large" style={elem.styles.button} block>{elem.button}</Button>
+        <Button bsStyle="warning" bsSize="large" className={'button'} block>{elem.button}</Button>
       </LinkContainer> 
     }
   },
@@ -154,11 +146,11 @@ var Ss1 = React.createClass({
         <Carousel direction={this.state.direction} onSelect={this.handleSelect} indicators={false} >
           {slides.map((element) => 
             <Carousel.Item key={element.id} style={element.styles.self}>
-              <div style={carouselStyle}>
-                <p style={element.styles.title}>{element.title}</p>
-                <p style={element.styles.subtitle}>{element.subtitle}</p>
+              <div className={`section${element.id}`} style={carouselStyle}>
+                <p className={'title'}>{element.title}</p>
+                <p className={'subtitle'}>{element.subtitle}</p>
                 <br/>
-                <p style={element.styles.text}>{element.text}</p>
+                <p className={'text'}>{element.text}</p>
                 {this.button(element)}
               </div>
             </Carousel.Item>)
@@ -169,24 +161,4 @@ var Ss1 = React.createClass({
   }
 });
 
-
 export default Ss1;
-
-// export default () =>
-// <section className="container-fluid" style={sectionStyle}>
-//    <div id="background"> 
-//     {/* <video muted loop autoPlay style={{backgroundSize: 'cover', minHeight: "100vh", minWidth: "100vw"}}>  
-//       <source src={Vid} type="video/mp4" />
-//     </video> */}
-//   </div> 
-//   <h1>
-//     <b>SOMOS UNA TRANSFORMADORA DIGITAL</b>
-//   </h1>
-//   <h4 className="hometitle" style={{color:'white'}}>
-//     que ofrece soluciones disruptivas a las medianas y grandes empresas a través de diseño, estrategias digitales e innovación tecnológica, para desafiar los anticuados modelos de negocio y diseñar las empresas del futuro.
-//   </h4>
-//   <LinkContainer to='/contacto' >
-//     <Button bsStyle="warning" bsSize="large" style={buttonStyle} block>¡DESAFÍANOS!</Button>
-//   </LinkContainer>
-//   <Thumbnail src={Img2} style={thumbnailStyle}></Thumbnail>
-// </section>
