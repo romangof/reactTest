@@ -42,7 +42,6 @@ var slides = [
     subtitle: 'a través de servicios innovadores de desarrollo de software, sitios web y aplicaciones móviles.',
     button: 'TE AYUDAMOS',
     buttonURL: 'http://blog.aceleracion.cl/casos-de-exito?utm_source=AL&utm_medium=SlideHome&utm_campaign=Blog',
-<<<<<<< HEAD
     self: {
       height: "100%",
       textAlign: "right",
@@ -50,20 +49,6 @@ var slides = [
       backgroundRepeat: "no-repeat",
       backgroundImage: `url(${ slidebg4 })`
     }
-=======
-    styles: {
-      title: {fontSize: "28px", fontWeight:"bolder", textAlign: "right", lineHeight:"40px", margin: "0 auto 0 20vw",},
-      subtitle: {fontSize: "24px" , textAlign: "right", lineHeight:"40px", margin: "0 auto 0 30vw",},
-      button: {width: "300px", margin: "0 0 10vh auto", borderRadius: "0", border: "none", color: "#FFF", background:"#F9AE4C", fontWeight:"bolder",},
-      self: {
-        height: "100%",
-        textAlign: "right",
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",
-        backgroundImage: `url(${ slidebg4 })`
-      }
-    },
->>>>>>> b0d3ad4270e0aecde9a9f3c7294ac0598a2c2bef
   },
   {
     id: 3,
