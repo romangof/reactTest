@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Img from '../../assets/fondo2-01.png'
 import { Carousel, Col } from 'react-bootstrap';
 
@@ -22,14 +22,20 @@ const carouselStyle = {
   color: "#FFF"
 }
 
-var Ss3 = React.createClass({
-  getInitialState() {
-    return { index: 0, direction: null };
-  },
+
+
+  
+
+export default class Ss3 extends Component {
+  constructor() {
+    super()
+    this.state = { index: 0, direction: null }
+    this.handleSelect = this.handleSelect.bind(this)
+  }
 
   handleSelect( selectedIndex, e ) {
     this.setState({ index: selectedIndex, direction: e.direction });
-  },
+  }
 
   render() {
     // This should at some point be brought from bkEnd via REST
@@ -60,7 +66,7 @@ var Ss3 = React.createClass({
       </div>)
     
     const carousel = (
-      <Carousel activeIndex={this.state.index} direction={this.state.direction} onSelect={this.handleSelect} indicators={false}>
+      <Carousel direction={this.state.direction} onSelect={this.handleSelect} indicators={false}>
         {testimonials.map((element) => 
           <Carousel.Item key={element.id}>
             <div style={carouselStyle}>
@@ -84,6 +90,5 @@ var Ss3 = React.createClass({
       </section>
     );
   }
-});
+}
 
-export default Ss3;
