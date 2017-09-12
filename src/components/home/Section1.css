@@ -150,4 +150,7 @@
     font-size :11px !important;
     line-height: 18px !important;    
   }
+  .button {
+    margin: 0 auto;    
+  }
 }
