@@ -136,3 +136,18 @@
   background: #A51976;
   font-weight: bolder;
 }
+@media (max-width: 767px) { 
+  .title{
+    font-size :18px !important;
+    line-height: 25px !important;    
+    margin: 0 auto !important;    
+  }
+  .subtitle{
+    font-size :13px !important;
+    line-height: 20px !important;    
+  }
+  .text{
+    font-size :11px !important;
+    line-height: 18px !important;    
+  }
+}
